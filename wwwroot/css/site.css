@@ -1,0 +1,221 @@
+/* HTML RESET AREA */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* CSS */
+
+/* HEADER CSS */
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f4f4f4;
+  height: 100%; /* Sayfanın tamamını kapsaması için */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: auto;
+  flex-direction: column;
+}
+/* Varsayılan (Light) Tema */
+
+.light-bg {
+  background-color: #f0f0f0;
+}
+
+.light-text {
+  color: #333333;
+}
+
+/* Dark Tema */
+body.dark-mode {
+  background-color: #001b22;
+  color: #ffffff;
+  min-height: auto; /* Sayfanın tamamını kapsaması için */
+  height: auto; /* İçeriğe göre otomatik yükseklik */
+  min-height: 100%;
+}
+html {
+  height: auto;
+  min-height: 100%;       
+  margin: 0;               
+  padding: 0;         
+  background-color: #f0f0f0; 
+}
+html.dark-mode {
+  height: auto;            /* Sayfanın tamamını kapsar */
+  min-height: 100%;        /* Sayfa yüksekliğini minimum %100 yapar */
+  margin: 0;               /* Varsayılan kenar boşluklarını sıfırlar */
+  padding: 0;              /* Varsayılan iç boşlukları sıfırlar */
+  background-color: #001b22;
+  color: #ffffff;
+}
+
+.dark-mode .light-bg {
+  background-color: #001b22;
+}
+
+.dark-mode .light-text {
+  color: #ffffff;
+}
+
+.dark-mode a {
+  color: #ffffff;
+}
+
+.dark-mode i {
+  color: #ffffff;
+}
+
+.dark-mode .layout-social-icons i {
+  color: #ffffff;
+}
+
+.dark-mode .layout-footer {
+  background-color: #001b22;
+  color: #ffffff;
+}
+
+.layout-header {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+}
+
+.layout-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 18px;
+  max-width: 1600px;
+  border: 1px solid black;
+  flex: 1; 
+  position: relative; 
+}
+
+.layout-nav-wrapper {
+  position: absolute;
+  left: 50%; 
+  transform: translateX(-50%); 
+}
+
+.layout-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.layout-logo img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.layout-logo a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.layout-logo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.layout-img-container {
+  width: 100%;
+  min-width: fit-content;
+}
+
+.layout-logo span {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 18px;
+}
+
+.layout-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+}
+
+.layout-social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  height: 100%;
+}
+.layout-social-icons i {
+  font-size: 24px;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+}
+.layout-social-icons i:hover {
+  transform: scale(1.4);
+}
+
+/* Tema Değiştirme İkonu */
+.theme-switcher {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+#theme-icon {
+  font-size: 24px;
+  transition: transform 0.3s ease-in-out;
+}
+
+#theme-icon.icon-transition {
+  transform: rotate(180deg);
+}
+
+#theme-icon:hover {
+  transform: scale(1.2);
+}
+/* FOOTER CSS */
+.layout-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 18px;
+  background-color: #333;
+  color: white;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  border: 1px solid black;
+}

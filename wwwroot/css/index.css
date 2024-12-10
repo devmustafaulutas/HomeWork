@@ -1,0 +1,23 @@
+.index-content{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 30px;
+}
+/* Zigzaglı yapı için CSS */
+.zigzag-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.zigzag-row .col {
+    flex: 1;
+    padding: 10px;
+}
+
+.bos-div {
+    background-color: transparent; /* Boş divin arka planı */
+    height: 100%; /* Yüksekliği içeriğin yüksekliği ile aynı olacak şekilde ayarlayın */
+}

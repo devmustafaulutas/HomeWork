@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - _23210202037</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="layout-header">
+                <div class="layout-logo">
+                    <a asp-area="" asp-controller="Home" asp-action="Index">_23210202037</a>
+                </div>
+                    <div class="layout-login" style="margin-right: 30px;">
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <span>@User.Identity.Name</span>
+                            <form asp-area="" asp-controller="Account" asp-action="Logout" method="post" style="display:inline;">
+                                <button type="submit" class="btn btn-link">Oturumu Kapat</button>
+                            </form>
+                        }
+                        else
+                        {
+                            <a asp-area="" asp-controller="Account" asp-action="Login">Oturum Aç</a>
+                        }
+                    </div>
+                <div class="layout-social-icons">
+                    <a href="https://www.instagram.com/mustafaum81/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/mustafa-uluta%C5%9F-59aa82297/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJNxNjnkCMDjhhxnjwqgKlnMFzFwvCtSBsvLsLHxVXlzcWllkVNfkgpfKqWRrLkQMlmmDmg" target="_blank"><i class="fas fa-envelope"></i></a>
+                    <a href="https://github.com/devmustafaulutas" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        @RenderBody()
+    </div>
+
+    <footer class="layout-footer">
+        <div class="container">
+            &copy; 2024 - _23210202037 - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+</html>

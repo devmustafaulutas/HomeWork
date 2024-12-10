@@ -1,0 +1,79 @@
+
+.register {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    min-height: 700px;
+    background-image: url(/img/köyyolu.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.register-container {
+    width: 300px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.452); /* Transparan beyaz arka plan */
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+}
+.register-form {
+    width: 100%;
+}
+.register-container{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    height: fit-content;
+    padding: 30px;
+}
+
+.login-form > h2 {
+    display: flex;
+    justify-content: center;
+    color: #333;
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn {
+    display: flex;
+    justify-self: center !important;
+    text-align: justify;
+    width: 70%;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border: none;
+    color: #555;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #001b22;
+}
+
+.text-danger {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
