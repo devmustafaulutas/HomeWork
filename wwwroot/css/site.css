@@ -528,3 +528,9 @@ body {
 .social-icons a {
     animation: fadeInDown 0.7s ease forwards;
 }
+
+/* Logo ve Yazı Hizalama */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
