@@ -18,19 +18,17 @@ var connectionString = $"Server={Environment.GetEnvironmentVariable("DB_HOST")};
 
 // Servisleri ekleyin
 builder.Services.AddControllersWithViews();
+builder.Services.AddRazorPages(); // Razor Pages hizmetini ekleyin
 
 // DbContext'i ekleyin ve bağlantı dizesini kullanın
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString))
 );
 
-// Identity hizmetlerini ekleyin
-builder.Services.AddDefaultIdentity<User>(options => options.SignIn.RequireConfirmedAccount = false)
-    .AddRoles<IdentityRole>()
-    .AddEntityFrameworkStores<ApplicationDbContext>();
-
-// RoleManager hizmetini ekleyin
-builder.Services.AddScoped<RoleManager<IdentityRole>>();
+// Identity hizmetlerini ekleyin (özel User ve Role sınıfları ile)
+builder.Services.AddIdentity<User, Role>(options => options.SignIn.RequireConfirmedAccount = false)
+    .AddEntityFrameworkStores<ApplicationDbContext>()
+    .AddDefaultTokenProviders();
 
 // Cookie ayarlarını yapılandırın
 builder.Services.ConfigureApplicationCookie(options =>
@@ -41,16 +39,16 @@ builder.Services.ConfigureApplicationCookie(options =>
 
 var app = builder.Build();
 
-// Rolleri ve kullanıcıları eklemek için bir yöntem çağırın
+// Rolleri ve kullanıcıları eklemek için yöntem çağırın
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
-    var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
+    var roleManager = services.GetRequiredService<RoleManager<Role>>(); // Doğru türü kullanın
     var userManager = services.GetRequiredService<UserManager<User>>();
     await SeedData.Initialize(roleManager, userManager);
 }
 
-// HTTP request pipeline'ını yapılandırın
+// Middleware'ler
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
@@ -65,10 +63,7 @@ app.UseRouting();
 app.UseAuthentication(); // Authentication middleware
 app.UseAuthorization();
 
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
-
+// Özel rotaları tanımlayın
 app.MapControllerRoute(
     name: "login",
     pattern: "Login",
@@ -78,5 +73,13 @@ app.MapControllerRoute(
     name: "register",
     pattern: "Register",
     defaults: new { controller = "Account", action = "Register" });
+
+// Default rotayı ekleyin
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");
+
+// Razor Pages rotalarını ekleyin
+app.MapRazorPages();
 
 app.Run();

@@ -40,7 +40,9 @@ body {
   padding: 0;
   display: flex;
   height: auto;
+  min-height: 1400px;
   flex-direction: column;
+  transition: background-color 0.5s, color 0.5s;
 }
 /* Varsayılan (Light) Tema */
 
@@ -59,17 +61,18 @@ body.dark-mode {
   min-height: auto; /* Sayfanın tamamını kapsaması için */
   height: auto; /* İçeriğe göre otomatik yükseklik */
   min-height: 100%;
+  background-color: #121212;
+  color: #ffffff;
 }
+
 html {
   height: auto;
-  min-height: 100%;       
+  min-height: 1400px;
   margin: 0;               
   padding: 0;         
   background-color: #f0f0f0; 
 }
 html.dark-mode {
-  height: auto;            /* Sayfanın tamamını kapsar */
-  min-height: 100%;        /* Sayfa yüksekliğini minimum %100 yapar */
   margin: 0;               /* Varsayılan kenar boşluklarını sıfırlar */
   padding: 0;              /* Varsayılan iç boşlukları sıfırlar */
   background-color: #001b22;
@@ -103,9 +106,10 @@ html.dark-mode {
 
 .layout-header {
   display: flex;
-  justify-content: center;
-  align-self: center;
+  justify-content: space-between; /* Öğeleri yatayda dağıtır */
+  align-items: center; /* Dikeyde ortalar */
   width: 100%;
+  padding: 10px 0; /* İsteğe bağlı: Üst ve alt boşluk ekler */
 }
 
 .layout-container {
@@ -129,7 +133,7 @@ html.dark-mode {
 .layout-logo {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 10px; /* Logo ile metin arasına boşluk ekler */
 }
 .layout-logo img:hover {
   transform: scale(1.1);
@@ -146,6 +150,7 @@ html.dark-mode {
   width: 100px;
   height: 100px;
   border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
 }
 
 .layout-img-container {
@@ -162,10 +167,9 @@ html.dark-mode {
 .layout-nav {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start; /* Menü öğelerini sola hizalar */
   gap: 18px;
-  width: 100%;
-  height: 100%;
+  width: auto; /* Genişliği otomatik yapar */
   font-size: 18px;
 }
 
@@ -218,4 +222,309 @@ html.dark-mode {
   bottom: 0;
   left: 0;
   border: 1px solid black;
+}
+
+.layout-login {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* İsteğe bağlı: Butonlar arası boşluk */
+}
+
+/* Responsive Tasarım */
+@media (max-width: 768px) {
+  .layout-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .layout-nav {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .layout-login {
+    margin-top: 10px;
+  }
+}
+
+/* Genel Stil Ayarları */
+body {
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.dark-bg {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.bg-light.dark-bg {
+    background-color: #f8f9fa;
+    color: #000000;
+}
+
+/* Logo Stili */
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+/* Navigasyon Menüsü */
+.nav-link {
+    color: inherit;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+/* Sosyal İkonlar */
+.social-icons i {
+    font-size: 1.2rem;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.social-icons i:hover {
+    color: #007bff;
+    transform: scale(1.2);
+}
+
+/* Gece/Gündüz Modu Butonu */
+.theme-toggle button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: inherit;
+}
+
+.theme-toggle button:focus {
+    outline: none;
+}
+
+/* Gece Modu Stilleri */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark-mode .bg-light.dark-bg {
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+body.dark-mode .nav-link:hover {
+    color: #66b2ff;
+}
+
+body.dark-mode .social-icons i:hover {
+    color: #66b2ff;
+}
+
+/* Responsive Tasarım */
+@media (max-width: 768px) {
+    .layout-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav {
+        width: 100%;
+    }
+
+    .social-icons {
+        margin-top: 10px;
+    }
+}
+
+/* --- Genel Stil Ayarları --- */
+
+/* CSS Değişkenleri ile Tema Yönetimi */
+:root {
+    --primary-color: #0d6efd;
+    --secondary-color: #6c757d;
+    --background-color: #ffffff;
+    --text-color: #212529;
+    --header-background: #f8f9fa;
+    --footer-background: #f8f9fa;
+    --nav-link-hover: #0d6efd;
+    --social-icon-color: #212529;
+    --social-icon-hover: #0d6efd;
+    --button-hover-bg: rgba(13, 110, 253, 0.1);
+    --button-hover-text: #0d6efd;
+}
+
+body.dark-mode {
+    --primary-color: #0d6efd;
+    --secondary-color: #6c757d;
+    --background-color: #121212;
+    --text-color: #e9ecef;
+    --header-background: #1f1f1f;
+    --footer-background: #1f1f1f;
+    --nav-link-hover: #66b2ff;
+    --social-icon-color: #e9ecef;
+    --social-icon-hover: #66b2ff;
+    --button-hover-bg: rgba(102, 178, 255, 0.1);
+    --button-hover-text: #66b2ff;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.5s, color 0.5s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* --- Header Stilleri --- */
+
+.header {
+    background-color: var(--header-background);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: background-color 0.5s;
+}
+
+.logo-container .logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    transition: transform 0.3s;
+}
+
+.logo-container .logo:hover {
+    transform: rotate(15deg) scale(1.1);
+}
+
+.logo-container span {
+    font-size: 1.5rem;
+    color: var(--text-color);
+    transition: color 0.5s;
+}
+
+.nav-menu .nav-link {
+    color: var(--text-color);
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-menu .nav-link:hover {
+    color: var(--nav-link-hover);
+}
+
+.social-icons a {
+    color: var(--social-icon-color);
+    font-size: 1.2rem;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.social-icons a:hover {
+    color: var(--social-icon-hover);
+    transform: scale(1.2);
+}
+
+/* -- Auth Buttons -- */
+
+.auth-buttons a,
+.auth-buttons button {
+    margin-left: 5px;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+.auth-buttons a.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: #fff;
+}
+
+.auth-buttons a.btn-primary:hover {
+    background-color: var(--primary-color);
+    opacity: 0.8;
+}
+
+.auth-buttons a.btn-outline-primary,
+.auth-buttons button.btn-outline-danger {
+    color: var(--text-color);
+    border-color: var (--text-color);
+}
+
+.auth-buttons a.btn-outline-primary:hover,
+.auth-buttons button.btn-outline-danger:hover {
+    background-color: var(--button-hover-bg);
+    color: var(--button-hover-text);
+    border-color: var(--button-hover-text);
+    transform: scale(1.05);
+}
+
+/* --- Footer Stilleri --- */
+
+.footer {
+    background-color: var(--footer-background);
+    color: var(--text-color);
+    transition: background-color 0.5s, color 0.5s;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* --- Gece/Gündüz Modu Butonu --- */
+
+.theme-toggle button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: var(--text-color);
+    transition: color 0.3s;
+}
+
+.theme-toggle button:hover {
+    color: var(--nav-link-hover);
+}
+
+/* --- Responsive Tasarım --- */
+
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none;
+    }
+
+    .header .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .social-icons {
+        margin-top: 10px;
+    }
+
+    .theme-toggle {
+        align-self: flex-end;
+    }
+}
+
+/* --- Animasyonlar ve Efektler --- */
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.nav-menu .nav-link {
+    animation: fadeInDown 0.5s ease forwards;
+}
+
+.social-icons a {
+    animation: fadeInDown 0.7s ease forwards;
 }

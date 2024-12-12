@@ -1,38 +1,29 @@
-@model _23210202037.Models.ViewModels.LoginViewModel
-@{
-    ViewData["Title"] = "Login";
-    <link rel="stylesheet" href="~/css/login.css" asp-append-version="true" />
+@model _23210202037.ViewModels.LoginViewModel
 
+@{
+    ViewData["Title"] = "Giriş Yap";
 }
 
-<div class="login">
-    <div class="login-container">
-        <form  class="login-form" asp-action="Login" method="post">
-            <h2>Login</h2>
-            <div class="form-group">
-                <label asp-for="Email"></label>
-                <input asp-for="Email" class="form-control" />
-                <span asp-validation-for="Email" class="text-danger"></span>
-            </div>
+<h2>@ViewData["Title"]</h2>
 
-            <div class="form-group">
-                <label asp-for="Password"></label>
-                <input asp-for="Password" class="form-control" type="password" />
-                <span asp-validation-for="Password" class="text-danger"></span>
-            </div>
-
-            <div class="form-group">
-                <div class="form-check">
-                    <input asp-for="RememberMe" class="form-check-input" />
-                    <label asp-for="RememberMe" class="form-check-label"></label>
-                </div>
-            </div>
-
-            <button type="submit" class="btn btn-primary">Login</button>
-        </form>
-        
+<form asp-action="Login" method="post">
+    <div>
+        <label asp-for="Email"></label>
+        <input asp-for="Email" />
+        <span asp-validation-for="Email"></span>
     </div>
-</div>
+    <div>
+        <label asp-for="Password"></label>
+        <input asp-for="Password" type="password" />
+        <span asp-validation-for="Password"></span>
+    </div>
+    <div>
+        <input asp-for="RememberMe" />
+        <label asp-for="RememberMe">Beni Hatırla</label>
+    </div>
+    <button type="submit">Giriş Yap</button>
+</form>
+
 @section Scripts {
-    <partial name="_ValidationScriptsPartial" />
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }

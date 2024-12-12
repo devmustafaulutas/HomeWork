@@ -6,32 +6,30 @@ namespace _23210202037.Data
 {
     public static class SeedData
     {
-        public static async Task Initialize(RoleManager<IdentityRole> roleManager, UserManager<User> userManager)
+        public static async Task Initialize(RoleManager<Role> roleManager, UserManager<User> userManager)
         {
-            // Rolleri ekleyin
-            string[] roleNames = { "Admin", "User" };
-            foreach (var roleName in roleNames)
+            string[] roles = { "Admin", "User" };
+
+            foreach (var role in roles)
             {
-                if (!await roleManager.RoleExistsAsync(roleName))
+                if (!await roleManager.RoleExistsAsync(role))
                 {
-                    await roleManager.CreateAsync(new IdentityRole(roleName));
+                    await roleManager.CreateAsync(new Role { Name = role });
                 }
             }
 
-            // Admin kullanıcısını ekleyin
-            var adminEmail = "admin@example.com";
             var adminUser = new User
             {
-                UserName = adminEmail,
-                Email = adminEmail,
+                UserName = "admin@admin.com",
+                Email = "admin@admin.com",
                 Name = "Admin",
                 Surname = "User"
             };
 
-            var user = await userManager.FindByEmailAsync(adminEmail);
-            if (user == null)
+            if (await userManager.FindByEmailAsync(adminUser.Email) == null)
             {
-                var result = await userManager.CreateAsync(adminUser, "Admin123!");
+                var result = await userManager.CreateAsync(adminUser, "Admin@123");
+
                 if (result.Succeeded)
                 {
                     await userManager.AddToRoleAsync(adminUser, "Admin");
