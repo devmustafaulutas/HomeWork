@@ -2319,7 +2319,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1617"
+          "Value": "1494"
         },
         {
           "Name": "Content-Type",
@@ -2327,22 +2327,22 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xsnvPEaGs7OJoGzm9X9mK7WUTQ5y2dMAjFEs6ics0Ds=\""
+          "Value": "\"0oSutzdwWvGZXyMZF1G/q8z6OZUAUv+tacUi0fB5Cc4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 13:56:25 GMT"
+          "Value": "Fri, 13 Dec 2024 17:04:10 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-xsnvPEaGs7OJoGzm9X9mK7WUTQ5y2dMAjFEs6ics0Ds="
+          "Value": "sha256-0oSutzdwWvGZXyMZF1G/q8z6OZUAUv+tacUi0fB5Cc4="
         }
       ]
     },
     {
-      "Route": "css/index.qcj554pgxp.css",
+      "Route": "css/index.yn5yu75uve.css",
       "AssetFile": "css/index.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2356,7 +2356,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1617"
+          "Value": "1494"
         },
         {
           "Name": "Content-Type",
@@ -2364,21 +2364,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xsnvPEaGs7OJoGzm9X9mK7WUTQ5y2dMAjFEs6ics0Ds=\""
+          "Value": "\"0oSutzdwWvGZXyMZF1G/q8z6OZUAUv+tacUi0fB5Cc4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 13:56:25 GMT"
+          "Value": "Fri, 13 Dec 2024 17:04:10 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qcj554pgxp"
+          "Value": "yn5yu75uve"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-xsnvPEaGs7OJoGzm9X9mK7WUTQ5y2dMAjFEs6ics0Ds="
+          "Value": "sha256-0oSutzdwWvGZXyMZF1G/q8z6OZUAUv+tacUi0fB5Cc4="
         },
         {
           "Name": "label",
@@ -2797,8 +2797,8 @@
       ]
     },
     {
-      "Route": "img/canakkale-img-1.johfpty8gn.jpg",
-      "AssetFile": "img/canakkale-img-1.jpg",
+      "Route": "img/canakkale-manzara/canakkale-img-1.johfpty8gn.jpg",
+      "AssetFile": "img/canakkale-manzara/canakkale-img-1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2837,13 +2837,13 @@
         },
         {
           "Name": "label",
-          "Value": "img/canakkale-img-1.jpg"
+          "Value": "img/canakkale-manzara/canakkale-img-1.jpg"
         }
       ]
     },
     {
-      "Route": "img/canakkale-img-1.jpg",
-      "AssetFile": "img/canakkale-img-1.jpg",
+      "Route": "img/canakkale-manzara/canakkale-img-1.jpg",
+      "AssetFile": "img/canakkale-manzara/canakkale-img-1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2879,8 +2879,828 @@
       ]
     },
     {
-      "Route": "img/canakkale-img-2.137ethqpg4.jpg",
-      "AssetFile": "img/canakkale-img-2.jpg",
+      "Route": "img/canakkale-savasi/01a5936fd4dd4e0590b2f30ece034769.jpg",
+      "AssetFile": "img/canakkale-savasi/01a5936fd4dd4e0590b2f30ece034769.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "208459"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZSkRlzIBCHwK2EeH+m4BJyxGN2FZEfRUsoEv7Lvlx1c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 17:15:53 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZSkRlzIBCHwK2EeH+m4BJyxGN2FZEfRUsoEv7Lvlx1c="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-savasi/01a5936fd4dd4e0590b2f30ece034769.tys38fxbgd.jpg",
+      "AssetFile": "img/canakkale-savasi/01a5936fd4dd4e0590b2f30ece034769.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "208459"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZSkRlzIBCHwK2EeH+m4BJyxGN2FZEfRUsoEv7Lvlx1c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 17:15:53 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tys38fxbgd"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZSkRlzIBCHwK2EeH+m4BJyxGN2FZEfRUsoEv7Lvlx1c="
+        },
+        {
+          "Name": "label",
+          "Value": "img/canakkale-savasi/01a5936fd4dd4e0590b2f30ece034769.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-savasi/39dae7c1e5284f2482e0ef60c2c0581c.jpg",
+      "AssetFile": "img/canakkale-savasi/39dae7c1e5284f2482e0ef60c2c0581c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "146852"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1DxAa0xZAwRnh7Yywp+vT8uQbETu3Pv46mJ1R6uRUR4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 17:16:07 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1DxAa0xZAwRnh7Yywp+vT8uQbETu3Pv46mJ1R6uRUR4="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-savasi/39dae7c1e5284f2482e0ef60c2c0581c.sq5jxava98.jpg",
+      "AssetFile": "img/canakkale-savasi/39dae7c1e5284f2482e0ef60c2c0581c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "146852"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1DxAa0xZAwRnh7Yywp+vT8uQbETu3Pv46mJ1R6uRUR4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 17:16:07 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sq5jxava98"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1DxAa0xZAwRnh7Yywp+vT8uQbETu3Pv46mJ1R6uRUR4="
+        },
+        {
+          "Name": "label",
+          "Value": "img/canakkale-savasi/39dae7c1e5284f2482e0ef60c2c0581c.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-savasi/56f71abf76744c93b61addcb9c8cd858.jpg",
+      "AssetFile": "img/canakkale-savasi/56f71abf76744c93b61addcb9c8cd858.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144686"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WLYbNtb7Y3AuxMMQ/hbpSpHvT0G8Xdk4zxOrZYQs2wY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 17:16:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WLYbNtb7Y3AuxMMQ/hbpSpHvT0G8Xdk4zxOrZYQs2wY="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-savasi/56f71abf76744c93b61addcb9c8cd858.wqdvfky4bz.jpg",
+      "AssetFile": "img/canakkale-savasi/56f71abf76744c93b61addcb9c8cd858.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144686"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WLYbNtb7Y3AuxMMQ/hbpSpHvT0G8Xdk4zxOrZYQs2wY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 17:16:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wqdvfky4bz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WLYbNtb7Y3AuxMMQ/hbpSpHvT0G8Xdk4zxOrZYQs2wY="
+        },
+        {
+          "Name": "label",
+          "Value": "img/canakkale-savasi/56f71abf76744c93b61addcb9c8cd858.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-savasi/60d299a8seyid_onbashi.2r55ym8d0q.jpeg",
+      "AssetFile": "img/canakkale-savasi/60d299a8seyid_onbashi.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "267958"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ohmhNLsMB0S32bMoo3lEBa9tu9QF6e8MLY7O8JjXU9Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 17:16:20 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2r55ym8d0q"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ohmhNLsMB0S32bMoo3lEBa9tu9QF6e8MLY7O8JjXU9Q="
+        },
+        {
+          "Name": "label",
+          "Value": "img/canakkale-savasi/60d299a8seyid_onbashi.jpeg"
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-savasi/60d299a8seyid_onbashi.jpeg",
+      "AssetFile": "img/canakkale-savasi/60d299a8seyid_onbashi.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "267958"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ohmhNLsMB0S32bMoo3lEBa9tu9QF6e8MLY7O8JjXU9Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 17:16:20 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ohmhNLsMB0S32bMoo3lEBa9tu9QF6e8MLY7O8JjXU9Q="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-savasi/a09178450ff94deabfbccc730bb1061c.gqqwxq04wc.jpg",
+      "AssetFile": "img/canakkale-savasi/a09178450ff94deabfbccc730bb1061c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "192754"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WLjCl03fZdJCm7ViqEJXw+v64xDn8cUPF9qHQjrZSPE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 17:16:12 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gqqwxq04wc"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WLjCl03fZdJCm7ViqEJXw+v64xDn8cUPF9qHQjrZSPE="
+        },
+        {
+          "Name": "label",
+          "Value": "img/canakkale-savasi/a09178450ff94deabfbccc730bb1061c.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-savasi/a09178450ff94deabfbccc730bb1061c.jpg",
+      "AssetFile": "img/canakkale-savasi/a09178450ff94deabfbccc730bb1061c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "192754"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WLjCl03fZdJCm7ViqEJXw+v64xDn8cUPF9qHQjrZSPE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 17:16:12 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WLjCl03fZdJCm7ViqEJXw+v64xDn8cUPF9qHQjrZSPE="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-savasi/ce3f679622364855a5885ea068f5c55e.dgev8loh49.jpg",
+      "AssetFile": "img/canakkale-savasi/ce3f679622364855a5885ea068f5c55e.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "114638"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7ZbGvIXQXxJVhNhNukBn0aB57e3S2ARNNybj9yqmfrE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 17:15:58 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dgev8loh49"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7ZbGvIXQXxJVhNhNukBn0aB57e3S2ARNNybj9yqmfrE="
+        },
+        {
+          "Name": "label",
+          "Value": "img/canakkale-savasi/ce3f679622364855a5885ea068f5c55e.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-savasi/ce3f679622364855a5885ea068f5c55e.jpg",
+      "AssetFile": "img/canakkale-savasi/ce3f679622364855a5885ea068f5c55e.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "114638"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7ZbGvIXQXxJVhNhNukBn0aB57e3S2ARNNybj9yqmfrE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 17:15:58 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7ZbGvIXQXxJVhNhNukBn0aB57e3S2ARNNybj9yqmfrE="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-savasi/dcdc9c05169d4159afe2a580617bfa1a.6vg71b8sb5.jpg",
+      "AssetFile": "img/canakkale-savasi/dcdc9c05169d4159afe2a580617bfa1a.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "128236"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"In5aMrn81FFlSBv9M4WeNSLMSqLHlRyB+LSZtR4V464=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 17:16:02 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6vg71b8sb5"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-In5aMrn81FFlSBv9M4WeNSLMSqLHlRyB+LSZtR4V464="
+        },
+        {
+          "Name": "label",
+          "Value": "img/canakkale-savasi/dcdc9c05169d4159afe2a580617bfa1a.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-savasi/dcdc9c05169d4159afe2a580617bfa1a.jpg",
+      "AssetFile": "img/canakkale-savasi/dcdc9c05169d4159afe2a580617bfa1a.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "128236"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"In5aMrn81FFlSBv9M4WeNSLMSqLHlRyB+LSZtR4V464=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 17:16:02 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-In5aMrn81FFlSBv9M4WeNSLMSqLHlRyB+LSZtR4V464="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-savasi/ecaaf4c8a0534715b8d6f9fcfbef8ed3.jpg",
+      "AssetFile": "img/canakkale-savasi/ecaaf4c8a0534715b8d6f9fcfbef8ed3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "200414"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hxH2z32v9SoJM55iQPHkXnV1zbABaZ6h06jcDm8sT5g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 17:16:17 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hxH2z32v9SoJM55iQPHkXnV1zbABaZ6h06jcDm8sT5g="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-savasi/ecaaf4c8a0534715b8d6f9fcfbef8ed3.vi2fjdpei6.jpg",
+      "AssetFile": "img/canakkale-savasi/ecaaf4c8a0534715b8d6f9fcfbef8ed3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "200414"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hxH2z32v9SoJM55iQPHkXnV1zbABaZ6h06jcDm8sT5g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 17:16:17 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vi2fjdpei6"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hxH2z32v9SoJM55iQPHkXnV1zbABaZ6h06jcDm8sT5g="
+        },
+        {
+          "Name": "label",
+          "Value": "img/canakkale-savasi/ecaaf4c8a0534715b8d6f9fcfbef8ed3.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-savasi/fdce0037f853466d96857797bacdfbbe.jpg",
+      "AssetFile": "img/canakkale-savasi/fdce0037f853466d96857797bacdfbbe.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "134367"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZEgPCcORkKq8iQVGW3hlT4hbEBhfSMpnllEL55ZHPb8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 17:16:14 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZEgPCcORkKq8iQVGW3hlT4hbEBhfSMpnllEL55ZHPb8="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-savasi/fdce0037f853466d96857797bacdfbbe.sou5l2t5xw.jpg",
+      "AssetFile": "img/canakkale-savasi/fdce0037f853466d96857797bacdfbbe.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "134367"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZEgPCcORkKq8iQVGW3hlT4hbEBhfSMpnllEL55ZHPb8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 17:16:14 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sou5l2t5xw"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZEgPCcORkKq8iQVGW3hlT4hbEBhfSMpnllEL55ZHPb8="
+        },
+        {
+          "Name": "label",
+          "Value": "img/canakkale-savasi/fdce0037f853466d96857797bacdfbbe.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-savasi/resized_db85a-7f91d8477baa43fda48a2b09c1313798.edvu57h41p.jpg",
+      "AssetFile": "img/canakkale-savasi/resized_db85a-7f91d8477baa43fda48a2b09c1313798.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "138254"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rlTxEyr/9nfcAke/cLz9Bsd4DBMjo3TmZYuaxnGibz0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 17:15:49 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "edvu57h41p"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rlTxEyr/9nfcAke/cLz9Bsd4DBMjo3TmZYuaxnGibz0="
+        },
+        {
+          "Name": "label",
+          "Value": "img/canakkale-savasi/resized_db85a-7f91d8477baa43fda48a2b09c1313798.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-savasi/resized_db85a-7f91d8477baa43fda48a2b09c1313798.jpg",
+      "AssetFile": "img/canakkale-savasi/resized_db85a-7f91d8477baa43fda48a2b09c1313798.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "138254"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rlTxEyr/9nfcAke/cLz9Bsd4DBMjo3TmZYuaxnGibz0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 17:15:49 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rlTxEyr/9nfcAke/cLz9Bsd4DBMjo3TmZYuaxnGibz0="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale/canakkale-img-2.137ethqpg4.jpg",
+      "AssetFile": "img/canakkale/canakkale-img-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2919,13 +3739,13 @@
         },
         {
           "Name": "label",
-          "Value": "img/canakkale-img-2.jpg"
+          "Value": "img/canakkale/canakkale-img-2.jpg"
         }
       ]
     },
     {
-      "Route": "img/canakkale-img-2.jpg",
-      "AssetFile": "img/canakkale-img-2.jpg",
+      "Route": "img/canakkale/canakkale-img-2.jpg",
+      "AssetFile": "img/canakkale/canakkale-img-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2961,8 +3781,8 @@
       ]
     },
     {
-      "Route": "img/canakkale-img-3.jpg",
-      "AssetFile": "img/canakkale-img-3.jpg",
+      "Route": "img/canakkale/canakkale-img-3.jpg",
+      "AssetFile": "img/canakkale/canakkale-img-3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2998,8 +3818,8 @@
       ]
     },
     {
-      "Route": "img/canakkale-img-3.tjyebepnft.jpg",
-      "AssetFile": "img/canakkale-img-3.jpg",
+      "Route": "img/canakkale/canakkale-img-3.tjyebepnft.jpg",
+      "AssetFile": "img/canakkale/canakkale-img-3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3038,13 +3858,13 @@
         },
         {
           "Name": "label",
-          "Value": "img/canakkale-img-3.jpg"
+          "Value": "img/canakkale/canakkale-img-3.jpg"
         }
       ]
     },
     {
-      "Route": "img/canakkale-logo.hk7lgwgfc3.jpg",
-      "AssetFile": "img/canakkale-logo.jpg",
+      "Route": "img/canakkale/canakkale-logo.hk7lgwgfc3.jpg",
+      "AssetFile": "img/canakkale/canakkale-logo.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3083,13 +3903,13 @@
         },
         {
           "Name": "label",
-          "Value": "img/canakkale-logo.jpg"
+          "Value": "img/canakkale/canakkale-logo.jpg"
         }
       ]
     },
     {
-      "Route": "img/canakkale-logo.jpg",
-      "AssetFile": "img/canakkale-logo.jpg",
+      "Route": "img/canakkale/canakkale-logo.jpg",
+      "AssetFile": "img/canakkale/canakkale-logo.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3125,8 +3945,8 @@
       ]
     },
     {
-      "Route": "img/köyyolu.85oeam8or4.jpg",
-      "AssetFile": "img/köyyolu.jpg",
+      "Route": "img/canakkale/köyyolu.85oeam8or4.jpg",
+      "AssetFile": "img/canakkale/köyyolu.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3165,13 +3985,13 @@
         },
         {
           "Name": "label",
-          "Value": "img/köyyolu.jpg"
+          "Value": "img/canakkale/köyyolu.jpg"
         }
       ]
     },
     {
-      "Route": "img/köyyolu.jpg",
-      "AssetFile": "img/köyyolu.jpg",
+      "Route": "img/canakkale/köyyolu.jpg",
+      "AssetFile": "img/canakkale/köyyolu.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3207,7 +4027,7 @@
       ]
     },
     {
-      "Route": "js/index.8nkk4dn9vl.js",
+      "Route": "js/index.fkzdfho5zb.js",
       "AssetFile": "js/index.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3221,7 +4041,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "411"
+          "Value": "852"
         },
         {
           "Name": "Content-Type",
@@ -3229,21 +4049,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hC2dL/itO10IP3L/yrUhOzwtx502LxuoBfabLWdJ2mM=\""
+          "Value": "\"Twg/NjLokMdQrbmPeNKHk28wqWJRCGB8IQ/j28xk+Ds=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 13:56:29 GMT"
+          "Value": "Fri, 13 Dec 2024 17:05:41 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "8nkk4dn9vl"
+          "Value": "fkzdfho5zb"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-hC2dL/itO10IP3L/yrUhOzwtx502LxuoBfabLWdJ2mM="
+          "Value": "sha256-Twg/NjLokMdQrbmPeNKHk28wqWJRCGB8IQ/j28xk+Ds="
         },
         {
           "Name": "label",
@@ -3266,7 +4086,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "411"
+          "Value": "852"
         },
         {
           "Name": "Content-Type",
@@ -3274,17 +4094,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hC2dL/itO10IP3L/yrUhOzwtx502LxuoBfabLWdJ2mM=\""
+          "Value": "\"Twg/NjLokMdQrbmPeNKHk28wqWJRCGB8IQ/j28xk+Ds=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 13:56:29 GMT"
+          "Value": "Fri, 13 Dec 2024 17:05:41 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hC2dL/itO10IP3L/yrUhOzwtx502LxuoBfabLWdJ2mM="
+          "Value": "sha256-Twg/NjLokMdQrbmPeNKHk28wqWJRCGB8IQ/j28xk+Ds="
         }
       ]
     },

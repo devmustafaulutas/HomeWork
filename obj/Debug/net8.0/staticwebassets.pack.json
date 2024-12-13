@@ -29,24 +29,64 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-img-1.jpg",
-      "PackagePath": "staticwebassets\\img\\canakkale-img-1.jpg"
+      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-manzara\\canakkale-img-1.jpg",
+      "PackagePath": "staticwebassets\\img\\canakkale-manzara\\canakkale-img-1.jpg"
     },
     {
-      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-img-2.jpg",
-      "PackagePath": "staticwebassets\\img\\canakkale-img-2.jpg"
+      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\01a5936fd4dd4e0590b2f30ece034769.jpg",
+      "PackagePath": "staticwebassets\\img\\canakkale-savasi\\01a5936fd4dd4e0590b2f30ece034769.jpg"
     },
     {
-      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-img-3.jpg",
-      "PackagePath": "staticwebassets\\img\\canakkale-img-3.jpg"
+      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\39dae7c1e5284f2482e0ef60c2c0581c.jpg",
+      "PackagePath": "staticwebassets\\img\\canakkale-savasi\\39dae7c1e5284f2482e0ef60c2c0581c.jpg"
     },
     {
-      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-logo.jpg",
-      "PackagePath": "staticwebassets\\img\\canakkale-logo.jpg"
+      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\56f71abf76744c93b61addcb9c8cd858.jpg",
+      "PackagePath": "staticwebassets\\img\\canakkale-savasi\\56f71abf76744c93b61addcb9c8cd858.jpg"
     },
     {
-      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\köyyolu.jpg",
-      "PackagePath": "staticwebassets\\img\\köyyolu.jpg"
+      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\60d299a8seyid_onbashi.jpeg",
+      "PackagePath": "staticwebassets\\img\\canakkale-savasi\\60d299a8seyid_onbashi.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\a09178450ff94deabfbccc730bb1061c.jpg",
+      "PackagePath": "staticwebassets\\img\\canakkale-savasi\\a09178450ff94deabfbccc730bb1061c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\ce3f679622364855a5885ea068f5c55e.jpg",
+      "PackagePath": "staticwebassets\\img\\canakkale-savasi\\ce3f679622364855a5885ea068f5c55e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\dcdc9c05169d4159afe2a580617bfa1a.jpg",
+      "PackagePath": "staticwebassets\\img\\canakkale-savasi\\dcdc9c05169d4159afe2a580617bfa1a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\ecaaf4c8a0534715b8d6f9fcfbef8ed3.jpg",
+      "PackagePath": "staticwebassets\\img\\canakkale-savasi\\ecaaf4c8a0534715b8d6f9fcfbef8ed3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\fdce0037f853466d96857797bacdfbbe.jpg",
+      "PackagePath": "staticwebassets\\img\\canakkale-savasi\\fdce0037f853466d96857797bacdfbbe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\resized_db85a-7f91d8477baa43fda48a2b09c1313798.jpg",
+      "PackagePath": "staticwebassets\\img\\canakkale-savasi\\resized_db85a-7f91d8477baa43fda48a2b09c1313798.jpg"
+    },
+    {
+      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale\\canakkale-img-2.jpg",
+      "PackagePath": "staticwebassets\\img\\canakkale\\canakkale-img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale\\canakkale-img-3.jpg",
+      "PackagePath": "staticwebassets\\img\\canakkale\\canakkale-img-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale\\canakkale-logo.jpg",
+      "PackagePath": "staticwebassets\\img\\canakkale\\canakkale-logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale\\köyyolu.jpg",
+      "PackagePath": "staticwebassets\\img\\canakkale\\köyyolu.jpg"
     },
     {
       "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\js\\index.js",

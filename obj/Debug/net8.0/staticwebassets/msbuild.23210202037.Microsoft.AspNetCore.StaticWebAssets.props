@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>qcj554pgxp</Fingerprint>
-      <Integrity>xsnvPEaGs7OJoGzm9X9mK7WUTQ5y2dMAjFEs6ics0Ds=</Integrity>
+      <Fingerprint>yn5yu75uve</Fingerprint>
+      <Integrity>0oSutzdwWvGZXyMZF1G/q8z6OZUAUv+tacUi0fB5Cc4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\index.css'))</OriginalItemSpec>
@@ -126,12 +126,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\canakkale-img-1.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\canakkale-manzara\canakkale-img-1.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>23210202037</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/23210202037</BasePath>
-      <RelativePath>img/canakkale-img-1.jpg</RelativePath>
+      <RelativePath>img/canakkale-manzara/canakkale-img-1.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -142,14 +142,194 @@
       <Integrity>vYvh6gt6EqLfXlBZk51f8+v6h2dnCRZwzxMwuAlzA80=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\canakkale-img-1.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\canakkale-manzara\canakkale-img-1.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\canakkale-img-2.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\canakkale-savasi\01a5936fd4dd4e0590b2f30ece034769.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>23210202037</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/23210202037</BasePath>
-      <RelativePath>img/canakkale-img-2.jpg</RelativePath>
+      <RelativePath>img/canakkale-savasi/01a5936fd4dd4e0590b2f30ece034769.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>tys38fxbgd</Fingerprint>
+      <Integrity>ZSkRlzIBCHwK2EeH+m4BJyxGN2FZEfRUsoEv7Lvlx1c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\canakkale-savasi\01a5936fd4dd4e0590b2f30ece034769.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\canakkale-savasi\39dae7c1e5284f2482e0ef60c2c0581c.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>23210202037</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/23210202037</BasePath>
+      <RelativePath>img/canakkale-savasi/39dae7c1e5284f2482e0ef60c2c0581c.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>sq5jxava98</Fingerprint>
+      <Integrity>1DxAa0xZAwRnh7Yywp+vT8uQbETu3Pv46mJ1R6uRUR4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\canakkale-savasi\39dae7c1e5284f2482e0ef60c2c0581c.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\canakkale-savasi\56f71abf76744c93b61addcb9c8cd858.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>23210202037</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/23210202037</BasePath>
+      <RelativePath>img/canakkale-savasi/56f71abf76744c93b61addcb9c8cd858.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>wqdvfky4bz</Fingerprint>
+      <Integrity>WLYbNtb7Y3AuxMMQ/hbpSpHvT0G8Xdk4zxOrZYQs2wY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\canakkale-savasi\56f71abf76744c93b61addcb9c8cd858.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\canakkale-savasi\60d299a8seyid_onbashi.jpeg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>23210202037</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/23210202037</BasePath>
+      <RelativePath>img/canakkale-savasi/60d299a8seyid_onbashi.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>2r55ym8d0q</Fingerprint>
+      <Integrity>ohmhNLsMB0S32bMoo3lEBa9tu9QF6e8MLY7O8JjXU9Q=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\canakkale-savasi\60d299a8seyid_onbashi.jpeg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\canakkale-savasi\a09178450ff94deabfbccc730bb1061c.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>23210202037</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/23210202037</BasePath>
+      <RelativePath>img/canakkale-savasi/a09178450ff94deabfbccc730bb1061c.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>gqqwxq04wc</Fingerprint>
+      <Integrity>WLjCl03fZdJCm7ViqEJXw+v64xDn8cUPF9qHQjrZSPE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\canakkale-savasi\a09178450ff94deabfbccc730bb1061c.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\canakkale-savasi\ce3f679622364855a5885ea068f5c55e.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>23210202037</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/23210202037</BasePath>
+      <RelativePath>img/canakkale-savasi/ce3f679622364855a5885ea068f5c55e.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>dgev8loh49</Fingerprint>
+      <Integrity>7ZbGvIXQXxJVhNhNukBn0aB57e3S2ARNNybj9yqmfrE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\canakkale-savasi\ce3f679622364855a5885ea068f5c55e.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\canakkale-savasi\dcdc9c05169d4159afe2a580617bfa1a.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>23210202037</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/23210202037</BasePath>
+      <RelativePath>img/canakkale-savasi/dcdc9c05169d4159afe2a580617bfa1a.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>6vg71b8sb5</Fingerprint>
+      <Integrity>In5aMrn81FFlSBv9M4WeNSLMSqLHlRyB+LSZtR4V464=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\canakkale-savasi\dcdc9c05169d4159afe2a580617bfa1a.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\canakkale-savasi\ecaaf4c8a0534715b8d6f9fcfbef8ed3.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>23210202037</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/23210202037</BasePath>
+      <RelativePath>img/canakkale-savasi/ecaaf4c8a0534715b8d6f9fcfbef8ed3.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>vi2fjdpei6</Fingerprint>
+      <Integrity>hxH2z32v9SoJM55iQPHkXnV1zbABaZ6h06jcDm8sT5g=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\canakkale-savasi\ecaaf4c8a0534715b8d6f9fcfbef8ed3.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\canakkale-savasi\fdce0037f853466d96857797bacdfbbe.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>23210202037</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/23210202037</BasePath>
+      <RelativePath>img/canakkale-savasi/fdce0037f853466d96857797bacdfbbe.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>sou5l2t5xw</Fingerprint>
+      <Integrity>ZEgPCcORkKq8iQVGW3hlT4hbEBhfSMpnllEL55ZHPb8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\canakkale-savasi\fdce0037f853466d96857797bacdfbbe.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\canakkale-savasi\resized_db85a-7f91d8477baa43fda48a2b09c1313798.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>23210202037</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/23210202037</BasePath>
+      <RelativePath>img/canakkale-savasi/resized_db85a-7f91d8477baa43fda48a2b09c1313798.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>edvu57h41p</Fingerprint>
+      <Integrity>rlTxEyr/9nfcAke/cLz9Bsd4DBMjo3TmZYuaxnGibz0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\canakkale-savasi\resized_db85a-7f91d8477baa43fda48a2b09c1313798.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\canakkale\canakkale-img-2.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>23210202037</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/23210202037</BasePath>
+      <RelativePath>img/canakkale/canakkale-img-2.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -160,14 +340,14 @@
       <Integrity>o+MdTn5oazvZyOU23s3x8SFM6lG+1e9ylI8trf1gfkY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\canakkale-img-2.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\canakkale\canakkale-img-2.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\canakkale-img-3.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\canakkale\canakkale-img-3.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>23210202037</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/23210202037</BasePath>
-      <RelativePath>img/canakkale-img-3.jpg</RelativePath>
+      <RelativePath>img/canakkale/canakkale-img-3.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -178,14 +358,14 @@
       <Integrity>lyZTMpAQBC/JUbY8fZmVt9awuKmk+V8lx9nuSPW71q0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\canakkale-img-3.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\canakkale\canakkale-img-3.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\canakkale-logo.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\canakkale\canakkale-logo.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>23210202037</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/23210202037</BasePath>
-      <RelativePath>img/canakkale-logo.jpg</RelativePath>
+      <RelativePath>img/canakkale/canakkale-logo.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -196,14 +376,14 @@
       <Integrity>b5YD5sP6gm74rn9i+NYfLODANUFMPiquQ8WkgtF52Zc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\canakkale-logo.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\canakkale\canakkale-logo.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\köyyolu.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\canakkale\köyyolu.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>23210202037</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/23210202037</BasePath>
-      <RelativePath>img/köyyolu.jpg</RelativePath>
+      <RelativePath>img/canakkale/köyyolu.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -214,7 +394,7 @@
       <Integrity>RKyBlHi4ZVqs49yDtx75e3RBXTeUipXUxxyeJEFdMmU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\köyyolu.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\canakkale\köyyolu.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\index.js'))">
       <SourceType>Package</SourceType>
@@ -228,8 +408,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>8nkk4dn9vl</Fingerprint>
-      <Integrity>hC2dL/itO10IP3L/yrUhOzwtx502LxuoBfabLWdJ2mM=</Integrity>
+      <Fingerprint>fkzdfho5zb</Fingerprint>
+      <Integrity>Twg/NjLokMdQrbmPeNKHk28wqWJRCGB8IQ/j28xk+Ds=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\index.js'))</OriginalItemSpec>

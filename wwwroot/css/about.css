@@ -1,0 +1,93 @@
+.about-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.title{
+    font-size: 60px;
+}
+.content{
+    font-size: 20px;
+    margin-top: 20px;
+}
+/* Genel Slider Stilleri */
+.slider {
+    width: 100%; /* Tam genişlik */
+    height: 300px; /* İsteğe bağlı yükseklik */
+    overflow: hidden; /* Kayma dışı gizlenecek */
+    position: relative;
+    border-style: groove;
+    border: 2px solid black;
+    border-radius: 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+/* Sol Slider Gölgesi */
+.slider-left {
+    box-shadow: -5px 5px 20px rgba(0, 0, 0, 0.473); /* Sol ve alt gölge */
+}
+
+.dark-mode .slider-left {
+    box-shadow: -5px 5px 20px rgba(255, 255, 255, 0.473); /* Sol ve alt beyaz gölge */
+    border: 2px solid white;
+}
+
+/* Sağ Slider Gölgesi */
+.slider-right {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.473); /* Sağ ve alt gölge */
+}
+
+.dark-mode .slider-right {
+    box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.473); /* Sağ ve alt beyaz gölge */
+    border: 2px solid white;
+}
+
+/* Slide ve Slides Stilleri */
+.slides {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/* Her Slide üzerine resimleri üst üste yerleştirin */
+.slide {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+/* Aktif Slayt */
+.slide.active {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Sol Slider için Geçiş Efekti */
+.slider-left .slide.enter {
+    transform: translateX(-50px);
+}
+
+.slider-left .slide.enter-active {
+    transform: translateX(0);
+}
+
+/* Sağ Slider için Geçiş Efekti */
+.slider-right .slide.enter {
+    transform: translateX(50px);
+}
+
+.slider-right .slide.enter-active {
+    transform: translateX(0);
+}
+
+/* Resimlerin Kutuda Tam Yerleşmesi */
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Resmi kutuya sığdır */
+}

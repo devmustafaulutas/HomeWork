@@ -20,7 +20,7 @@
             <!-- Çanakkale Logosu ve Yazısı -->
             <div class="logo-container d-flex align-items-center">
                 <a asp-area="" asp-controller="Home" asp-action="Index" class="d-flex align-items-center text-decoration-none">
-                    <img src="~/img/canakkale-logo.jpg" alt="Çanakkale Logo" class="logo">
+                    <img src="~/img/canakkale/canakkale-logo.jpg" alt="Çanakkale Logo" class="logo">
                     <span class="ms-2 fw-bold">Çanakkale</span>
                 </a>
             </div>
@@ -33,6 +33,9 @@
                     </li>
                     <li class="nav-item" data-aos="fade-down" data-aos-delay="200">
                         <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Blog">Blog</a>
+                    </li>
+                    <li class="nav-item" data-aos="fade-down" data-aos-delay="200">
+                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="About">Hakkında</a>
                     </li>
                     <li class="nav-item" data-aos="fade-down" data-aos-delay="300">
                         <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Contact">İletişim</a>
@@ -60,7 +63,7 @@
                         <i class="fa fa-user"></i>
                     </button>
                     <div id="login-partial" class="d-none">
-                        <partial name="_LoginPartial" />
+                        <partial name="../Account/_LoginPartial" />
                     </div>
                 </div>
             </div>

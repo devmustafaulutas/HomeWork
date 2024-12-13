@@ -1,3 +1,4 @@
+// Slider Animation
 const slides = document.querySelector(".slides");
 const slideCount = document.querySelectorAll(".slide").length;
 
@@ -9,6 +10,7 @@ function slideTransition() {
     index = 0; // Baştan başla
   }
   slides.style.transform = `translateX(-${index * 100}%)`;
+  slides.style.transform = `translateZ(-${index * 100}%)`;
 }
 
 setInterval(slideTransition, 4000); // Her 4 saniyede bir slayt değiştir

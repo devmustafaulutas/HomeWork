@@ -22,6 +22,10 @@ namespace _23210202037.Controllers
         {
             return View();
         }
+        public IActionResult About()
+        {
+            return View();
+        }
         public IActionResult Contact()
         {
             return View();
