@@ -533,3 +533,21 @@ body {
     display: flex;
     align-items: center;
 }
+/* ...Login Partial kod... */
+
+#login-partial {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.d-none {
+  display: none;
+}
+
+/* ...mevcut kod... */

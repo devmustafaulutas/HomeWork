@@ -71,3 +71,19 @@ gsap.from(".social-icons a", {
     stagger: 0.2, 
     ease: "power2.out" 
 });
+
+document.getElementById('profile-button').addEventListener('click', function() {
+    var loginPartial = document.getElementById('login-partial');
+    if (loginPartial.classList.contains('d-none')) {
+        loginPartial.classList.remove('d-none');
+    } else {
+        loginPartial.classList.add('d-none');
+    }
+});
+
+document.addEventListener('click', function(event) {
+    var isClickInside = document.getElementById('profile-button').contains(event.target) || document.getElementById('login-partial').contains(event.target);
+    if (!isClickInside) {
+        document.getElementById('login-partial').classList.add('d-none');
+    }
+});

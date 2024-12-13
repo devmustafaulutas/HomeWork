@@ -43,28 +43,25 @@
             <!-- Sosyal İkonlar ve Oturum Aç -->
             <div class="d-flex align-items-center">
                 <div class="social-icons me-3">
-                    <a href="#" class="text-decoration-none me-2" data-aos="zoom-in"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="text-decoration-none me-2" data-aos="zoom-in" data-aos-delay="100"><i class="fab fa-twitter"></i></a>
                     <a href="#" class="text-decoration-none me-2" data-aos="zoom-in" data-aos-delay="200"><i class="fab fa-instagram"></i></a>
-                </div>
-                <div class="auth-buttons" data-aos="fade-left" data-aos-delay="300">
-                    @if (SignInManager.IsSignedIn(User))
-                    {
-                        <span class="me-2">@UserManager.GetUserName(User)</span>
-                        <form asp-area="" asp-controller="Account" asp-action="Logout" method="post" class="d-inline">
-                            <button type="submit" class="btn btn-outline-danger btn-sm">Oturumu Kapat</button>
-                        </form>
-                    }
-                    else
-                    {
-                        <a asp-area="" asp-controller="Account" asp-action="Login" class="btn btn-outline-primary btn-sm me-2">Oturum Aç</a>
-                    }
+                    <a href="#" class="text-decoration-none me-2" data-aos="zoom-in" data-aos-delay="200"><i class="fab fa-github"></i></a>
+                    <a href="#" class="text-decoration-none me-2" data-aos="zoom-in" data-aos-delay="200"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="text-decoration-none me-2" data-aos="zoom-in" data-aos-delay="200"><i class="fa fa-envelope"></i></a>
                 </div>
                 <!-- Gece/Gündüz Modu Iconu -->
                 <div class="theme-toggle ms-3" data-aos="fade-left" data-aos-delay="400">
                     <button id="theme-button" class="btn" onclick="toggleTheme()">
                         <i id="theme-icon" class="fas fa-moon"></i>
                     </button>
+                </div>
+                <!-- Profil Iconu ve _LoginPartial -->
+                <div class="auth-buttons ms-3" data-aos="fade-left" data-aos-delay="300">
+                    <button id="profile-button" class="btn">
+                        <i class="fa fa-user"></i>
+                    </button>
+                    <div id="login-partial" class="d-none">
+                        <partial name="_LoginPartial" />
+                    </div>
                 </div>
             </div>
         </div>

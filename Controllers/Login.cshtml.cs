@@ -66,6 +66,10 @@ namespace _23210202037.Areas.Identity.Pages.Account
             /// </summary>
             [Required]
             [EmailAddress]
+            public string UserName { get; set; }
+            
+            [Required]
+            [EmailAddress]
             public string Email { get; set; }
 
             /// <summary>
