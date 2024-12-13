@@ -21,3 +21,41 @@
     background-color: transparent; /* Boş divin arka planı */
     height: 100%; /* Yüksekliği içeriğin yüksekliği ile aynı olacak şekilde ayarlayın */
 }
+
+.slider {
+    width: 100%; /* Tam genişlik */
+    max-width: 600px; /* İsteğe bağlı genişlik sınırı */
+    height: 300px;
+    overflow: hidden; /* Kayma dışı gizlenecek */
+    position: relative;
+  }
+  
+  .slides {
+    display: flex; /* Slaytları yatay sırala */
+    transition: transform 1s ease; /* Yumuşak geçiş */
+    width: calc(100% * 4); /* Resim sayısına göre ayarla */
+  }
+  
+  .slide {
+    flex: 0 0 100%; /* Her slayt tam genişlik kaplar */
+  }
+  
+  .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Resmi kutuya sığdır */
+  }
+  
+
+/* Animasyon */
+@keyframes slide-animation {
+  0% { transform: translateX(0); }
+  20% { transform: translateX(0); } /* Bekleme süresi */
+  25% { transform: translateX(-100%); }
+  45% { transform: translateX(-100%); } /* Bekleme süresi */
+  50% { transform: translateX(-200%); }
+  70% { transform: translateX(-200%); } /* Bekleme süresi */
+  75% { transform: translateX(-300%); }
+  95% { transform: translateX(-300%); } /* Bekleme süresi */
+  100% { transform: translateX(0); } /* Başa döner */
+}

@@ -3,7 +3,6 @@
 
 // Write your JavaScript code.
 // Tema değiştirme fonksiyonu
-// Tema değiştirme fonksiyonu
 function toggleTheme() {
     var body = document.body;
     var themeIcon = document.getElementById("theme-icon");
@@ -47,10 +46,12 @@ AOS.init({
 // GSAP Animasyonları
 gsap.from(".logo", { 
     duration: 1, 
-    y: -50, 
-    opacity: 0, 
+    y: 0, 
     ease: "bounce.out",
-    delay: 0.2 
+    delay: 0.2,
+    onComplete: function() {
+        document.querySelector(".logo").style.transform = "translateY(0)";
+    }
 });
 
 gsap.from(".nav-link", { 
@@ -69,13 +70,4 @@ gsap.from(".social-icons a", {
     opacity: 0, 
     stagger: 0.2, 
     ease: "power2.out" 
-});
-
-// Arkaplan Animasyonu (Opsiyonel)
-gsap.to("body", {
-    backgroundColor: "#f0f0f0",
-    duration: 1,
-    ease: "power1.inOut",
-    repeat: -1,
-    yoyo: true
 });

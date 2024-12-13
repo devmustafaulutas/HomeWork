@@ -10,8 +10,9 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-yH7gvLYdQeX0r+jYgpI3s/4I6aR2iXrjn2S/UvGgX0H2YVhcLwNbzh7O2HpLjwVviW6ObayCOYkB5tz/exC6Uw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />    
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 </head>
 <body>
     <header class="header">
@@ -19,7 +20,7 @@
             <!-- Çanakkale Logosu ve Yazısı -->
             <div class="logo-container d-flex align-items-center">
                 <a asp-area="" asp-controller="Home" asp-action="Index" class="d-flex align-items-center text-decoration-none">
-                    <img src="~/img/canakkale-logo.jpg" alt="Çanakkale Logo" class="logo animate__animated animate__fadeIn">
+                    <img src="~/img/canakkale-logo.jpg" alt="Çanakkale Logo" class="logo">
                     <span class="ms-2 fw-bold">Çanakkale</span>
                 </a>
             </div>
@@ -61,7 +62,7 @@
                 </div>
                 <!-- Gece/Gündüz Modu Iconu -->
                 <div class="theme-toggle ms-3" data-aos="fade-left" data-aos-delay="400">
-                    <button id="theme-button" class="btn btn-outline-secondary btn-sm" onclick="toggleTheme()">
+                    <button id="theme-button" class="btn" onclick="toggleTheme()">
                         <i id="theme-icon" class="fas fa-moon"></i>
                     </button>
                 </div>
@@ -79,7 +80,6 @@
         </div>
     </footer>
 
-    <!-- JavaScript Kütüphaneleri -->
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>

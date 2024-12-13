@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BHcoXdb7nxuSHq0ShNN7amXATug7CfAN4kfv2GyEx+c=",
+  "Hash": "Fx8eavAQwn5wdxCFBgTaqjMuy4xBpe8fUdSLTIrcxGs=",
   "Source": "23210202037",
   "BasePath": "_content/23210202037",
   "Mode": "Default",
@@ -1333,8 +1333,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "3fwwf3t2xv",
-      "Integrity": "HxfmrJTojLERUZ8Ezi0ak79TxM6u/KdfqYZj/AcoivM=",
+      "Fingerprint": "qcj554pgxp",
+      "Integrity": "xsnvPEaGs7OJoGzm9X9mK7WUTQ5y2dMAjFEs6ics0Ds=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\index.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c52um2phls",
-      "Integrity": "oKvhLAzTW0iAyVHmp/TdNMF4iOS9LaT8ViMLkRVPFiM=",
+      "Fingerprint": "kaa0ujb9ls",
+      "Integrity": "5NEZ5Vt9speYJk5PePngcDUSgzF6Ci4sRDmAUVNgqj0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1443,6 +1443,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-img-1.jpg",
+      "SourceId": "23210202037",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\",
+      "BasePath": "_content/23210202037",
+      "RelativePath": "img/canakkale-img-1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "johfpty8gn",
+      "Integrity": "vYvh6gt6EqLfXlBZk51f8+v6h2dnCRZwzxMwuAlzA80=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\canakkale-img-1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-img-2.jpg",
+      "SourceId": "23210202037",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\",
+      "BasePath": "_content/23210202037",
+      "RelativePath": "img/canakkale-img-2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "137ethqpg4",
+      "Integrity": "o+MdTn5oazvZyOU23s3x8SFM6lG+1e9ylI8trf1gfkY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\canakkale-img-2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-img-3.jpg",
+      "SourceId": "23210202037",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\",
+      "BasePath": "_content/23210202037",
+      "RelativePath": "img/canakkale-img-3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tjyebepnft",
+      "Integrity": "lyZTMpAQBC/JUbY8fZmVt9awuKmk+V8lx9nuSPW71q0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\canakkale-img-3.jpg"
     },
     {
       "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-logo.jpg",
@@ -1487,6 +1550,27 @@
       "OriginalItemSpec": "wwwroot\\img\\köyyolu.jpg"
     },
     {
+      "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\js\\index.js",
+      "SourceId": "23210202037",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\",
+      "BasePath": "_content/23210202037",
+      "RelativePath": "js/index#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8nkk4dn9vl",
+      "Integrity": "hC2dL/itO10IP3L/yrUhOzwtx502LxuoBfabLWdJ2mM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\index.js"
+    },
+    {
       "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\js\\site.js",
       "SourceId": "23210202037",
       "SourceType": "Discovered",
@@ -1501,8 +1585,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "a13cq2k6uj",
-      "Integrity": "ogOL1PKPyfm8/PXdu2eSYjnydl5X3/HthqQusht4jVk=",
+      "Fingerprint": "mt4k8iqenl",
+      "Integrity": "lvr6pkwtMn7nuOpima1w3mWrirCkUw4rblG//rFcLuk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -2792,7 +2876,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 12:32:47 GMT"
+          "Value": "Fri, 13 Dec 2024 09:17:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2829,7 +2913,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 12:32:47 GMT"
+          "Value": "Fri, 13 Dec 2024 09:17:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2874,7 +2958,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 12:32:47 GMT"
+          "Value": "Fri, 13 Dec 2024 09:17:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2919,7 +3003,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 12:32:47 GMT"
+          "Value": "Fri, 13 Dec 2024 09:17:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2934,51 +3018,6 @@
       ]
     },
     {
-      "Route": "css/index.3fwwf3t2xv.css",
-      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\css\\index.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "484"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"HxfmrJTojLERUZ8Ezi0ak79TxM6u/KdfqYZj/AcoivM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 30 Nov 2024 21:38:36 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3fwwf3t2xv"
-        },
-        {
-          "Name": "label",
-          "Value": "css/index.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-HxfmrJTojLERUZ8Ezi0ak79TxM6u/KdfqYZj/AcoivM="
-        }
-      ]
-    },
-    {
       "Route": "css/index.css",
       "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\css\\index.css",
       "Selectors": [],
@@ -2989,7 +3028,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "484"
+          "Value": "1617"
         },
         {
           "Name": "Content-Type",
@@ -2997,11 +3036,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"HxfmrJTojLERUZ8Ezi0ak79TxM6u/KdfqYZj/AcoivM=\""
+          "Value": "\"xsnvPEaGs7OJoGzm9X9mK7WUTQ5y2dMAjFEs6ics0Ds=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 30 Nov 2024 21:38:36 GMT"
+          "Value": "Thu, 12 Dec 2024 13:56:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3011,7 +3050,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-HxfmrJTojLERUZ8Ezi0ak79TxM6u/KdfqYZj/AcoivM="
+          "Value": "sha256-xsnvPEaGs7OJoGzm9X9mK7WUTQ5y2dMAjFEs6ics0Ds="
+        }
+      ]
+    },
+    {
+      "Route": "css/index.qcj554pgxp.css",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\css\\index.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1617"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xsnvPEaGs7OJoGzm9X9mK7WUTQ5y2dMAjFEs6ics0Ds=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 13:56:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qcj554pgxp"
+        },
+        {
+          "Name": "label",
+          "Value": "css/index.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xsnvPEaGs7OJoGzm9X9mK7WUTQ5y2dMAjFEs6ics0Ds="
         }
       ]
     },
@@ -3262,51 +3346,6 @@
       ]
     },
     {
-      "Route": "css/site.c52um2phls.css",
-      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "10144"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"oKvhLAzTW0iAyVHmp/TdNMF4iOS9LaT8ViMLkRVPFiM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 12:37:37 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "c52um2phls"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-oKvhLAzTW0iAyVHmp/TdNMF4iOS9LaT8ViMLkRVPFiM="
-        }
-      ]
-    },
-    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -3317,7 +3356,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10144"
+          "Value": "10230"
         },
         {
           "Name": "Content-Type",
@@ -3325,11 +3364,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"oKvhLAzTW0iAyVHmp/TdNMF4iOS9LaT8ViMLkRVPFiM=\""
+          "Value": "\"5NEZ5Vt9speYJk5PePngcDUSgzF6Ci4sRDmAUVNgqj0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 12:37:37 GMT"
+          "Value": "Thu, 12 Dec 2024 13:35:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3339,7 +3378,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-oKvhLAzTW0iAyVHmp/TdNMF4iOS9LaT8ViMLkRVPFiM="
+          "Value": "sha256-5NEZ5Vt9speYJk5PePngcDUSgzF6Ci4sRDmAUVNgqj0="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.kaa0ujb9ls.css",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10230"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5NEZ5Vt9speYJk5PePngcDUSgzF6Ci4sRDmAUVNgqj0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 13:35:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kaa0ujb9ls"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5NEZ5Vt9speYJk5PePngcDUSgzF6Ci4sRDmAUVNgqj0="
         }
       ]
     },
@@ -5646,6 +5730,252 @@
       ]
     },
     {
+      "Route": "img/canakkale-img-1.johfpty8gn.jpg",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-img-1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "236310"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vYvh6gt6EqLfXlBZk51f8+v6h2dnCRZwzxMwuAlzA80=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 13:39:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "johfpty8gn"
+        },
+        {
+          "Name": "label",
+          "Value": "img/canakkale-img-1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vYvh6gt6EqLfXlBZk51f8+v6h2dnCRZwzxMwuAlzA80="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-img-1.jpg",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-img-1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "236310"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vYvh6gt6EqLfXlBZk51f8+v6h2dnCRZwzxMwuAlzA80=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 13:39:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vYvh6gt6EqLfXlBZk51f8+v6h2dnCRZwzxMwuAlzA80="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-img-2.137ethqpg4.jpg",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-img-2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "220268"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o+MdTn5oazvZyOU23s3x8SFM6lG+1e9ylI8trf1gfkY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 13:40:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "137ethqpg4"
+        },
+        {
+          "Name": "label",
+          "Value": "img/canakkale-img-2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o+MdTn5oazvZyOU23s3x8SFM6lG+1e9ylI8trf1gfkY="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-img-2.jpg",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-img-2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "220268"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o+MdTn5oazvZyOU23s3x8SFM6lG+1e9ylI8trf1gfkY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 13:40:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o+MdTn5oazvZyOU23s3x8SFM6lG+1e9ylI8trf1gfkY="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-img-3.jpg",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-img-3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "123638"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lyZTMpAQBC/JUbY8fZmVt9awuKmk+V8lx9nuSPW71q0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 13:43:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lyZTMpAQBC/JUbY8fZmVt9awuKmk+V8lx9nuSPW71q0="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-img-3.tjyebepnft.jpg",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-img-3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "123638"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lyZTMpAQBC/JUbY8fZmVt9awuKmk+V8lx9nuSPW71q0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 13:43:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tjyebepnft"
+        },
+        {
+          "Name": "label",
+          "Value": "img/canakkale-img-3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lyZTMpAQBC/JUbY8fZmVt9awuKmk+V8lx9nuSPW71q0="
+        }
+      ]
+    },
+    {
       "Route": "img/canakkale-logo.hk7lgwgfc3.jpg",
       "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-logo.jpg",
       "Selectors": [],
@@ -5810,8 +6140,8 @@
       ]
     },
     {
-      "Route": "js/site.a13cq2k6uj.js",
-      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\js\\site.js",
+      "Route": "js/index.8nkk4dn9vl.js",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\js\\index.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5820,7 +6150,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2199"
+          "Value": "411"
         },
         {
           "Name": "Content-Type",
@@ -5828,11 +6158,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ogOL1PKPyfm8/PXdu2eSYjnydl5X3/HthqQusht4jVk=\""
+          "Value": "\"hC2dL/itO10IP3L/yrUhOzwtx502LxuoBfabLWdJ2mM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 17:04:33 GMT"
+          "Value": "Thu, 12 Dec 2024 13:56:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5842,15 +6172,52 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "a13cq2k6uj"
+          "Value": "8nkk4dn9vl"
         },
         {
           "Name": "label",
-          "Value": "js/site.js"
+          "Value": "js/index.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ogOL1PKPyfm8/PXdu2eSYjnydl5X3/HthqQusht4jVk="
+          "Value": "sha256-hC2dL/itO10IP3L/yrUhOzwtx502LxuoBfabLWdJ2mM="
+        }
+      ]
+    },
+    {
+      "Route": "js/index.js",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\js\\index.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "411"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hC2dL/itO10IP3L/yrUhOzwtx502LxuoBfabLWdJ2mM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 13:56:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hC2dL/itO10IP3L/yrUhOzwtx502LxuoBfabLWdJ2mM="
         }
       ]
     },
@@ -5865,7 +6232,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2199"
+          "Value": "2086"
         },
         {
           "Name": "Content-Type",
@@ -5873,11 +6240,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ogOL1PKPyfm8/PXdu2eSYjnydl5X3/HthqQusht4jVk=\""
+          "Value": "\"lvr6pkwtMn7nuOpima1w3mWrirCkUw4rblG//rFcLuk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 17:04:33 GMT"
+          "Value": "Thu, 12 Dec 2024 13:24:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5887,7 +6254,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ogOL1PKPyfm8/PXdu2eSYjnydl5X3/HthqQusht4jVk="
+          "Value": "sha256-lvr6pkwtMn7nuOpima1w3mWrirCkUw4rblG//rFcLuk="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.mt4k8iqenl.js",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2086"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lvr6pkwtMn7nuOpima1w3mWrirCkUw4rblG//rFcLuk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 13:24:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mt4k8iqenl"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lvr6pkwtMn7nuOpima1w3mWrirCkUw4rblG//rFcLuk="
         }
       ]
     },

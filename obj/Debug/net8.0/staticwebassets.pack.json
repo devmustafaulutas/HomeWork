@@ -29,12 +29,28 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-img-1.jpg",
+      "PackagePath": "staticwebassets\\img\\canakkale-img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-img-2.jpg",
+      "PackagePath": "staticwebassets\\img\\canakkale-img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-img-3.jpg",
+      "PackagePath": "staticwebassets\\img\\canakkale-img-3.jpg"
+    },
+    {
       "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-logo.jpg",
       "PackagePath": "staticwebassets\\img\\canakkale-logo.jpg"
     },
     {
       "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\köyyolu.jpg",
       "PackagePath": "staticwebassets\\img\\köyyolu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\js\\index.js",
+      "PackagePath": "staticwebassets\\js\\index.js"
     },
     {
       "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\js\\site.js",
