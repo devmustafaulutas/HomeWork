@@ -1,8 +1,9 @@
-namespace _23210202037.Models;
-
-public class ErrorViewModel
+namespace _23210202037.Models
 {
-    public string? RequestId { get; set; }
+    public class ErrorViewModel
+    {
+        public string RequestId { get; set; } = null!;
 
-    public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
+        public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
+    }
 }
