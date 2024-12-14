@@ -1,7 +1,20 @@
-﻿// Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿// Profil menüsünün slider değişince aşağıda kalma sorununu çözmek için
+const profileButton = document.getElementById('profile-button');
+const loginPartial = document.getElementById('login-partial');
 
-// Write your JavaScript code.
+profileButton.addEventListener('click', (e) => {
+  e.stopPropagation();
+  loginPartial.classList.toggle('d-none');
+  loginPartial.classList.toggle('visible');
+});
+
+document.addEventListener('click', (e) => {
+  if (!loginPartial.contains(e.target) && !profileButton.contains(e.target)) {
+    loginPartial.classList.add('d-none');
+    loginPartial.classList.remove('visible');
+  }
+});
+
 // Tema değiştirme fonksiyonu
 function toggleTheme() {
     var body = document.body;
@@ -70,20 +83,4 @@ gsap.from(".social-icons a", {
     opacity: 0, 
     stagger: 0.2, 
     ease: "power2.out" 
-});
-
-document.getElementById('profile-button').addEventListener('click', function() {
-    var loginPartial = document.getElementById('login-partial');
-    if (loginPartial.classList.contains('d-none')) {
-        loginPartial.classList.remove('d-none');
-    } else {
-        loginPartial.classList.add('d-none');
-    }
-});
-
-document.addEventListener('click', function(event) {
-    var isClickInside = document.getElementById('profile-button').contains(event.target) || document.getElementById('login-partial').contains(event.target);
-    if (!isClickInside) {
-        document.getElementById('login-partial').classList.add('d-none');
-    }
 });

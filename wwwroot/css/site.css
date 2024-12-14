@@ -104,10 +104,13 @@ html.dark-mode {
 
 .layout-header {
   display: flex;
+  position: sticky;
+  top: 0; /* Üstte yapışmasını sağlar */
   justify-content: space-between; /* Öğeleri yatayda dağıtır */
   align-items: center; /* Dikeyde ortalar */
   width: 100%;
-  padding: 10px 0; /* İsteğe bağlı: Üst ve alt boşluk ekler */
+  background-color: var(--header-background); /* Arka plan rengi */
+  z-index: 1000; /* Diğer içeriklerin üstünde kalmasını sağlar */
 }
 
 .layout-container {
@@ -386,6 +389,9 @@ body {
     background-color: var(--header-background);
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     transition: background-color 0.5s;
+    z-index: 1000; /* Diğer içeriklerin üstünde kalmasını sağlar */
+    position: sticky;
+    top: 0;
 }
 
 .logo-container .logo {
@@ -550,4 +556,109 @@ body {
   display: none;
 }
 
-/* ...mevcut kod... */
+/* Profil Dropdown Stilleri */
+.profile-dropdown {
+  position: absolute;
+  top: 50px; /* Profil butonunun altına yerleştir */
+  right: 0;
+  width: 180px; /* Daha küçük genişlik */
+  background-color: var(--background-color);
+  color: var(--text-color);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  z-index: 9999; /* Daha yüksek z-index */
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+}
+
+/* Dropdown Görünür Olduğunda */
+.profile-dropdown.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* Profil Başlığı */
+.profile-header {
+  display: flex;
+  align-items: center;
+  padding: 10px 12px; /* Daha küçük padding */
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+/* Profil Avatarı */
+.profile-avatar {
+  width: 35px; /* Daha küçük boyut */
+  height: 35px; /* Daha küçük boyut */
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+/* Profil Adı */
+.profile-name {
+  font-weight: 600;
+  font-size: 14px; /* Daha küçük font boyutu */
+}
+
+/* Profil Menü */
+.profile-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.profile-menu li {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.profile-menu li:first-child {
+  border-top: none;
+}
+
+.profile-menu li a {
+  display: block;
+  padding: 10px 12px; /* Daha küçük padding */
+  color: inherit;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.profile-menu li a:hover {
+  background-color: var(--button-hover-bg);
+}
+
+/* Gece Modu */
+body.dark-mode .profile-dropdown {
+  background-color: #1f1f1f !important;
+  color: #ffffff;
+}
+
+body.dark-mode .profile-header {
+  background-color: #333333;
+}
+
+body.dark-mode .profile-menu li {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .profile-menu li a {
+  color: #ffffff;
+}
+
+body.dark-mode .profile-menu li a:hover {
+  background-color: #333333;
+}
+
+/* Responsive Tasarım */
+@media (max-width: 768px) {
+  .profile-dropdown {
+      width: 100%;
+      right: 0;
+      left: 0;
+  }
+}

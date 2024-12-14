@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\23210202037.mrd9wogya5.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\css\\about.css",
+      "PackagePath": "staticwebassets\\css\\about.css"
+    },
+    {
       "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\css\\index.css",
       "PackagePath": "staticwebassets\\css\\index.css"
     },
@@ -33,44 +37,76 @@
       "PackagePath": "staticwebassets\\img\\canakkale-manzara\\canakkale-img-1.jpg"
     },
     {
-      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\01a5936fd4dd4e0590b2f30ece034769.jpg",
-      "PackagePath": "staticwebassets\\img\\canakkale-savasi\\01a5936fd4dd4e0590b2f30ece034769.jpg"
+      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-manzara\\manzara-1.jpeg",
+      "PackagePath": "staticwebassets\\img\\canakkale-manzara\\manzara-1.jpeg"
     },
     {
-      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\39dae7c1e5284f2482e0ef60c2c0581c.jpg",
-      "PackagePath": "staticwebassets\\img\\canakkale-savasi\\39dae7c1e5284f2482e0ef60c2c0581c.jpg"
+      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-manzara\\manzara-2.htm",
+      "PackagePath": "staticwebassets\\img\\canakkale-manzara\\manzara-2.htm"
     },
     {
-      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\56f71abf76744c93b61addcb9c8cd858.jpg",
-      "PackagePath": "staticwebassets\\img\\canakkale-savasi\\56f71abf76744c93b61addcb9c8cd858.jpg"
+      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-manzara\\manzara-2.jpg",
+      "PackagePath": "staticwebassets\\img\\canakkale-manzara\\manzara-2.jpg"
     },
     {
-      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\60d299a8seyid_onbashi.jpeg",
-      "PackagePath": "staticwebassets\\img\\canakkale-savasi\\60d299a8seyid_onbashi.jpeg"
+      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-manzara\\manzara-3.jpg",
+      "PackagePath": "staticwebassets\\img\\canakkale-manzara\\manzara-3.jpg"
     },
     {
-      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\a09178450ff94deabfbccc730bb1061c.jpg",
-      "PackagePath": "staticwebassets\\img\\canakkale-savasi\\a09178450ff94deabfbccc730bb1061c.jpg"
+      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-manzara\\manzara-4.jpeg",
+      "PackagePath": "staticwebassets\\img\\canakkale-manzara\\manzara-4.jpeg"
     },
     {
-      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\ce3f679622364855a5885ea068f5c55e.jpg",
-      "PackagePath": "staticwebassets\\img\\canakkale-savasi\\ce3f679622364855a5885ea068f5c55e.jpg"
+      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-manzara\\manzara-5.jpeg",
+      "PackagePath": "staticwebassets\\img\\canakkale-manzara\\manzara-5.jpeg"
     },
     {
-      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\dcdc9c05169d4159afe2a580617bfa1a.jpg",
-      "PackagePath": "staticwebassets\\img\\canakkale-savasi\\dcdc9c05169d4159afe2a580617bfa1a.jpg"
+      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-1.jpg",
+      "PackagePath": "staticwebassets\\img\\canakkale-savasi\\savas-1.jpg"
     },
     {
-      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\ecaaf4c8a0534715b8d6f9fcfbef8ed3.jpg",
-      "PackagePath": "staticwebassets\\img\\canakkale-savasi\\ecaaf4c8a0534715b8d6f9fcfbef8ed3.jpg"
+      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-10.jpg",
+      "PackagePath": "staticwebassets\\img\\canakkale-savasi\\savas-10.jpg"
     },
     {
-      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\fdce0037f853466d96857797bacdfbbe.jpg",
-      "PackagePath": "staticwebassets\\img\\canakkale-savasi\\fdce0037f853466d96857797bacdfbbe.jpg"
+      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-11.jpeg",
+      "PackagePath": "staticwebassets\\img\\canakkale-savasi\\savas-11.jpeg"
     },
     {
-      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\resized_db85a-7f91d8477baa43fda48a2b09c1313798.jpg",
-      "PackagePath": "staticwebassets\\img\\canakkale-savasi\\resized_db85a-7f91d8477baa43fda48a2b09c1313798.jpg"
+      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-12.jpeg",
+      "PackagePath": "staticwebassets\\img\\canakkale-savasi\\savas-12.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-2.jpg",
+      "PackagePath": "staticwebassets\\img\\canakkale-savasi\\savas-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-3.jpg",
+      "PackagePath": "staticwebassets\\img\\canakkale-savasi\\savas-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-4.jpeg",
+      "PackagePath": "staticwebassets\\img\\canakkale-savasi\\savas-4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-5.jpg",
+      "PackagePath": "staticwebassets\\img\\canakkale-savasi\\savas-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-6.jpg",
+      "PackagePath": "staticwebassets\\img\\canakkale-savasi\\savas-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-7.jpg",
+      "PackagePath": "staticwebassets\\img\\canakkale-savasi\\savas-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-8.jpg",
+      "PackagePath": "staticwebassets\\img\\canakkale-savasi\\savas-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-9.jpg",
+      "PackagePath": "staticwebassets\\img\\canakkale-savasi\\savas-9.jpg"
     },
     {
       "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale\\canakkale-img-2.jpg",
@@ -85,8 +121,16 @@
       "PackagePath": "staticwebassets\\img\\canakkale\\canakkale-logo.jpg"
     },
     {
+      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale\\canakkale-logo.svg",
+      "PackagePath": "staticwebassets\\img\\canakkale\\canakkale-logo.svg"
+    },
+    {
       "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale\\köyyolu.jpg",
       "PackagePath": "staticwebassets\\img\\canakkale\\köyyolu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\js\\about.js",
+      "PackagePath": "staticwebassets\\js\\about.js"
     },
     {
       "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\js\\index.js",

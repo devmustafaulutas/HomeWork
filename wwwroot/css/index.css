@@ -24,36 +24,45 @@
 }
 
 .slider {
-  width: 100%; /* Tam genişlik */
-  max-width: 600px; /* İsteğe bağlı genişlik sınırı */
-  height: 400px;
-  overflow: hidden; /* Kayma dışı gizlenecek */
-  position: relative;
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.473); /* Sadece sağ ve aşağı gölge */
-  border-style: groove;
-  border: 2px solid black;
-  border-radius: 20px;
+    width: 100%; /* Tam genişlik */
+    max-width: 600px; /* İsteğe bağlı genişlik sınırı */
+    height: 400px; /* Sabit yükseklik */
+    overflow: hidden; /* Taşmaları gizle */
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.473); /* Gölge efekti */
+    border: 2px solid black; /* Kutu kenarı */
+    border-radius: 20px; /* Kenar yuvarlama */
+    box-sizing: border-box; /* Padding ve border'ı dahil et */
+    position: relative;
+    z-index: 1; /* Slider'ın z-index değerini düşür */
 }
 
 .dark-mode .slider {
-  box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.473); /* Sadece sağ ve aşağı gölge */
+  box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.473); /* Sadece sağ ve aşağı beyaz gölge */
   border: 2px solid white;
 }
 
 .slides {
     display: flex; /* Slaytları yatay sırala */
     transition: transform 1s ease; /* Yumuşak geçiş */
-    /* animation: slide-animation 1s infinite; /* Slayt animasyonu - Kaldırıldı */
+    height: 100%; /* Slider yüksekliği ile uyumlu */
+    width: 100%;
 }
 
 .slide {
     flex: 0 0 100%; /* Her slayt tam genişlik kaplar */
+    display: flex; /* İçeriği ortalamak için */
+    justify-content: center; /* Yatay ortalama */
+    align-items: center; /* Dikey ortalama */
+    height: 100%; /* Slider ile aynı yükseklik */
+    box-sizing: border-box; /* Padding ve border'ı dahil et */
+    max-height: 400px;
 }
 
 .slide img {
     width: 100%;
     height: 100%;
-    min-height: 400px; /* Minimum yükseklik */
-    object-fit: cover; /* Resmi kutuya sığdır */
+    object-fit: cover; /* Resmi kutuyu tamamen kaplayacak şekilde sığdır, bazı kısımlar kesilebilir */
+    display: block; /* Blok öğesi yaparak ekstra boşlukları kaldır */
+    margin: 0; /* Otomatik margin kaldır */
+    box-sizing: border-box; /* Kutunun boyutunun içinde yer almasını sağlar */
 }
-

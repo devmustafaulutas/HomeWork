@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QUHWt6/pyeP1s5/oudR6srJZIz0I+vL4f6TDXg5rjiQ=",
+  "Hash": "lrNLpZAjxQD8wSbH2tGCfWRiFsSuVJDTzQsKYwQ9n4s=",
   "Source": "23210202037",
   "BasePath": "_content/23210202037",
   "Mode": "Default",
@@ -1319,6 +1319,27 @@
       "OriginalItemSpec": "C:\\Users\\musta\\Desktop\\23210202037\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\23210202037.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\css\\about.css",
+      "SourceId": "23210202037",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\",
+      "BasePath": "_content/23210202037",
+      "RelativePath": "css/about#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e253udfrc7",
+      "Integrity": "muE3QGI5imWgC9ePi+YxguxQiPxBl3WrRMrBKQcJeIo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\about.css"
+    },
+    {
       "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\css\\index.css",
       "SourceId": "23210202037",
       "SourceType": "Discovered",
@@ -1333,8 +1354,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "yn5yu75uve",
-      "Integrity": "0oSutzdwWvGZXyMZF1G/q8z6OZUAUv+tacUi0fB5Cc4=",
+      "Fingerprint": "lkrk0pc9zo",
+      "Integrity": "lcyA/FzMkQNTEk1cvC9FFIwe3B6bzRjQtGIgv1MuVFw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\index.css"
@@ -1417,8 +1438,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "sfti2sfh1c",
-      "Integrity": "iMevSsC/MGkVCKFbp2L5nfJNI14H7aX2yuQhpIWBigY=",
+      "Fingerprint": "1gxkaaewqa",
+      "Integrity": "UXi2aFtqM8cGoP25qNTFZ4LlkcCSO5Gg2CVzIhgHtLQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1466,12 +1487,138 @@
       "OriginalItemSpec": "wwwroot\\img\\canakkale-manzara\\canakkale-img-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\01a5936fd4dd4e0590b2f30ece034769.jpg",
+      "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-manzara\\manzara-1.jpeg",
       "SourceId": "23210202037",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\",
       "BasePath": "_content/23210202037",
-      "RelativePath": "img/canakkale-savasi/01a5936fd4dd4e0590b2f30ece034769#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/canakkale-manzara/manzara-1#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0hlkp5bpnk",
+      "Integrity": "THmKf+1xHje7TPNVoSDCy5UEkt2ATVlkKHSQkoIdQWY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\canakkale-manzara\\manzara-1.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-manzara\\manzara-2.htm",
+      "SourceId": "23210202037",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\",
+      "BasePath": "_content/23210202037",
+      "RelativePath": "img/canakkale-manzara/manzara-2#[.{fingerprint}]?.htm",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dnsxrt5qrc",
+      "Integrity": "t5F2w2TZdbLBBIf25/kC04VKvF5PSahMajfMCBLzTcg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\canakkale-manzara\\manzara-2.htm"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-manzara\\manzara-2.jpg",
+      "SourceId": "23210202037",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\",
+      "BasePath": "_content/23210202037",
+      "RelativePath": "img/canakkale-manzara/manzara-2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "m22kryab9m",
+      "Integrity": "fmqAoLQejRIASd/OBdzgtKSEU2lqRZGueUvPbbB/dH0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\canakkale-manzara\\manzara-2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-manzara\\manzara-3.jpg",
+      "SourceId": "23210202037",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\",
+      "BasePath": "_content/23210202037",
+      "RelativePath": "img/canakkale-manzara/manzara-3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lo11utmg65",
+      "Integrity": "xZAPlmAGZbZg3vpZmFerBmyH1wfvNKC+8XAjfAghklw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\canakkale-manzara\\manzara-3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-manzara\\manzara-4.jpeg",
+      "SourceId": "23210202037",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\",
+      "BasePath": "_content/23210202037",
+      "RelativePath": "img/canakkale-manzara/manzara-4#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0gk6cl267z",
+      "Integrity": "ALMRwnY2IDnxx9/Rrd9X+EZGQoi9s4FzZY4E5zQuBJQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\canakkale-manzara\\manzara-4.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-manzara\\manzara-5.jpeg",
+      "SourceId": "23210202037",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\",
+      "BasePath": "_content/23210202037",
+      "RelativePath": "img/canakkale-manzara/manzara-5#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ebor6qnpm6",
+      "Integrity": "2tGuyI9aS1MWYUI5BddCzmCPIeAVfL2kHZ5R9yWXSbo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\canakkale-manzara\\manzara-5.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-1.jpg",
+      "SourceId": "23210202037",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\",
+      "BasePath": "_content/23210202037",
+      "RelativePath": "img/canakkale-savasi/savas-1#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1484,183 +1631,15 @@
       "Integrity": "ZSkRlzIBCHwK2EeH+m4BJyxGN2FZEfRUsoEv7Lvlx1c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\canakkale-savasi\\01a5936fd4dd4e0590b2f30ece034769.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\canakkale-savasi\\savas-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\39dae7c1e5284f2482e0ef60c2c0581c.jpg",
+      "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-10.jpg",
       "SourceId": "23210202037",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\",
       "BasePath": "_content/23210202037",
-      "RelativePath": "img/canakkale-savasi/39dae7c1e5284f2482e0ef60c2c0581c#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "sq5jxava98",
-      "Integrity": "1DxAa0xZAwRnh7Yywp+vT8uQbETu3Pv46mJ1R6uRUR4=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\canakkale-savasi\\39dae7c1e5284f2482e0ef60c2c0581c.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\56f71abf76744c93b61addcb9c8cd858.jpg",
-      "SourceId": "23210202037",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\",
-      "BasePath": "_content/23210202037",
-      "RelativePath": "img/canakkale-savasi/56f71abf76744c93b61addcb9c8cd858#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "wqdvfky4bz",
-      "Integrity": "WLYbNtb7Y3AuxMMQ/hbpSpHvT0G8Xdk4zxOrZYQs2wY=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\canakkale-savasi\\56f71abf76744c93b61addcb9c8cd858.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\60d299a8seyid_onbashi.jpeg",
-      "SourceId": "23210202037",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\",
-      "BasePath": "_content/23210202037",
-      "RelativePath": "img/canakkale-savasi/60d299a8seyid_onbashi#[.{fingerprint}]?.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "2r55ym8d0q",
-      "Integrity": "ohmhNLsMB0S32bMoo3lEBa9tu9QF6e8MLY7O8JjXU9Q=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\canakkale-savasi\\60d299a8seyid_onbashi.jpeg"
-    },
-    {
-      "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\a09178450ff94deabfbccc730bb1061c.jpg",
-      "SourceId": "23210202037",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\",
-      "BasePath": "_content/23210202037",
-      "RelativePath": "img/canakkale-savasi/a09178450ff94deabfbccc730bb1061c#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "gqqwxq04wc",
-      "Integrity": "WLjCl03fZdJCm7ViqEJXw+v64xDn8cUPF9qHQjrZSPE=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\canakkale-savasi\\a09178450ff94deabfbccc730bb1061c.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\ce3f679622364855a5885ea068f5c55e.jpg",
-      "SourceId": "23210202037",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\",
-      "BasePath": "_content/23210202037",
-      "RelativePath": "img/canakkale-savasi/ce3f679622364855a5885ea068f5c55e#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "dgev8loh49",
-      "Integrity": "7ZbGvIXQXxJVhNhNukBn0aB57e3S2ARNNybj9yqmfrE=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\canakkale-savasi\\ce3f679622364855a5885ea068f5c55e.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\dcdc9c05169d4159afe2a580617bfa1a.jpg",
-      "SourceId": "23210202037",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\",
-      "BasePath": "_content/23210202037",
-      "RelativePath": "img/canakkale-savasi/dcdc9c05169d4159afe2a580617bfa1a#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "6vg71b8sb5",
-      "Integrity": "In5aMrn81FFlSBv9M4WeNSLMSqLHlRyB+LSZtR4V464=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\canakkale-savasi\\dcdc9c05169d4159afe2a580617bfa1a.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\ecaaf4c8a0534715b8d6f9fcfbef8ed3.jpg",
-      "SourceId": "23210202037",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\",
-      "BasePath": "_content/23210202037",
-      "RelativePath": "img/canakkale-savasi/ecaaf4c8a0534715b8d6f9fcfbef8ed3#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "vi2fjdpei6",
-      "Integrity": "hxH2z32v9SoJM55iQPHkXnV1zbABaZ6h06jcDm8sT5g=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\canakkale-savasi\\ecaaf4c8a0534715b8d6f9fcfbef8ed3.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\fdce0037f853466d96857797bacdfbbe.jpg",
-      "SourceId": "23210202037",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\",
-      "BasePath": "_content/23210202037",
-      "RelativePath": "img/canakkale-savasi/fdce0037f853466d96857797bacdfbbe#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "sou5l2t5xw",
-      "Integrity": "ZEgPCcORkKq8iQVGW3hlT4hbEBhfSMpnllEL55ZHPb8=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\canakkale-savasi\\fdce0037f853466d96857797bacdfbbe.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\resized_db85a-7f91d8477baa43fda48a2b09c1313798.jpg",
-      "SourceId": "23210202037",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\",
-      "BasePath": "_content/23210202037",
-      "RelativePath": "img/canakkale-savasi/resized_db85a-7f91d8477baa43fda48a2b09c1313798#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/canakkale-savasi/savas-10#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1673,7 +1652,217 @@
       "Integrity": "rlTxEyr/9nfcAke/cLz9Bsd4DBMjo3TmZYuaxnGibz0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\canakkale-savasi\\resized_db85a-7f91d8477baa43fda48a2b09c1313798.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\canakkale-savasi\\savas-10.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-11.jpeg",
+      "SourceId": "23210202037",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\",
+      "BasePath": "_content/23210202037",
+      "RelativePath": "img/canakkale-savasi/savas-11#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "r4dcs8vcnz",
+      "Integrity": "e3k8YHL3KFtlFUchPA4YQQd4ZLgh+3Aj3XwVnoGIDVY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\canakkale-savasi\\savas-11.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-12.jpeg",
+      "SourceId": "23210202037",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\",
+      "BasePath": "_content/23210202037",
+      "RelativePath": "img/canakkale-savasi/savas-12#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ld3evxpeb2",
+      "Integrity": "mbsmkT0oqV0suDKR8q9r+YuTbbc+F/mLQlUClqPZ7C4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\canakkale-savasi\\savas-12.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-2.jpg",
+      "SourceId": "23210202037",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\",
+      "BasePath": "_content/23210202037",
+      "RelativePath": "img/canakkale-savasi/savas-2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sq5jxava98",
+      "Integrity": "1DxAa0xZAwRnh7Yywp+vT8uQbETu3Pv46mJ1R6uRUR4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\canakkale-savasi\\savas-2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-3.jpg",
+      "SourceId": "23210202037",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\",
+      "BasePath": "_content/23210202037",
+      "RelativePath": "img/canakkale-savasi/savas-3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wqdvfky4bz",
+      "Integrity": "WLYbNtb7Y3AuxMMQ/hbpSpHvT0G8Xdk4zxOrZYQs2wY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\canakkale-savasi\\savas-3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-4.jpeg",
+      "SourceId": "23210202037",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\",
+      "BasePath": "_content/23210202037",
+      "RelativePath": "img/canakkale-savasi/savas-4#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2r55ym8d0q",
+      "Integrity": "ohmhNLsMB0S32bMoo3lEBa9tu9QF6e8MLY7O8JjXU9Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\canakkale-savasi\\savas-4.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-5.jpg",
+      "SourceId": "23210202037",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\",
+      "BasePath": "_content/23210202037",
+      "RelativePath": "img/canakkale-savasi/savas-5#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gqqwxq04wc",
+      "Integrity": "WLjCl03fZdJCm7ViqEJXw+v64xDn8cUPF9qHQjrZSPE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\canakkale-savasi\\savas-5.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-6.jpg",
+      "SourceId": "23210202037",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\",
+      "BasePath": "_content/23210202037",
+      "RelativePath": "img/canakkale-savasi/savas-6#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dgev8loh49",
+      "Integrity": "7ZbGvIXQXxJVhNhNukBn0aB57e3S2ARNNybj9yqmfrE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\canakkale-savasi\\savas-6.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-7.jpg",
+      "SourceId": "23210202037",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\",
+      "BasePath": "_content/23210202037",
+      "RelativePath": "img/canakkale-savasi/savas-7#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6vg71b8sb5",
+      "Integrity": "In5aMrn81FFlSBv9M4WeNSLMSqLHlRyB+LSZtR4V464=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\canakkale-savasi\\savas-7.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-8.jpg",
+      "SourceId": "23210202037",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\",
+      "BasePath": "_content/23210202037",
+      "RelativePath": "img/canakkale-savasi/savas-8#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vi2fjdpei6",
+      "Integrity": "hxH2z32v9SoJM55iQPHkXnV1zbABaZ6h06jcDm8sT5g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\canakkale-savasi\\savas-8.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-9.jpg",
+      "SourceId": "23210202037",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\",
+      "BasePath": "_content/23210202037",
+      "RelativePath": "img/canakkale-savasi/savas-9#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sou5l2t5xw",
+      "Integrity": "ZEgPCcORkKq8iQVGW3hlT4hbEBhfSMpnllEL55ZHPb8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\canakkale-savasi\\savas-9.jpg"
     },
     {
       "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale\\canakkale-img-2.jpg",
@@ -1739,6 +1928,27 @@
       "OriginalItemSpec": "wwwroot\\img\\canakkale\\canakkale-logo.jpg"
     },
     {
+      "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale\\canakkale-logo.svg",
+      "SourceId": "23210202037",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\",
+      "BasePath": "_content/23210202037",
+      "RelativePath": "img/canakkale/canakkale-logo#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qqz5oi1vuv",
+      "Integrity": "zkviLKh/parh1GzNk9f8+UZG0DIkaAcvfrsnrdhSvBg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\canakkale\\canakkale-logo.svg"
+    },
+    {
       "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale\\köyyolu.jpg",
       "SourceId": "23210202037",
       "SourceType": "Discovered",
@@ -1760,6 +1970,27 @@
       "OriginalItemSpec": "wwwroot\\img\\canakkale\\köyyolu.jpg"
     },
     {
+      "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\js\\about.js",
+      "SourceId": "23210202037",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\",
+      "BasePath": "_content/23210202037",
+      "RelativePath": "js/about#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ck519e81sa",
+      "Integrity": "lMyIsR9uoQvlxlDQZ4/v3khmoEAgDoYbxBniC+34t6k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\about.js"
+    },
+    {
       "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\js\\index.js",
       "SourceId": "23210202037",
       "SourceType": "Discovered",
@@ -1774,8 +2005,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "fkzdfho5zb",
-      "Integrity": "Twg/NjLokMdQrbmPeNKHk28wqWJRCGB8IQ/j28xk+Ds=",
+      "Fingerprint": "klunxnsuuy",
+      "Integrity": "WEg1929kYlKQ8qbqbvBqQv6IaceSYfr1bPsr5PmB1/I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\index.js"
@@ -1795,8 +2026,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "0h6igyyros",
-      "Integrity": "vFamT3BQxbSYiG2DfoTobcZCvQ8Nt4Huij1CbhTyyWo=",
+      "Fingerprint": "4vvogrqjp9",
+      "Integrity": "UHNOJiAO9jxzTqWmQMbY7duST0wDb0lxMdyQVkzmG8A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -3086,7 +3317,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 12:59:31 GMT"
+          "Value": "Sat, 14 Dec 2024 09:13:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3123,7 +3354,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 12:59:31 GMT"
+          "Value": "Sat, 14 Dec 2024 09:13:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3168,7 +3399,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 12:59:31 GMT"
+          "Value": "Sat, 14 Dec 2024 09:13:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3213,7 +3444,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 12:59:31 GMT"
+          "Value": "Sat, 14 Dec 2024 09:13:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3228,6 +3459,88 @@
       ]
     },
     {
+      "Route": "css/about.css",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\css\\about.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2075"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"muE3QGI5imWgC9ePi+YxguxQiPxBl3WrRMrBKQcJeIo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 17:51:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-muE3QGI5imWgC9ePi+YxguxQiPxBl3WrRMrBKQcJeIo="
+        }
+      ]
+    },
+    {
+      "Route": "css/about.e253udfrc7.css",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\css\\about.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2075"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"muE3QGI5imWgC9ePi+YxguxQiPxBl3WrRMrBKQcJeIo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 17:51:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e253udfrc7"
+        },
+        {
+          "Name": "label",
+          "Value": "css/about.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-muE3QGI5imWgC9ePi+YxguxQiPxBl3WrRMrBKQcJeIo="
+        }
+      ]
+    },
+    {
       "Route": "css/index.css",
       "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\css\\index.css",
       "Selectors": [],
@@ -3238,7 +3551,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1494"
+          "Value": "2110"
         },
         {
           "Name": "Content-Type",
@@ -3246,11 +3559,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0oSutzdwWvGZXyMZF1G/q8z6OZUAUv+tacUi0fB5Cc4=\""
+          "Value": "\"lcyA/FzMkQNTEk1cvC9FFIwe3B6bzRjQtGIgv1MuVFw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 17:04:10 GMT"
+          "Value": "Sat, 14 Dec 2024 08:58:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3260,12 +3573,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-0oSutzdwWvGZXyMZF1G/q8z6OZUAUv+tacUi0fB5Cc4="
+          "Value": "sha256-lcyA/FzMkQNTEk1cvC9FFIwe3B6bzRjQtGIgv1MuVFw="
         }
       ]
     },
     {
-      "Route": "css/index.yn5yu75uve.css",
+      "Route": "css/index.lkrk0pc9zo.css",
       "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\css\\index.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3275,7 +3588,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1494"
+          "Value": "2110"
         },
         {
           "Name": "Content-Type",
@@ -3283,11 +3596,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0oSutzdwWvGZXyMZF1G/q8z6OZUAUv+tacUi0fB5Cc4=\""
+          "Value": "\"lcyA/FzMkQNTEk1cvC9FFIwe3B6bzRjQtGIgv1MuVFw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 17:04:10 GMT"
+          "Value": "Sat, 14 Dec 2024 08:58:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3297,7 +3610,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "yn5yu75uve"
+          "Value": "lkrk0pc9zo"
         },
         {
           "Name": "label",
@@ -3305,7 +3618,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-0oSutzdwWvGZXyMZF1G/q8z6OZUAUv+tacUi0fB5Cc4="
+          "Value": "sha256-lcyA/FzMkQNTEk1cvC9FFIwe3B6bzRjQtGIgv1MuVFw="
         }
       ]
     },
@@ -3556,6 +3869,51 @@
       ]
     },
     {
+      "Route": "css/site.1gxkaaewqa.css",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13016"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UXi2aFtqM8cGoP25qNTFZ4LlkcCSO5Gg2CVzIhgHtLQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 08:59:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1gxkaaewqa"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UXi2aFtqM8cGoP25qNTFZ4LlkcCSO5Gg2CVzIhgHtLQ="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -3566,7 +3924,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10530"
+          "Value": "13016"
         },
         {
           "Name": "Content-Type",
@@ -3574,11 +3932,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"iMevSsC/MGkVCKFbp2L5nfJNI14H7aX2yuQhpIWBigY=\""
+          "Value": "\"UXi2aFtqM8cGoP25qNTFZ4LlkcCSO5Gg2CVzIhgHtLQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:30:17 GMT"
+          "Value": "Sat, 14 Dec 2024 08:59:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3588,52 +3946,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-iMevSsC/MGkVCKFbp2L5nfJNI14H7aX2yuQhpIWBigY="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.sfti2sfh1c.css",
-      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "10530"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"iMevSsC/MGkVCKFbp2L5nfJNI14H7aX2yuQhpIWBigY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:30:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "sfti2sfh1c"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-iMevSsC/MGkVCKFbp2L5nfJNI14H7aX2yuQhpIWBigY="
+          "Value": "sha256-UXi2aFtqM8cGoP25qNTFZ4LlkcCSO5Gg2CVzIhgHtLQ="
         }
       ]
     },
@@ -6022,8 +6335,500 @@
       ]
     },
     {
-      "Route": "img/canakkale-savasi/01a5936fd4dd4e0590b2f30ece034769.jpg",
-      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\01a5936fd4dd4e0590b2f30ece034769.jpg",
+      "Route": "img/canakkale-manzara/manzara-1.0hlkp5bpnk.jpeg",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-manzara\\manzara-1.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "208591"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"THmKf+1xHje7TPNVoSDCy5UEkt2ATVlkKHSQkoIdQWY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 06:52:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0hlkp5bpnk"
+        },
+        {
+          "Name": "label",
+          "Value": "img/canakkale-manzara/manzara-1.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-THmKf+1xHje7TPNVoSDCy5UEkt2ATVlkKHSQkoIdQWY="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-manzara/manzara-1.jpeg",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-manzara\\manzara-1.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "208591"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"THmKf+1xHje7TPNVoSDCy5UEkt2ATVlkKHSQkoIdQWY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 06:52:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-THmKf+1xHje7TPNVoSDCy5UEkt2ATVlkKHSQkoIdQWY="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-manzara/manzara-2.dnsxrt5qrc.htm",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-manzara\\manzara-2.htm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "655502"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t5F2w2TZdbLBBIf25/kC04VKvF5PSahMajfMCBLzTcg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 08:12:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dnsxrt5qrc"
+        },
+        {
+          "Name": "label",
+          "Value": "img/canakkale-manzara/manzara-2.htm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-t5F2w2TZdbLBBIf25/kC04VKvF5PSahMajfMCBLzTcg="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-manzara/manzara-2.htm",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-manzara\\manzara-2.htm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "655502"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t5F2w2TZdbLBBIf25/kC04VKvF5PSahMajfMCBLzTcg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 08:12:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-t5F2w2TZdbLBBIf25/kC04VKvF5PSahMajfMCBLzTcg="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-manzara/manzara-2.jpg",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-manzara\\manzara-2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "70949"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fmqAoLQejRIASd/OBdzgtKSEU2lqRZGueUvPbbB/dH0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 06:56:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fmqAoLQejRIASd/OBdzgtKSEU2lqRZGueUvPbbB/dH0="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-manzara/manzara-2.m22kryab9m.jpg",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-manzara\\manzara-2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "70949"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fmqAoLQejRIASd/OBdzgtKSEU2lqRZGueUvPbbB/dH0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 06:56:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m22kryab9m"
+        },
+        {
+          "Name": "label",
+          "Value": "img/canakkale-manzara/manzara-2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fmqAoLQejRIASd/OBdzgtKSEU2lqRZGueUvPbbB/dH0="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-manzara/manzara-3.jpg",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-manzara\\manzara-3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12476631"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xZAPlmAGZbZg3vpZmFerBmyH1wfvNKC+8XAjfAghklw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 07:02:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xZAPlmAGZbZg3vpZmFerBmyH1wfvNKC+8XAjfAghklw="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-manzara/manzara-3.lo11utmg65.jpg",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-manzara\\manzara-3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12476631"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xZAPlmAGZbZg3vpZmFerBmyH1wfvNKC+8XAjfAghklw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 07:02:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lo11utmg65"
+        },
+        {
+          "Name": "label",
+          "Value": "img/canakkale-manzara/manzara-3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xZAPlmAGZbZg3vpZmFerBmyH1wfvNKC+8XAjfAghklw="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-manzara/manzara-4.0gk6cl267z.jpeg",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-manzara\\manzara-4.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "146934"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ALMRwnY2IDnxx9/Rrd9X+EZGQoi9s4FzZY4E5zQuBJQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 07:06:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0gk6cl267z"
+        },
+        {
+          "Name": "label",
+          "Value": "img/canakkale-manzara/manzara-4.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ALMRwnY2IDnxx9/Rrd9X+EZGQoi9s4FzZY4E5zQuBJQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-manzara/manzara-4.jpeg",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-manzara\\manzara-4.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "146934"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ALMRwnY2IDnxx9/Rrd9X+EZGQoi9s4FzZY4E5zQuBJQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 07:06:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ALMRwnY2IDnxx9/Rrd9X+EZGQoi9s4FzZY4E5zQuBJQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-manzara/manzara-5.ebor6qnpm6.jpeg",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-manzara\\manzara-5.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "145534"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2tGuyI9aS1MWYUI5BddCzmCPIeAVfL2kHZ5R9yWXSbo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 07:06:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ebor6qnpm6"
+        },
+        {
+          "Name": "label",
+          "Value": "img/canakkale-manzara/manzara-5.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2tGuyI9aS1MWYUI5BddCzmCPIeAVfL2kHZ5R9yWXSbo="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-manzara/manzara-5.jpeg",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-manzara\\manzara-5.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "145534"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2tGuyI9aS1MWYUI5BddCzmCPIeAVfL2kHZ5R9yWXSbo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 07:06:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2tGuyI9aS1MWYUI5BddCzmCPIeAVfL2kHZ5R9yWXSbo="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-savasi/savas-1.jpg",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6059,8 +6864,8 @@
       ]
     },
     {
-      "Route": "img/canakkale-savasi/01a5936fd4dd4e0590b2f30ece034769.tys38fxbgd.jpg",
-      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\01a5936fd4dd4e0590b2f30ece034769.jpg",
+      "Route": "img/canakkale-savasi/savas-1.tys38fxbgd.jpg",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6095,7 +6900,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/canakkale-savasi/01a5936fd4dd4e0590b2f30ece034769.jpg"
+          "Value": "img/canakkale-savasi/savas-1.jpg"
         },
         {
           "Name": "integrity",
@@ -6104,664 +6909,8 @@
       ]
     },
     {
-      "Route": "img/canakkale-savasi/39dae7c1e5284f2482e0ef60c2c0581c.jpg",
-      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\39dae7c1e5284f2482e0ef60c2c0581c.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "146852"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"1DxAa0xZAwRnh7Yywp+vT8uQbETu3Pv46mJ1R6uRUR4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 17:16:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-1DxAa0xZAwRnh7Yywp+vT8uQbETu3Pv46mJ1R6uRUR4="
-        }
-      ]
-    },
-    {
-      "Route": "img/canakkale-savasi/39dae7c1e5284f2482e0ef60c2c0581c.sq5jxava98.jpg",
-      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\39dae7c1e5284f2482e0ef60c2c0581c.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "146852"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"1DxAa0xZAwRnh7Yywp+vT8uQbETu3Pv46mJ1R6uRUR4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 17:16:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "sq5jxava98"
-        },
-        {
-          "Name": "label",
-          "Value": "img/canakkale-savasi/39dae7c1e5284f2482e0ef60c2c0581c.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-1DxAa0xZAwRnh7Yywp+vT8uQbETu3Pv46mJ1R6uRUR4="
-        }
-      ]
-    },
-    {
-      "Route": "img/canakkale-savasi/56f71abf76744c93b61addcb9c8cd858.jpg",
-      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\56f71abf76744c93b61addcb9c8cd858.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "144686"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"WLYbNtb7Y3AuxMMQ/hbpSpHvT0G8Xdk4zxOrZYQs2wY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 17:16:04 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-WLYbNtb7Y3AuxMMQ/hbpSpHvT0G8Xdk4zxOrZYQs2wY="
-        }
-      ]
-    },
-    {
-      "Route": "img/canakkale-savasi/56f71abf76744c93b61addcb9c8cd858.wqdvfky4bz.jpg",
-      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\56f71abf76744c93b61addcb9c8cd858.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "144686"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"WLYbNtb7Y3AuxMMQ/hbpSpHvT0G8Xdk4zxOrZYQs2wY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 17:16:04 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "wqdvfky4bz"
-        },
-        {
-          "Name": "label",
-          "Value": "img/canakkale-savasi/56f71abf76744c93b61addcb9c8cd858.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-WLYbNtb7Y3AuxMMQ/hbpSpHvT0G8Xdk4zxOrZYQs2wY="
-        }
-      ]
-    },
-    {
-      "Route": "img/canakkale-savasi/60d299a8seyid_onbashi.2r55ym8d0q.jpeg",
-      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\60d299a8seyid_onbashi.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "267958"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ohmhNLsMB0S32bMoo3lEBa9tu9QF6e8MLY7O8JjXU9Q=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 17:16:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "2r55ym8d0q"
-        },
-        {
-          "Name": "label",
-          "Value": "img/canakkale-savasi/60d299a8seyid_onbashi.jpeg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ohmhNLsMB0S32bMoo3lEBa9tu9QF6e8MLY7O8JjXU9Q="
-        }
-      ]
-    },
-    {
-      "Route": "img/canakkale-savasi/60d299a8seyid_onbashi.jpeg",
-      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\60d299a8seyid_onbashi.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "267958"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ohmhNLsMB0S32bMoo3lEBa9tu9QF6e8MLY7O8JjXU9Q=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 17:16:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ohmhNLsMB0S32bMoo3lEBa9tu9QF6e8MLY7O8JjXU9Q="
-        }
-      ]
-    },
-    {
-      "Route": "img/canakkale-savasi/a09178450ff94deabfbccc730bb1061c.gqqwxq04wc.jpg",
-      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\a09178450ff94deabfbccc730bb1061c.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "192754"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"WLjCl03fZdJCm7ViqEJXw+v64xDn8cUPF9qHQjrZSPE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 17:16:12 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "gqqwxq04wc"
-        },
-        {
-          "Name": "label",
-          "Value": "img/canakkale-savasi/a09178450ff94deabfbccc730bb1061c.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-WLjCl03fZdJCm7ViqEJXw+v64xDn8cUPF9qHQjrZSPE="
-        }
-      ]
-    },
-    {
-      "Route": "img/canakkale-savasi/a09178450ff94deabfbccc730bb1061c.jpg",
-      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\a09178450ff94deabfbccc730bb1061c.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "192754"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"WLjCl03fZdJCm7ViqEJXw+v64xDn8cUPF9qHQjrZSPE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 17:16:12 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-WLjCl03fZdJCm7ViqEJXw+v64xDn8cUPF9qHQjrZSPE="
-        }
-      ]
-    },
-    {
-      "Route": "img/canakkale-savasi/ce3f679622364855a5885ea068f5c55e.dgev8loh49.jpg",
-      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\ce3f679622364855a5885ea068f5c55e.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "114638"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"7ZbGvIXQXxJVhNhNukBn0aB57e3S2ARNNybj9yqmfrE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 17:15:58 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "dgev8loh49"
-        },
-        {
-          "Name": "label",
-          "Value": "img/canakkale-savasi/ce3f679622364855a5885ea068f5c55e.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-7ZbGvIXQXxJVhNhNukBn0aB57e3S2ARNNybj9yqmfrE="
-        }
-      ]
-    },
-    {
-      "Route": "img/canakkale-savasi/ce3f679622364855a5885ea068f5c55e.jpg",
-      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\ce3f679622364855a5885ea068f5c55e.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "114638"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"7ZbGvIXQXxJVhNhNukBn0aB57e3S2ARNNybj9yqmfrE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 17:15:58 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-7ZbGvIXQXxJVhNhNukBn0aB57e3S2ARNNybj9yqmfrE="
-        }
-      ]
-    },
-    {
-      "Route": "img/canakkale-savasi/dcdc9c05169d4159afe2a580617bfa1a.6vg71b8sb5.jpg",
-      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\dcdc9c05169d4159afe2a580617bfa1a.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "128236"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"In5aMrn81FFlSBv9M4WeNSLMSqLHlRyB+LSZtR4V464=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 17:16:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "6vg71b8sb5"
-        },
-        {
-          "Name": "label",
-          "Value": "img/canakkale-savasi/dcdc9c05169d4159afe2a580617bfa1a.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-In5aMrn81FFlSBv9M4WeNSLMSqLHlRyB+LSZtR4V464="
-        }
-      ]
-    },
-    {
-      "Route": "img/canakkale-savasi/dcdc9c05169d4159afe2a580617bfa1a.jpg",
-      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\dcdc9c05169d4159afe2a580617bfa1a.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "128236"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"In5aMrn81FFlSBv9M4WeNSLMSqLHlRyB+LSZtR4V464=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 17:16:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-In5aMrn81FFlSBv9M4WeNSLMSqLHlRyB+LSZtR4V464="
-        }
-      ]
-    },
-    {
-      "Route": "img/canakkale-savasi/ecaaf4c8a0534715b8d6f9fcfbef8ed3.jpg",
-      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\ecaaf4c8a0534715b8d6f9fcfbef8ed3.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "200414"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hxH2z32v9SoJM55iQPHkXnV1zbABaZ6h06jcDm8sT5g=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 17:16:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-hxH2z32v9SoJM55iQPHkXnV1zbABaZ6h06jcDm8sT5g="
-        }
-      ]
-    },
-    {
-      "Route": "img/canakkale-savasi/ecaaf4c8a0534715b8d6f9fcfbef8ed3.vi2fjdpei6.jpg",
-      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\ecaaf4c8a0534715b8d6f9fcfbef8ed3.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "200414"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hxH2z32v9SoJM55iQPHkXnV1zbABaZ6h06jcDm8sT5g=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 17:16:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "vi2fjdpei6"
-        },
-        {
-          "Name": "label",
-          "Value": "img/canakkale-savasi/ecaaf4c8a0534715b8d6f9fcfbef8ed3.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-hxH2z32v9SoJM55iQPHkXnV1zbABaZ6h06jcDm8sT5g="
-        }
-      ]
-    },
-    {
-      "Route": "img/canakkale-savasi/fdce0037f853466d96857797bacdfbbe.jpg",
-      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\fdce0037f853466d96857797bacdfbbe.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "134367"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ZEgPCcORkKq8iQVGW3hlT4hbEBhfSMpnllEL55ZHPb8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 17:16:14 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZEgPCcORkKq8iQVGW3hlT4hbEBhfSMpnllEL55ZHPb8="
-        }
-      ]
-    },
-    {
-      "Route": "img/canakkale-savasi/fdce0037f853466d96857797bacdfbbe.sou5l2t5xw.jpg",
-      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\fdce0037f853466d96857797bacdfbbe.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "134367"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ZEgPCcORkKq8iQVGW3hlT4hbEBhfSMpnllEL55ZHPb8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 17:16:14 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "sou5l2t5xw"
-        },
-        {
-          "Name": "label",
-          "Value": "img/canakkale-savasi/fdce0037f853466d96857797bacdfbbe.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZEgPCcORkKq8iQVGW3hlT4hbEBhfSMpnllEL55ZHPb8="
-        }
-      ]
-    },
-    {
-      "Route": "img/canakkale-savasi/resized_db85a-7f91d8477baa43fda48a2b09c1313798.edvu57h41p.jpg",
-      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\resized_db85a-7f91d8477baa43fda48a2b09c1313798.jpg",
+      "Route": "img/canakkale-savasi/savas-10.edvu57h41p.jpg",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-10.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6796,7 +6945,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/canakkale-savasi/resized_db85a-7f91d8477baa43fda48a2b09c1313798.jpg"
+          "Value": "img/canakkale-savasi/savas-10.jpg"
         },
         {
           "Name": "integrity",
@@ -6805,8 +6954,8 @@
       ]
     },
     {
-      "Route": "img/canakkale-savasi/resized_db85a-7f91d8477baa43fda48a2b09c1313798.jpg",
-      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\resized_db85a-7f91d8477baa43fda48a2b09c1313798.jpg",
+      "Route": "img/canakkale-savasi/savas-10.jpg",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-10.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6838,6 +6987,826 @@
         {
           "Name": "integrity",
           "Value": "sha256-rlTxEyr/9nfcAke/cLz9Bsd4DBMjo3TmZYuaxnGibz0="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-savasi/savas-11.jpeg",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-11.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38374"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e3k8YHL3KFtlFUchPA4YQQd4ZLgh+3Aj3XwVnoGIDVY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 07:05:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-e3k8YHL3KFtlFUchPA4YQQd4ZLgh+3Aj3XwVnoGIDVY="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-savasi/savas-11.r4dcs8vcnz.jpeg",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-11.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38374"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e3k8YHL3KFtlFUchPA4YQQd4ZLgh+3Aj3XwVnoGIDVY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 07:05:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r4dcs8vcnz"
+        },
+        {
+          "Name": "label",
+          "Value": "img/canakkale-savasi/savas-11.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-e3k8YHL3KFtlFUchPA4YQQd4ZLgh+3Aj3XwVnoGIDVY="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-savasi/savas-12.jpeg",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-12.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "73960"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mbsmkT0oqV0suDKR8q9r+YuTbbc+F/mLQlUClqPZ7C4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 07:04:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mbsmkT0oqV0suDKR8q9r+YuTbbc+F/mLQlUClqPZ7C4="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-savasi/savas-12.ld3evxpeb2.jpeg",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-12.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "73960"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mbsmkT0oqV0suDKR8q9r+YuTbbc+F/mLQlUClqPZ7C4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 07:04:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ld3evxpeb2"
+        },
+        {
+          "Name": "label",
+          "Value": "img/canakkale-savasi/savas-12.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mbsmkT0oqV0suDKR8q9r+YuTbbc+F/mLQlUClqPZ7C4="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-savasi/savas-2.jpg",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "146852"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1DxAa0xZAwRnh7Yywp+vT8uQbETu3Pv46mJ1R6uRUR4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 17:16:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1DxAa0xZAwRnh7Yywp+vT8uQbETu3Pv46mJ1R6uRUR4="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-savasi/savas-2.sq5jxava98.jpg",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "146852"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1DxAa0xZAwRnh7Yywp+vT8uQbETu3Pv46mJ1R6uRUR4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 17:16:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sq5jxava98"
+        },
+        {
+          "Name": "label",
+          "Value": "img/canakkale-savasi/savas-2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1DxAa0xZAwRnh7Yywp+vT8uQbETu3Pv46mJ1R6uRUR4="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-savasi/savas-3.jpg",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144686"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WLYbNtb7Y3AuxMMQ/hbpSpHvT0G8Xdk4zxOrZYQs2wY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 17:16:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WLYbNtb7Y3AuxMMQ/hbpSpHvT0G8Xdk4zxOrZYQs2wY="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-savasi/savas-3.wqdvfky4bz.jpg",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144686"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WLYbNtb7Y3AuxMMQ/hbpSpHvT0G8Xdk4zxOrZYQs2wY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 17:16:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wqdvfky4bz"
+        },
+        {
+          "Name": "label",
+          "Value": "img/canakkale-savasi/savas-3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WLYbNtb7Y3AuxMMQ/hbpSpHvT0G8Xdk4zxOrZYQs2wY="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-savasi/savas-4.2r55ym8d0q.jpeg",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-4.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "267958"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ohmhNLsMB0S32bMoo3lEBa9tu9QF6e8MLY7O8JjXU9Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 17:16:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2r55ym8d0q"
+        },
+        {
+          "Name": "label",
+          "Value": "img/canakkale-savasi/savas-4.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ohmhNLsMB0S32bMoo3lEBa9tu9QF6e8MLY7O8JjXU9Q="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-savasi/savas-4.jpeg",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-4.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "267958"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ohmhNLsMB0S32bMoo3lEBa9tu9QF6e8MLY7O8JjXU9Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 17:16:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ohmhNLsMB0S32bMoo3lEBa9tu9QF6e8MLY7O8JjXU9Q="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-savasi/savas-5.gqqwxq04wc.jpg",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "192754"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WLjCl03fZdJCm7ViqEJXw+v64xDn8cUPF9qHQjrZSPE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 17:16:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gqqwxq04wc"
+        },
+        {
+          "Name": "label",
+          "Value": "img/canakkale-savasi/savas-5.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WLjCl03fZdJCm7ViqEJXw+v64xDn8cUPF9qHQjrZSPE="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-savasi/savas-5.jpg",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "192754"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WLjCl03fZdJCm7ViqEJXw+v64xDn8cUPF9qHQjrZSPE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 17:16:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WLjCl03fZdJCm7ViqEJXw+v64xDn8cUPF9qHQjrZSPE="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-savasi/savas-6.dgev8loh49.jpg",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "114638"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7ZbGvIXQXxJVhNhNukBn0aB57e3S2ARNNybj9yqmfrE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 17:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dgev8loh49"
+        },
+        {
+          "Name": "label",
+          "Value": "img/canakkale-savasi/savas-6.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7ZbGvIXQXxJVhNhNukBn0aB57e3S2ARNNybj9yqmfrE="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-savasi/savas-6.jpg",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "114638"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7ZbGvIXQXxJVhNhNukBn0aB57e3S2ARNNybj9yqmfrE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 17:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7ZbGvIXQXxJVhNhNukBn0aB57e3S2ARNNybj9yqmfrE="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-savasi/savas-7.6vg71b8sb5.jpg",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "128236"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"In5aMrn81FFlSBv9M4WeNSLMSqLHlRyB+LSZtR4V464=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 17:16:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6vg71b8sb5"
+        },
+        {
+          "Name": "label",
+          "Value": "img/canakkale-savasi/savas-7.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-In5aMrn81FFlSBv9M4WeNSLMSqLHlRyB+LSZtR4V464="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-savasi/savas-7.jpg",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "128236"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"In5aMrn81FFlSBv9M4WeNSLMSqLHlRyB+LSZtR4V464=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 17:16:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-In5aMrn81FFlSBv9M4WeNSLMSqLHlRyB+LSZtR4V464="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-savasi/savas-8.jpg",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "200414"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hxH2z32v9SoJM55iQPHkXnV1zbABaZ6h06jcDm8sT5g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 17:16:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hxH2z32v9SoJM55iQPHkXnV1zbABaZ6h06jcDm8sT5g="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-savasi/savas-8.vi2fjdpei6.jpg",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "200414"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hxH2z32v9SoJM55iQPHkXnV1zbABaZ6h06jcDm8sT5g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 17:16:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vi2fjdpei6"
+        },
+        {
+          "Name": "label",
+          "Value": "img/canakkale-savasi/savas-8.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hxH2z32v9SoJM55iQPHkXnV1zbABaZ6h06jcDm8sT5g="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-savasi/savas-9.jpg",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-9.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "134367"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZEgPCcORkKq8iQVGW3hlT4hbEBhfSMpnllEL55ZHPb8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 17:16:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZEgPCcORkKq8iQVGW3hlT4hbEBhfSMpnllEL55ZHPb8="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale-savasi/savas-9.sou5l2t5xw.jpg",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-9.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "134367"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZEgPCcORkKq8iQVGW3hlT4hbEBhfSMpnllEL55ZHPb8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 17:16:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sou5l2t5xw"
+        },
+        {
+          "Name": "label",
+          "Value": "img/canakkale-savasi/savas-9.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZEgPCcORkKq8iQVGW3hlT4hbEBhfSMpnllEL55ZHPb8="
         }
       ]
     },
@@ -7088,6 +8057,88 @@
       ]
     },
     {
+      "Route": "img/canakkale/canakkale-logo.qqz5oi1vuv.svg",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale\\canakkale-logo.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11972"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zkviLKh/parh1GzNk9f8+UZG0DIkaAcvfrsnrdhSvBg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 07:25:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qqz5oi1vuv"
+        },
+        {
+          "Name": "label",
+          "Value": "img/canakkale/canakkale-logo.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zkviLKh/parh1GzNk9f8+UZG0DIkaAcvfrsnrdhSvBg="
+        }
+      ]
+    },
+    {
+      "Route": "img/canakkale/canakkale-logo.svg",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale\\canakkale-logo.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11972"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zkviLKh/parh1GzNk9f8+UZG0DIkaAcvfrsnrdhSvBg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 07:25:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zkviLKh/parh1GzNk9f8+UZG0DIkaAcvfrsnrdhSvBg="
+        }
+      ]
+    },
+    {
       "Route": "img/canakkale/köyyolu.85oeam8or4.jpg",
       "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\img\\canakkale\\köyyolu.jpg",
       "Selectors": [],
@@ -7170,8 +8221,8 @@
       ]
     },
     {
-      "Route": "js/index.fkzdfho5zb.js",
-      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\js\\index.js",
+      "Route": "js/about.ck519e81sa.js",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\js\\about.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7180,7 +8231,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "852"
+          "Value": "1844"
         },
         {
           "Name": "Content-Type",
@@ -7188,11 +8239,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Twg/NjLokMdQrbmPeNKHk28wqWJRCGB8IQ/j28xk+Ds=\""
+          "Value": "\"lMyIsR9uoQvlxlDQZ4/v3khmoEAgDoYbxBniC+34t6k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 17:05:41 GMT"
+          "Value": "Fri, 13 Dec 2024 17:49:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7202,15 +8253,52 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "fkzdfho5zb"
+          "Value": "ck519e81sa"
         },
         {
           "Name": "label",
-          "Value": "js/index.js"
+          "Value": "js/about.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Twg/NjLokMdQrbmPeNKHk28wqWJRCGB8IQ/j28xk+Ds="
+          "Value": "sha256-lMyIsR9uoQvlxlDQZ4/v3khmoEAgDoYbxBniC+34t6k="
+        }
+      ]
+    },
+    {
+      "Route": "js/about.js",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\js\\about.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1844"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lMyIsR9uoQvlxlDQZ4/v3khmoEAgDoYbxBniC+34t6k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 17:49:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lMyIsR9uoQvlxlDQZ4/v3khmoEAgDoYbxBniC+34t6k="
         }
       ]
     },
@@ -7225,7 +8313,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "852"
+          "Value": "432"
         },
         {
           "Name": "Content-Type",
@@ -7233,11 +8321,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Twg/NjLokMdQrbmPeNKHk28wqWJRCGB8IQ/j28xk+Ds=\""
+          "Value": "\"WEg1929kYlKQ8qbqbvBqQv6IaceSYfr1bPsr5PmB1/I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 17:05:41 GMT"
+          "Value": "Sat, 14 Dec 2024 08:48:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7247,13 +8335,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Twg/NjLokMdQrbmPeNKHk28wqWJRCGB8IQ/j28xk+Ds="
+          "Value": "sha256-WEg1929kYlKQ8qbqbvBqQv6IaceSYfr1bPsr5PmB1/I="
         }
       ]
     },
     {
-      "Route": "js/site.0h6igyyros.js",
-      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\js\\site.js",
+      "Route": "js/index.klunxnsuuy.js",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\js\\index.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7262,7 +8350,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2741"
+          "Value": "432"
         },
         {
           "Name": "Content-Type",
@@ -7270,11 +8358,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vFamT3BQxbSYiG2DfoTobcZCvQ8Nt4Huij1CbhTyyWo=\""
+          "Value": "\"WEg1929kYlKQ8qbqbvBqQv6IaceSYfr1bPsr5PmB1/I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:31:46 GMT"
+          "Value": "Sat, 14 Dec 2024 08:48:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7284,7 +8372,52 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "0h6igyyros"
+          "Value": "klunxnsuuy"
+        },
+        {
+          "Name": "label",
+          "Value": "js/index.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WEg1929kYlKQ8qbqbvBqQv6IaceSYfr1bPsr5PmB1/I="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.4vvogrqjp9.js",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2471"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UHNOJiAO9jxzTqWmQMbY7duST0wDb0lxMdyQVkzmG8A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 08:58:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4vvogrqjp9"
         },
         {
           "Name": "label",
@@ -7292,7 +8425,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-vFamT3BQxbSYiG2DfoTobcZCvQ8Nt4Huij1CbhTyyWo="
+          "Value": "sha256-UHNOJiAO9jxzTqWmQMbY7duST0wDb0lxMdyQVkzmG8A="
         }
       ]
     },
@@ -7307,7 +8440,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2741"
+          "Value": "2471"
         },
         {
           "Name": "Content-Type",
@@ -7315,11 +8448,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vFamT3BQxbSYiG2DfoTobcZCvQ8Nt4Huij1CbhTyyWo=\""
+          "Value": "\"UHNOJiAO9jxzTqWmQMbY7duST0wDb0lxMdyQVkzmG8A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Dec 2024 13:31:46 GMT"
+          "Value": "Sat, 14 Dec 2024 08:58:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7329,7 +8462,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-vFamT3BQxbSYiG2DfoTobcZCvQ8Nt4Huij1CbhTyyWo="
+          "Value": "sha256-UHNOJiAO9jxzTqWmQMbY7duST0wDb0lxMdyQVkzmG8A="
         }
       ]
     },

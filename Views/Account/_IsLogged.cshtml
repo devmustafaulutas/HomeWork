@@ -1,0 +1,38 @@
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<User> SignInManager
+@inject UserManager<User> UserManager
+@{
+}
+
+@if (SignInManager.IsSignedIn(User))
+{
+    <div class="profile-header">
+        <img src="~/img/profile/default-avatar.png" alt="Profil Resmi" class="profile-avatar">
+        <span class="profile-name">Kullanıcı Adı</span>
+    </div>
+     <ul class="profile-menu">
+        <li class="profile-menu-item">
+            <a href="#" class="profile-menu-link">Profil</a>
+        </li>
+        <li class="profile-menu-item">
+            <a href="#" class="profile-menu-link">Ayarlar</a>
+        </li>
+        <li class="profile-menu-item">
+            <a href="#" class="profile-menu-link">Çıkış Yap</a>
+        </li>
+    </ul>
+}
+else
+{
+    <div class="profile-header">
+        <span class="profile-name">Misafir</span>
+    </div>
+    <ul class="profile-menu">
+        <li class="profile-menu-item">
+            <a href="/Account/Login" class="profile-menu-link">Giriş Yap</a>
+        </li>
+        <li class="profile-menu-item">
+            <a href="/Account/Register" class="profile-menu-link">Kayıt Ol</a>
+        </li>
+    </ul>
+}
