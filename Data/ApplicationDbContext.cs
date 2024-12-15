@@ -28,7 +28,8 @@ namespace _23210202037.Data
             {
                 b.ToTable("roles");
                 b.Property(r => r.Id)
-                    .HasColumnType("int");
+                    .HasColumnType("int")
+                    .UseMySqlIdentityColumn(); // Otomatik artan kimlik sütunu
             });
         }
     }

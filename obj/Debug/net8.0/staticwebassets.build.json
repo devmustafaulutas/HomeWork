@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lrNLpZAjxQD8wSbH2tGCfWRiFsSuVJDTzQsKYwQ9n4s=",
+  "Hash": "T/vvyR/PIemq31z+6tZ7n+bInJRQCDbDWsm/C8J1v8s=",
   "Source": "23210202037",
   "BasePath": "_content/23210202037",
   "Mode": "Default",
@@ -1340,6 +1340,27 @@
       "OriginalItemSpec": "wwwroot\\css\\about.css"
     },
     {
+      "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\css\\account.css",
+      "SourceId": "23210202037",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\",
+      "BasePath": "_content/23210202037",
+      "RelativePath": "css/account#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dfcbd7wl0b",
+      "Integrity": "VwMn5XBxw03k662kYGc+i8nqk47+86ZDCFBSpusHvQs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\account.css"
+    },
+    {
       "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\css\\index.css",
       "SourceId": "23210202037",
       "SourceType": "Discovered",
@@ -1359,27 +1380,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\index.css"
-    },
-    {
-      "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\css\\login.css",
-      "SourceId": "23210202037",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\",
-      "BasePath": "_content/23210202037",
-      "RelativePath": "css/login#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "tgd74dfuzd",
-      "Integrity": "7YeqsGj/mswcNr/oVUTBBC/1sI7uNEYNJxW1qE49RGY=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\login.css"
     },
     {
       "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\css\\poppins.css",
@@ -1403,27 +1403,6 @@
       "OriginalItemSpec": "wwwroot\\css\\poppins.css"
     },
     {
-      "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\css\\register.css",
-      "SourceId": "23210202037",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\",
-      "BasePath": "_content/23210202037",
-      "RelativePath": "css/register#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "hyqkodubnc",
-      "Integrity": "hy64SoBKapW9pZmw5jXPDo9VtHfL7L6hZjEyiwpzi5Y=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\register.css"
-    },
-    {
       "Identity": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\css\\site.css",
       "SourceId": "23210202037",
       "SourceType": "Discovered",
@@ -1438,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "1gxkaaewqa",
-      "Integrity": "UXi2aFtqM8cGoP25qNTFZ4LlkcCSO5Gg2CVzIhgHtLQ=",
+      "Fingerprint": "a9o9wzmdeu",
+      "Integrity": "Dg9qzQrQRPw7Cnxy0UJf7zrBmcmrZXdmM8Ifbs+O4y8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -3317,7 +3296,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 09:13:26 GMT"
+          "Value": "Sun, 15 Dec 2024 08:47:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3354,7 +3333,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 09:13:26 GMT"
+          "Value": "Sun, 15 Dec 2024 08:47:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3399,7 +3378,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 09:13:26 GMT"
+          "Value": "Sun, 15 Dec 2024 08:47:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3444,7 +3423,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 09:13:26 GMT"
+          "Value": "Sun, 15 Dec 2024 08:47:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3541,6 +3520,88 @@
       ]
     },
     {
+      "Route": "css/account.css",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\css\\account.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3467"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VwMn5XBxw03k662kYGc+i8nqk47+86ZDCFBSpusHvQs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Dec 2024 08:44:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VwMn5XBxw03k662kYGc+i8nqk47+86ZDCFBSpusHvQs="
+        }
+      ]
+    },
+    {
+      "Route": "css/account.dfcbd7wl0b.css",
+      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\css\\account.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3467"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VwMn5XBxw03k662kYGc+i8nqk47+86ZDCFBSpusHvQs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Dec 2024 08:44:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dfcbd7wl0b"
+        },
+        {
+          "Name": "label",
+          "Value": "css/account.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VwMn5XBxw03k662kYGc+i8nqk47+86ZDCFBSpusHvQs="
+        }
+      ]
+    },
+    {
       "Route": "css/index.css",
       "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\css\\index.css",
       "Selectors": [],
@@ -3619,88 +3680,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-lcyA/FzMkQNTEk1cvC9FFIwe3B6bzRjQtGIgv1MuVFw="
-        }
-      ]
-    },
-    {
-      "Route": "css/login.css",
-      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\css\\login.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1446"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"7YeqsGj/mswcNr/oVUTBBC/1sI7uNEYNJxW1qE49RGY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 09 Dec 2024 15:51:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-7YeqsGj/mswcNr/oVUTBBC/1sI7uNEYNJxW1qE49RGY="
-        }
-      ]
-    },
-    {
-      "Route": "css/login.tgd74dfuzd.css",
-      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\css\\login.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1446"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"7YeqsGj/mswcNr/oVUTBBC/1sI7uNEYNJxW1qE49RGY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 09 Dec 2024 15:51:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "tgd74dfuzd"
-        },
-        {
-          "Name": "label",
-          "Value": "css/login.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-7YeqsGj/mswcNr/oVUTBBC/1sI7uNEYNJxW1qE49RGY="
         }
       ]
     },
@@ -3787,89 +3766,7 @@
       ]
     },
     {
-      "Route": "css/register.css",
-      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\css\\register.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1458"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hy64SoBKapW9pZmw5jXPDo9VtHfL7L6hZjEyiwpzi5Y=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 09 Dec 2024 15:56:24 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-hy64SoBKapW9pZmw5jXPDo9VtHfL7L6hZjEyiwpzi5Y="
-        }
-      ]
-    },
-    {
-      "Route": "css/register.hyqkodubnc.css",
-      "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\css\\register.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1458"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hy64SoBKapW9pZmw5jXPDo9VtHfL7L6hZjEyiwpzi5Y=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 09 Dec 2024 15:56:24 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "hyqkodubnc"
-        },
-        {
-          "Name": "label",
-          "Value": "css/register.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-hy64SoBKapW9pZmw5jXPDo9VtHfL7L6hZjEyiwpzi5Y="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.1gxkaaewqa.css",
+      "Route": "css/site.a9o9wzmdeu.css",
       "AssetFile": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3879,7 +3776,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13016"
+          "Value": "13018"
         },
         {
           "Name": "Content-Type",
@@ -3887,11 +3784,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UXi2aFtqM8cGoP25qNTFZ4LlkcCSO5Gg2CVzIhgHtLQ=\""
+          "Value": "\"Dg9qzQrQRPw7Cnxy0UJf7zrBmcmrZXdmM8Ifbs+O4y8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 08:59:51 GMT"
+          "Value": "Sun, 15 Dec 2024 08:41:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3901,7 +3798,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "1gxkaaewqa"
+          "Value": "a9o9wzmdeu"
         },
         {
           "Name": "label",
@@ -3909,7 +3806,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-UXi2aFtqM8cGoP25qNTFZ4LlkcCSO5Gg2CVzIhgHtLQ="
+          "Value": "sha256-Dg9qzQrQRPw7Cnxy0UJf7zrBmcmrZXdmM8Ifbs+O4y8="
         }
       ]
     },
@@ -3924,7 +3821,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13016"
+          "Value": "13018"
         },
         {
           "Name": "Content-Type",
@@ -3932,11 +3829,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UXi2aFtqM8cGoP25qNTFZ4LlkcCSO5Gg2CVzIhgHtLQ=\""
+          "Value": "\"Dg9qzQrQRPw7Cnxy0UJf7zrBmcmrZXdmM8Ifbs+O4y8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 14 Dec 2024 08:59:51 GMT"
+          "Value": "Sun, 15 Dec 2024 08:41:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3946,7 +3843,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-UXi2aFtqM8cGoP25qNTFZ4LlkcCSO5Gg2CVzIhgHtLQ="
+          "Value": "sha256-Dg9qzQrQRPw7Cnxy0UJf7zrBmcmrZXdmM8Ifbs+O4y8="
         }
       ]
     },

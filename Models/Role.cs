@@ -4,6 +4,5 @@ namespace _23210202037.Models
 {
     public class Role : IdentityRole<int>
     {
-        // Ek özellikler ekleyebilirsiniz
     }
 }

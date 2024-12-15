@@ -1,6 +1,5 @@
 using dotenv.net;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using _23210202037.Data;
 using _23210202037.Models;
@@ -27,6 +26,7 @@ builder.Services.AddDefaultIdentity<User>(options => options.SignIn.RequireConfi
     .AddEntityFrameworkStores<ApplicationDbContext>();
 
 builder.Services.AddControllersWithViews();
+builder.Services.AddRazorPages();
 
 var app = builder.Build();
 
@@ -48,12 +48,6 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Login}/{action=Login}/{id?}");
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Register}/{action=Register}/{id?}");
 app.MapRazorPages();
 
 app.Run();

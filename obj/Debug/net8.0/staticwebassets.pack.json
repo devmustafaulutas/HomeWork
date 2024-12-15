@@ -9,20 +9,16 @@
       "PackagePath": "staticwebassets\\css\\about.css"
     },
     {
+      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\css\\account.css",
+      "PackagePath": "staticwebassets\\css\\account.css"
+    },
+    {
       "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\css\\index.css",
       "PackagePath": "staticwebassets\\css\\index.css"
     },
     {
-      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\css\\login.css",
-      "PackagePath": "staticwebassets\\css\\login.css"
-    },
-    {
       "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\css\\poppins.css",
       "PackagePath": "staticwebassets\\css\\poppins.css"
-    },
-    {
-      "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\css\\register.css",
-      "PackagePath": "staticwebassets\\css\\register.css"
     },
     {
       "Id": "C:\\Users\\musta\\Desktop\\23210202037\\wwwroot\\css\\site.css",
