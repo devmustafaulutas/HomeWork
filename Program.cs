@@ -6,17 +6,14 @@ using _23210202037.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// .env dosyasındaki çevresel değişkenleri yükleyin
 DotEnv.Load();
 
-// Çevresel değişkenlerden veritabanı bağlantı dizesini oluşturun
 var connectionString = $"Server={Environment.GetEnvironmentVariable("DB_HOST")};" +
                        $"Database={Environment.GetEnvironmentVariable("DB_NAME")};" +
                        $"User={Environment.GetEnvironmentVariable("DB_USER")};" +
                        $"Password={Environment.GetEnvironmentVariable("DB_PASSWORD")};" +
-                       $"SslMode=Preferred;"; // MySQL için SSL modu
+                       $"SslMode=Preferred;"; 
 
-// Servisleri ekleyin
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString))
 );
