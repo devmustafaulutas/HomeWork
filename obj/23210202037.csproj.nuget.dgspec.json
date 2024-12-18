@@ -1,22 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\musta\\Desktop\\23210202037\\23210202037.csproj": {}
+    "C:\\Users\\musta\\Desktop\\code\\adeus\\HomeWork\\23210202037\\23210202037.csproj": {}
   },
   "projects": {
-    "C:\\Users\\musta\\Desktop\\23210202037\\23210202037.csproj": {
+    "C:\\Users\\musta\\Desktop\\code\\adeus\\HomeWork\\23210202037\\23210202037.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\musta\\Desktop\\23210202037\\23210202037.csproj",
+        "projectUniqueName": "C:\\Users\\musta\\Desktop\\code\\adeus\\HomeWork\\23210202037\\23210202037.csproj",
         "projectName": "23210202037",
-        "projectPath": "C:\\Users\\musta\\Desktop\\23210202037\\23210202037.csproj",
+        "projectPath": "C:\\Users\\musta\\Desktop\\code\\adeus\\HomeWork\\23210202037\\23210202037.csproj",
         "packagesPath": "C:\\Users\\musta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\musta\\Desktop\\23210202037\\obj\\",
+        "outputPath": "C:\\Users\\musta\\Desktop\\code\\adeus\\HomeWork\\23210202037\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+          "C:\\Users\\musta\\Desktop\\code\\adeus\\HomeWork\\23210202037\\NuGet.Config",
           "C:\\Users\\musta\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -43,18 +44,13 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Authentication.Cookies": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -69,13 +65,33 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.0, )"
             },
+            "NuGet.Common": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            },
+            "NuGet.Packaging": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            },
+            "NuGet.Protocol": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "System.Formats.Asn1": {
+              "target": "Package",
+              "version": "[8.0.1, )"
             },
             "System.Security.Cryptography.Xml": {
               "target": "Package",
@@ -83,7 +99,11 @@
             },
             "System.Text.Encodings.Web": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.0, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             },
             "dotenv.net": {
               "target": "Package",
@@ -109,7 +129,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

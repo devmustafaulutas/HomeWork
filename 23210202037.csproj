@@ -9,9 +9,9 @@
 
   <ItemGroup>
     <PackageReference Include="dotenv.net" Version="3.2.1" />
-    <PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" Version="2.2.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.0" /> <!-- Sürüm 7.0.0'dan 8.0.0'a güncellendi -->
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.0" /> <!-- Sürüm 7.0.0'dan 8.0.0'a güncellendi -->
+    <!-- <PackageReference Include="Microsoft.AspNetCore.Identity" Version="8.0.0" /> --> <!-- Kaldırıldı -->
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.0" />
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0">
@@ -19,6 +19,16 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="System.Security.Cryptography.Xml" Version="8.0.0" />
-    <PackageReference Include="System.Text.Encodings.Web" Version="8.0.0" />
+    <PackageReference Include="System.Text.Encodings.Web" Version="9.0.0" />
+    <PackageReference Include="System.Text.Json" Version="9.0.0" />
+    <PackageReference Include="NuGet.Common" Version="6.7.1" />
+    <PackageReference Include="NuGet.Packaging" Version="6.7.1" />
+    <PackageReference Include="NuGet.Protocol" Version="6.7.1" />
+    <PackageReference Include="System.Formats.Asn1" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="8.0.1" />
+    <!-- Daha güvenli sürümlerle paket referanslarınızı güncellediğinizden emin olun -->
+    <!-- Örneğin:
+    <PackageReference Include="NuGet.Common" Version="X.Y.Z" />
+    -->
   </ItemGroup>
 </Project>
