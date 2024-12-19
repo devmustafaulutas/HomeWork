@@ -49,7 +49,7 @@ public class User
 {
     public string UserName { get; set; } = string.Empty; // Varsayılan değer atandı
     public string Email { get; set; } = string.Empty; // Varsayılan değer atandı
-    public string Name { get; set; } = string.Empty; // Varsayılan değer atandı
+    public string? Name { get; set; } = string.Empty; // Varsayılan değer atandı
     public string Surname { get; set; } = string.Empty; // Varsayılan değer atandı
     // ...existing code...
 }

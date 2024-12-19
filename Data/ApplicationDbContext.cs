@@ -1,10 +1,11 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using _23210202037.Models;
 
 namespace _23210202037.Data
 {
-    public class ApplicationDbContext : IdentityDbContext<User, Role, string>
+    public class ApplicationDbContext : IdentityDbContext<IdentityUser, IdentityRole, string>
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
@@ -51,17 +52,6 @@ namespace _23210202037.Data
                 .HasOne(d => d.City)
                 .WithMany(c => c.Districts)
                 .HasForeignKey(d => d.CityId);
-
-            // Güncellenen ilişki tanımı
-            modelBuilder.Entity<User>()
-                .HasOne(u => u.Role)
-                .WithMany(r => r.Users) // Rol sınıfındaki Users koleksiyonunu referans al
-                .HasForeignKey(u => u.RoleId);
-
-            modelBuilder.Entity<User>()
-                .HasOne(u => u.City)
-                .WithMany(c => c.Users) // City sınıfındaki Users koleksiyonunu referans al
-                .HasForeignKey(u => u.CityId);
 
             modelBuilder.Entity<Image>()
                 .HasOne(i => i.User)

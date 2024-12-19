@@ -9,8 +9,8 @@
 
   <ItemGroup>
     <PackageReference Include="dotenv.net" Version="3.2.1" />
-    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.0" /> <!-- Sürüm 7.0.0'dan 8.0.0'a güncellendi -->
-    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.0" /> <!-- Sürüm 7.0.0'dan 8.0.0'a güncellendi -->
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.0" />
     <!-- <PackageReference Include="Microsoft.AspNetCore.Identity" Version="8.0.0" /> --> <!-- Kaldırıldı -->
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.0" />
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.0" />

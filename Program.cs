@@ -15,10 +15,10 @@ var connectionString = $"Server={Environment.GetEnvironmentVariable("DB_HOST")};
                        $"SslMode=Preferred;"; 
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString))
-);
+    options.UseMySql(connectionString, // Değiştirildi
+                     new MySqlServerVersion(new Version(8, 0, 30)))); // MySQL sürümünüze göre güncelleyin
 
-builder.Services.AddIdentity<User, Role>()
+builder.Services.AddIdentity<User, IdentityRole<string>>()
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders();
 
