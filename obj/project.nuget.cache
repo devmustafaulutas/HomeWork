@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "swaZFyNcWUU=",
+  "dgSpecHash": "W9Q/p+NvKS8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\musta\\Desktop\\code\\adeus\\HomeWork\\23210202037\\23210202037.csproj",
+  "projectFilePath": "C:\\Users\\musta\\Desktop\\save\\homework\\23210202037.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\musta\\.nuget\\packages\\dotenv.net\\3.2.1\\dotenv.net.3.2.1.nupkg.sha512",
     "C:\\Users\\musta\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
