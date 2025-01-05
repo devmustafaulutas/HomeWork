@@ -57,7 +57,7 @@ namespace _23210202037.Areas.Identity.Pages.Account
             public string ConfirmPassword { get; set; } = string.Empty;
         }
 
-        public void OnGet(string returnUrl = null)
+        public void OnGet(string returnUrl = null!)
         {
             ReturnUrl = returnUrl ?? string.Empty;
         }
@@ -111,7 +111,7 @@ namespace _23210202037.Areas.Identity.Pages.Account
             return Page();
         }
 
-        public string? SomeProperty { get; set; }
+        public string SomeProperty { get; set; } = string.Empty;
 
         public void SomeMethod()
         {
@@ -143,7 +143,8 @@ namespace _23210202037.Models
         [Required]
         public string Password { get; set; } = string.Empty;
 
-        public string? SomeProperty { get; set; }
+        public string SomeProperty { get; set; } = string.Empty;
         public AnotherType AnotherProperty { get; set; } = new AnotherType();
     }
 }
+

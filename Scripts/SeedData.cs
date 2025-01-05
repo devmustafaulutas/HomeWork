@@ -6,7 +6,7 @@ namespace _23210202037.Data
 {
     public static class SeedData
     {
-        public static async Task Initialize(RoleManager<Role> roleManager, UserManager<User> userManager)
+        public static async Task Initialize(RoleManager<IdentityRole> roleManager, UserManager<User> userManager)
         {
             string[] roles = { "Admin", "User" };
 
@@ -14,7 +14,7 @@ namespace _23210202037.Data
             {
                 if (!await roleManager.RoleExistsAsync(role))
                 {
-                    await roleManager.CreateAsync(new Role { Name = role });
+                    await roleManager.CreateAsync(new IdentityRole { Name = role });
                 }
             }
 
@@ -23,7 +23,7 @@ namespace _23210202037.Data
                 UserName = "admin@admin.com",
                 Email = "admin@admin.com",
                 Name = "Admin",
-                Surname = "User"
+                Surname = "User",
             };
 
             if (await userManager.FindByEmailAsync(adminUser.Email) == null)
@@ -37,19 +37,4 @@ namespace _23210202037.Data
             }
         }
     }
-}
-
-public class Role
-{
-    public string Name { get; set; }
-    // ...existing code...
-}
-
-public class User
-{
-    public string UserName { get; set; } = string.Empty; // Varsayılan değer atandı
-    public string Email { get; set; } = string.Empty; // Varsayılan değer atandı
-    public string? Name { get; set; } = string.Empty; // Varsayılan değer atandı
-    public string Surname { get; set; } = string.Empty; // Varsayılan değer atandı
-    // ...existing code...
 }

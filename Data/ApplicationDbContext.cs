@@ -5,47 +5,83 @@ using _23210202037.Models;
 
 namespace _23210202037.Data
 {
-    public class ApplicationDbContext : IdentityDbContext<IdentityUser, IdentityRole, string>
+    public class ApplicationDbContext : IdentityDbContext<User, IdentityRole, string>
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
         }
 
-        public DbSet<Country> Countries { get; set; }
-        public DbSet<City> Cities { get; set; }
-        public DbSet<District> Districts { get; set; }
-        public DbSet<Image> Images { get; set; }
-        public DbSet<Slider> Sliders { get; set; }
-        public DbSet<Permission> Permissions { get; set; }
-        public DbSet<RolePermission> RolePermissions { get; set; }
-        public DbSet<UserProfile> UserProfiles { get; set; }
-        public DbSet<ActivityLog> ActivityLogs { get; set; }
-        public DbSet<Tag> Tags { get; set; }
-        public DbSet<Event> Events { get; set; }
-        public DbSet<ImageTag> ImageTags { get; set; }
+        public DbSet<Country> Countries { get; set; } = null!;
+        public DbSet<City> Cities { get; set; } = null!;
+        public DbSet<District> Districts { get; set; } = null!;
+        public DbSet<Image> Images { get; set; } = null!;
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
+            // ASP.NET Identity tablolarının isimlerini değiştirme
+            modelBuilder.Entity<IdentityUser>(b =>
+            {
+                b.ToTable("users");
+            });
+
+            modelBuilder.Entity<IdentityRole>(b =>
+            {
+                b.ToTable("roles");
+            });
+
+            modelBuilder.Entity<IdentityUserRole<string>>(b =>
+            {
+                b.ToTable("user_roles");
+            });
+
+            modelBuilder.Entity<IdentityUserClaim<string>>(b =>
+            {
+                b.ToTable("user_claims");
+            });
+
+            modelBuilder.Entity<IdentityUserLogin<string>>(b =>
+            {
+                b.ToTable("user_logins");
+            });
+
+            modelBuilder.Entity<IdentityRoleClaim<string>>(b =>
+            {
+                b.ToTable("role_claims");
+            });
+
+            modelBuilder.Entity<IdentityUserToken<string>>(b =>
+            {
+                b.ToTable("user_tokens");
+            });
+
+            // Diğer tabloların isimlerini ayarlayın
+            modelBuilder.Entity<Country>(b =>
+            {
+                b.ToTable("countries");
+            });
+
+            modelBuilder.Entity<City>(b =>
+            {
+                b.ToTable("cities");
+            });
+
+            modelBuilder.Entity<District>(b =>
+            {
+                b.ToTable("districts");
+            });
+
+            modelBuilder.Entity<Image>(b =>
+            {
+                b.ToTable("images");
+            });
+
             // İlişkileri tanımlama
-            modelBuilder.Entity<RolePermission>()
-                .HasKey(rp => new { rp.RoleId, rp.PermissionId });
-
-            modelBuilder.Entity<RolePermission>()
-                .HasOne(rp => rp.Role)
-                .WithMany(r => r.RolePermissions)
-                .HasForeignKey(rp => rp.RoleId);
-
-            modelBuilder.Entity<RolePermission>()
-                .HasOne(rp => rp.Permission)
-                .WithMany(p => p.RolePermissions)
-                .HasForeignKey(rp => rp.PermissionId);
-
             modelBuilder.Entity<City>()
                 .HasOne(c => c.Country)
-                .WithMany(cn => cn.Cities)
+                .WithMany(c => c.Cities)
                 .HasForeignKey(c => c.CountryId);
 
             modelBuilder.Entity<District>()
@@ -53,43 +89,7 @@ namespace _23210202037.Data
                 .WithMany(c => c.Districts)
                 .HasForeignKey(d => d.CityId);
 
-            modelBuilder.Entity<Image>()
-                .HasOne(i => i.User)
-                .WithMany(u => u.Images)
-                .HasForeignKey(i => i.UserId);
 
-            modelBuilder.Entity<Slider>()
-                .HasOne(s => s.Image)
-                .WithMany(i => i.Sliders)
-                .HasForeignKey(s => s.ImageId);
-
-            modelBuilder.Entity<UserProfile>()
-                .HasOne(up => up.User)
-                .WithOne(u => u.UserProfile)
-                .HasForeignKey<UserProfile>(up => up.UserId);
-
-            modelBuilder.Entity<ActivityLog>()
-                .HasOne(al => al.User)
-                .WithMany(u => u.ActivityLogs)
-                .HasForeignKey(al => al.UserId);
-
-            modelBuilder.Entity<ImageTag>()
-                .HasKey(it => new { it.ImageId, it.TagId });
-
-            modelBuilder.Entity<ImageTag>()
-                .HasOne(it => it.Image)
-                .WithMany(i => i.ImageTags)
-                .HasForeignKey(it => it.ImageId);
-
-            modelBuilder.Entity<ImageTag>()
-                .HasOne(it => it.Tag)
-                .WithMany(t => t.ImageTags)
-                .HasForeignKey(it => it.TagId);
-
-            modelBuilder.Entity<Tag>()
-                .HasMany(t => t.ImageTags)
-                .WithOne(it => it.Tag)
-                .HasForeignKey(it => it.TagId);
         }
     }
 }

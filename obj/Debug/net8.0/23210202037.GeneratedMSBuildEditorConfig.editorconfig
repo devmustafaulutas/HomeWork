@@ -17,79 +17,75 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = _23210202037
 build_property.RootNamespace = _23210202037
-build_property.ProjectDir = C:\Users\musta\Desktop\save\homework\
+build_property.ProjectDir = C:\Users\musta\Desktop\code\adeus\HomeWork\23210202037\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\musta\Desktop\save\homework
+build_property.MSBuildProjectDirectory = C:\Users\musta\Desktop\code\adeus\HomeWork\23210202037
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/musta/Desktop/save/homework/Areas/Identity/Pages/Account/Account.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxBY2NvdW50LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/musta/Desktop/save/homework/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/musta/Desktop/code/adeus/HomeWork/23210202037/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/Desktop/save/homework/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/musta/Desktop/code/adeus/HomeWork/23210202037/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/Desktop/save/homework/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/musta/Desktop/code/adeus/HomeWork/23210202037/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/Desktop/save/homework/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/musta/Desktop/code/adeus/HomeWork/23210202037/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/Desktop/save/homework/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/musta/Desktop/code/adeus/HomeWork/23210202037/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/Desktop/save/homework/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/musta/Desktop/code/adeus/HomeWork/23210202037/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/Desktop/save/homework/Views/Account/_IsLogged.cshtml]
+[C:/Users/musta/Desktop/code/adeus/HomeWork/23210202037/Views/Account/_IsLogged.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxfSXNMb2dnZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/Desktop/save/homework/Views/Home/About.cshtml]
+[C:/Users/musta/Desktop/code/adeus/HomeWork/23210202037/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/Desktop/save/homework/Views/Home/Blog.cshtml]
+[C:/Users/musta/Desktop/code/adeus/HomeWork/23210202037/Views/Home/Blog.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCbG9nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/Desktop/save/homework/Views/Home/Contact.cshtml]
+[C:/Users/musta/Desktop/code/adeus/HomeWork/23210202037/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/Desktop/save/homework/Views/Home/Index.cshtml]
+[C:/Users/musta/Desktop/code/adeus/HomeWork/23210202037/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/Desktop/save/homework/Views/Shared/Error.cshtml]
+[C:/Users/musta/Desktop/code/adeus/HomeWork/23210202037/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/Desktop/save/homework/Views/_ValidationScriptsPartial.cshtml]
+[C:/Users/musta/Desktop/code/adeus/HomeWork/23210202037/Views/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/Desktop/save/homework/Views/_ViewImports.cshtml]
+[C:/Users/musta/Desktop/code/adeus/HomeWork/23210202037/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/Desktop/save/homework/Views/_ViewStart.cshtml]
+[C:/Users/musta/Desktop/code/adeus/HomeWork/23210202037/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/musta/Desktop/save/homework/Views/Shared/_Layout.cshtml]
+[C:/Users/musta/Desktop/code/adeus/HomeWork/23210202037/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-f4ftar9hba

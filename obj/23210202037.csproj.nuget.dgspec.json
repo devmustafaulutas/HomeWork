@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\musta\\Desktop\\save\\homework\\23210202037.csproj": {}
+    "C:\\Users\\musta\\Desktop\\code\\adeus\\HomeWork\\23210202037\\23210202037.csproj": {}
   },
   "projects": {
-    "C:\\Users\\musta\\Desktop\\save\\homework\\23210202037.csproj": {
+    "C:\\Users\\musta\\Desktop\\code\\adeus\\HomeWork\\23210202037\\23210202037.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\musta\\Desktop\\save\\homework\\23210202037.csproj",
+        "projectUniqueName": "C:\\Users\\musta\\Desktop\\code\\adeus\\HomeWork\\23210202037\\23210202037.csproj",
         "projectName": "23210202037",
-        "projectPath": "C:\\Users\\musta\\Desktop\\save\\homework\\23210202037.csproj",
+        "projectPath": "C:\\Users\\musta\\Desktop\\code\\adeus\\HomeWork\\23210202037\\23210202037.csproj",
         "packagesPath": "C:\\Users\\musta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\musta\\Desktop\\save\\homework\\obj\\",
+        "outputPath": "C:\\Users\\musta\\Desktop\\code\\adeus\\HomeWork\\23210202037\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\musta\\Desktop\\save\\homework\\NuGet.Config",
+          "C:\\Users\\musta\\Desktop\\code\\adeus\\HomeWork\\23210202037\\NuGet.Config",
           "C:\\Users\\musta\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -51,6 +51,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Cookies": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -75,15 +79,15 @@
             },
             "NuGet.Common": {
               "target": "Package",
-              "version": "[6.7.1, )"
+              "version": "[6.5.1, )"
             },
             "NuGet.Packaging": {
               "target": "Package",
-              "version": "[6.7.1, )"
+              "version": "[6.5.1, )"
             },
             "NuGet.Protocol": {
               "target": "Package",
-              "version": "[6.7.1, )"
+              "version": "[6.5.1, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
@@ -99,11 +103,11 @@
             },
             "System.Text.Encodings.Web": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[8.0.0, )"
             },
             "System.Text.Json": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[8.0.5, )"
             },
             "dotenv.net": {
               "target": "Package",

@@ -9,6 +9,5 @@ namespace _23210202037.Models
 
         public ICollection<District> Districts { get; set; } = new List<District>();
 
-        public ICollection<User> Users { get; set; } = new List<User>(); // 'Users' koleksiyonu eklendi
     }
 }

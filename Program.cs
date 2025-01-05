@@ -15,10 +15,10 @@ var connectionString = $"Server={Environment.GetEnvironmentVariable("DB_HOST")};
                        $"SslMode=Preferred;"; 
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseMySql(connectionString, // Değiştirildi
-                     new MySqlServerVersion(new Version(8, 0, 30)))); // MySQL sürümünüze göre güncelleyin
+    options.UseMySql(connectionString, 
+                     new MySqlServerVersion(new Version(8, 0, 30))));
 
-builder.Services.AddIdentity<User, IdentityRole<string>>()
+builder.Services.AddIdentity<User, IdentityRole>() // IdentityUser yerine User kullandığınızdan emin olun
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders();
 
@@ -27,7 +27,6 @@ builder.Services.AddRazorPages();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
