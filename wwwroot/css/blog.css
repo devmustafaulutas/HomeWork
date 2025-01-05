@@ -1,0 +1,87 @@
+body.blog-page {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdfd;
+    color: #2c2c2c;
+}
+
+/* Üst kısım */
+.blog-hero {
+    background: linear-gradient(120deg, #009ffd, #2a2a72);
+    padding: 40px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.blog-hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* İlçeler listesi */
+.blog-districts {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.blog-district-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.blog-district-card:hover {
+    transform: translateY(-5px);
+}
+
+.blog-district-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.blog-district-card h2 {
+    margin-top: 15px;
+    font-size: 24px;
+    color: #333;
+}
+
+.blog-district-card p {
+    margin: 8px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+/* Grafik alanı */
+.blog-chart-area {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Ek bilgiler */
+.blog-extra-content {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+@media screen and (max-width: 768px) {
+    .blog-districts {
+        grid-template-columns: 1fr;
+    }
+}

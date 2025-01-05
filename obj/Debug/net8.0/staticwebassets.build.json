@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5+FzRADJUIituebtpyjLhuUha+6ENl6OHoPQNKPvLKU=",
+  "Hash": "k/iADBoYDyOyk38lfoFhxZI9vNuya1LkLsdIhnT617A=",
   "Source": "23210202037",
   "BasePath": "_content/23210202037",
   "Mode": "Default",
@@ -1233,6 +1233,25 @@
       "OriginalItemSpec": "wwwroot\\css\\account.css"
     },
     {
+      "Identity": "C:\\Users\\musta\\Desktop\\code\\adeus\\HomeWork\\23210202037\\wwwroot\\css\\blog.css",
+      "SourceId": "23210202037",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\Desktop\\code\\adeus\\HomeWork\\23210202037\\wwwroot\\",
+      "BasePath": "_content/23210202037",
+      "RelativePath": "css/blog.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\blog.css"
+    },
+    {
       "Identity": "C:\\Users\\musta\\Desktop\\code\\adeus\\HomeWork\\23210202037\\wwwroot\\css\\index.css",
       "SourceId": "23210202037",
       "SourceType": "Discovered",
@@ -1801,6 +1820,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\account.js"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\Desktop\\code\\adeus\\HomeWork\\23210202037\\wwwroot\\js\\blog.js",
+      "SourceId": "23210202037",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\Desktop\\code\\adeus\\HomeWork\\23210202037\\wwwroot\\",
+      "BasePath": "_content/23210202037",
+      "RelativePath": "js/blog.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\blog.js"
     },
     {
       "Identity": "C:\\Users\\musta\\Desktop\\code\\adeus\\HomeWork\\23210202037\\wwwroot\\js\\index.js",

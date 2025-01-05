@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\css\\account.css"
     },
     {
+      "Id": "C:\\Users\\musta\\Desktop\\code\\adeus\\HomeWork\\23210202037\\wwwroot\\css\\blog.css",
+      "PackagePath": "staticwebassets\\css\\blog.css"
+    },
+    {
       "Id": "C:\\Users\\musta\\Desktop\\code\\adeus\\HomeWork\\23210202037\\wwwroot\\css\\index.css",
       "PackagePath": "staticwebassets\\css\\index.css"
     },
@@ -131,6 +135,10 @@
     {
       "Id": "C:\\Users\\musta\\Desktop\\code\\adeus\\HomeWork\\23210202037\\wwwroot\\js\\account.js",
       "PackagePath": "staticwebassets\\js\\account.js"
+    },
+    {
+      "Id": "C:\\Users\\musta\\Desktop\\code\\adeus\\HomeWork\\23210202037\\wwwroot\\js\\blog.js",
+      "PackagePath": "staticwebassets\\js\\blog.js"
     },
     {
       "Id": "C:\\Users\\musta\\Desktop\\code\\adeus\\HomeWork\\23210202037\\wwwroot\\js\\index.js",

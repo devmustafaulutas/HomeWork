@@ -251,6 +251,7 @@ main {
   min-height: 100%; /* İçerik minimum sayfa boyutunda */
   box-sizing: border-box;
   margin-bottom: 100px;
+  flex: 1;
 }
 .dark-bg {
     background-color: #121212;
