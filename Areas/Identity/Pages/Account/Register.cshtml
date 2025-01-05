@@ -1,5 +1,5 @@
 ﻿@page
-@model RegisterModel
+@model _23210202037.Areas.Identity.Pages.Account.RegisterModel
 
 <link rel="stylesheet" href="~/css/account.css" asp-append-version="true" />
 @{
@@ -9,20 +9,30 @@
 <div class="form-container">
     <p class="title">Register</p>
     <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form">
-        <div asp-validation-summary="ModelOnly" class="text-danger message" role="alert"></div>
+        <div asp-validation-summary="ModelOnly" class="message" role="alert"></div>
         <div class="input-group">
+            <input asp-for="Input.FullName" class="form-control form-input" aria-required="true" placeholder=" " />
+            <label asp-for="Input.FullName">Full Name</label>
+            <span asp-validation-for="Input.FullName" class="text-danger"></span>
+        </div>
+        <div class="input-group">
+            <input asp-for="Input.UserName" class="form-control form-input" aria-required="true" placeholder=" " />
+            <label asp-for="Input.UserName">User Name</label>
+            <span asp-validation-for="Input.UserName" class="text-danger"></span>
+        </div>
+        <div class="input-group">
+            <input asp-for="Input.Email" class="form-control form-input" autocomplete="username" aria-required="true" placeholder=" " />
             <label asp-for="Input.Email">Email</label>
-            <input asp-for="Input.Email" class="form-control form-input" autocomplete="username" aria-required="true" placeholder="name@example.com" />
             <span asp-validation-for="Input.Email" class="text-danger"></span>
         </div>
         <div class="input-group">
+            <input asp-for="Input.Password" class="form-control form-input" autocomplete="new-password" aria-required="true" placeholder=" " />
             <label asp-for="Input.Password">Password</label>
-            <input asp-for="Input.Password" class="form-control form-input" autocomplete="new-password" aria-required="true" placeholder="password" />
             <span asp-validation-for="Input.Password" class="text-danger"></span>
         </div>
         <div class="input-group">
+            <input asp-for="Input.ConfirmPassword" class="form-control form-input" autocomplete="new-password" aria-required="true" placeholder=" " />
             <label asp-for="Input.ConfirmPassword">Confirm Password</label>
-            <input asp-for="Input.ConfirmPassword" class="form-control form-input" autocomplete="new-password" aria-required="true" placeholder="password" />
             <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
         </div>
         <button id="registerSubmit" type="submit" class="sign">Register</button>
@@ -35,10 +45,10 @@
     <div class="social-icons">
         @if (Model.ExternalLogins != null)
         {
-            @foreach (var provider in Model.ExternalLogins)
+            @foreach (var externalLogin in Model.ExternalLogins)
             {
-                <form asp-page="./ExternalLogin" asp-route-provider="@provider.Name" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="d-inline">
-                    <button type="submit" class="icon" name="provider" value="@provider.Name" title="Register using your @provider.DisplayName account">
+                <form asp-page="./ExternalLogin" asp-route-provider="@externalLogin.Name" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="d-inline">
+                    <button type="submit" class="icon" name="provider" value="@externalLogin.Name" title="Register using your @externalLogin.DisplayName account">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" class="w-5 h-5 fill-current">
                             <!-- Icon path can be added here if needed -->
                         </svg>
@@ -47,5 +57,5 @@
             }
         }
     </div>
-    <p class="signup">Already have an account? <a href="~/Account/Login" id="openLogin">Log In</a></p>
+    <p class="signup">Already have an account? <a href="~/Identity/Account/Login" id="openLogin">Log In</a></p>
 </div>

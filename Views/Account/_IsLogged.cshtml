@@ -1,4 +1,5 @@
 @using _23210202037.Models
+@using Microsoft.AspNetCore.Identity
 @inject SignInManager<User> SignInManager
 @inject UserManager<User> UserManager
 @{
@@ -7,7 +8,7 @@
 @if (SignInManager.IsSignedIn(User))
 {
     <div class="profile-header">
-        <img src="~/img/profile/default-avatar.png" alt="Profil Resmi" class="profile-avatar">
+        <img src="~/img/profile/default-avatar.png" class="profile-avatar">
         <span class="profile-name">@UserManager.GetUserName(User)</span>
     </div>
     <ul class="profile-menu">
@@ -15,7 +16,7 @@
             <a href="#" class="profile-menu-link">Ayarlar</a>
         </li>
         <li class="profile-menu-item">
-            <form asp-area="Identity" asp-page="/Account/Logout" method="post" id="logoutForm" class="d-inline">
+            <form asp-controller="Account" asp-action="Logout" method="post" id="logoutForm" class="d-inline">
                 <button type="submit" class="profile-menu-link btn btn-link">Çıkış Yap</button>
             </form>
         </li>

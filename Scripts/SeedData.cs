@@ -22,8 +22,8 @@ namespace _23210202037.Data
             {
                 UserName = "admin@admin.com",
                 Email = "admin@admin.com",
-                Name = "Admin",
-                Surname = "User",
+                FullName = "Admin",
+                Password = "Admin@123"
             };
 
             if (await userManager.FindByEmailAsync(adminUser.Email) == null)

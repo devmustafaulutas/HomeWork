@@ -35,12 +35,13 @@ body {
   line-height: 1.5;
   color: #333;
   background-color: #f4f4f4;
-  height: 100%; /* Sayfanın tamamını kapsaması için */
+  height: 100%;
+  min-height: 1000px; /* Minimum sayfa yüksekliği */
   margin: 0;
   padding: 0;
   display: flex;
-  height: auto;
   flex-direction: column;
+  flex: 1;
   transition: background-color 0.5s, color 0.5s;
 }
 /* Varsayılan (Light) Tema */
@@ -55,24 +56,19 @@ body {
 
 /* Dark Tema */
 body.dark-mode {
-  background-color: #001b22;
-  color: #ffffff;
-  min-height: auto; /* Sayfanın tamamını kapsaması için */
-  height: auto; /* İçeriğe göre otomatik yükseklik */
-  min-height: 100%;
   background-color: #121212;
   color: #ffffff;
 }
 
 html {
-  height: auto;
+  height: 100%;
+  min-height: 1000px; /* Minimum sayfa yüksekliği */
   margin: 0;               
   padding: 0;         
-  background-color: #f0f0f0; 
+  display: flex;
+  flex-direction: column;
 }
 html.dark-mode {
-  margin: 0;               /* Varsayılan kenar boşluklarını sıfırlar */
-  padding: 0;              /* Varsayılan iç boşlukları sıfırlar */
   background-color: #001b22;
   color: #ffffff;
 }
@@ -212,18 +208,16 @@ html.dark-mode {
 }
 /* FOOTER CSS */
 .layout-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 18px;
-  background-color: #333;
-  color: white;
-  position: relative;
-  bottom: 0;
-  left: 0;
-  border: 1px solid black;
-}
+    position: static;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f1f1f1;
+    text-align: center;
+    flex:1;
+    z-index: 1000;
+  }
+
 
 .layout-login {
   display: flex;
@@ -253,7 +247,11 @@ html.dark-mode {
 body {
     transition: background-color 0.5s, color 0.5s;
 }
-
+main {
+  min-height: 100%; /* İçerik minimum sayfa boyutunda */
+  box-sizing: border-box;
+  margin-bottom: 100px;
+}
 .dark-bg {
     background-color: #121212;
     color: #ffffff;
@@ -468,12 +466,15 @@ body {
 /* --- Footer Stilleri --- */
 
 .footer {
-    background-color: var(--footer-background);
-    color: var(--text-color);
-    transition: background-color 0.5s, color 0.5s;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+  background-color: var(--footer-background);
+  color: var(--text-color);
+  transition: background-color 0.5s, color 0.5s;
+  width: 100%;
+  margin-top: auto; /* Sayfanın en altına yerleştirir */
+  padding: 18px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
 }
 
 /* --- Gece/Gündüz Modu Butonu --- */

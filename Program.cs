@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using _23210202037.Data;
 using _23210202037.Models;
+using Microsoft.AspNetCore.Identity.UI.Services;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,6 +23,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddIdentity<User, IdentityRole>() // IdentityUser yerine User kullandığınızdan emin olun
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders();
+
+builder.Services.AddTransient<IEmailSender, EmailSender>();
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();

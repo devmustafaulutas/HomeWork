@@ -30,13 +30,15 @@ namespace _23210202037.Areas.Identity.Pages.Account
         private readonly IUserEmailStore<User> _emailStore;
         private readonly ILogger<RegisterModel> _logger;
         private readonly IEmailSender _emailSender; // Doğru IEmailSender kullanıldı
+        private readonly RoleManager<IdentityRole> _roleManager;
 
         public RegisterModel(
             UserManager<User> userManager,
             IUserStore<User> userStore,
             SignInManager<User> signInManager,
             ILogger<RegisterModel> logger,
-            IEmailSender emailSender) // Dependency injection güncellendi
+            IEmailSender emailSender, // Dependency injection güncellendi
+            RoleManager<IdentityRole> roleManager)
         {
             _userManager = userManager;
             _userStore = userStore;
@@ -44,6 +46,7 @@ namespace _23210202037.Areas.Identity.Pages.Account
             _signInManager = signInManager;
             _logger = logger;
             _emailSender = emailSender;
+            _roleManager = roleManager;
         }
 
         [BindProperty]
@@ -55,6 +58,14 @@ namespace _23210202037.Areas.Identity.Pages.Account
 
         public class InputModel
         {
+            [Required]
+            [Display(Name = "Full Name")]
+            public string FullName { get; set; }
+
+            [Required]
+            [Display(Name = "User Name")]
+            public string UserName { get; set; }
+
             [Required]
             [EmailAddress]
             [Display(Name = "Email")]
@@ -86,13 +97,21 @@ namespace _23210202037.Areas.Identity.Pages.Account
             {
                 var user = CreateUser();
 
-                await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
+                await _userStore.SetUserNameAsync(user, Input.UserName, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
+                user.FullName = Input.FullName;
                 var result = await _userManager.CreateAsync(user, Input.Password);
 
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User created a new account with password.");
+
+                    // Kullanıcıya varsayılan olarak "User" rolü atayın
+                    if (!await _roleManager.RoleExistsAsync("User"))
+                    {
+                        await _roleManager.CreateAsync(new IdentityRole("User"));
+                    }
+                    await _userManager.AddToRoleAsync(user, "User");
 
                     var userId = await _userManager.GetUserIdAsync(user);
                     var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
