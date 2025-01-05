@@ -22,17 +22,21 @@ namespace _23210202037.Data
             {
                 UserName = "admin@admin.com",
                 Email = "admin@admin.com",
-                FullName = "Admin",
-                Password = "Admin@123"
+                FullName = "Admin"
+                // Password özelliğini kaldırdık, şifreyi burada ayarlayacağız
             };
 
             if (await userManager.FindByEmailAsync(adminUser.Email) == null)
             {
-                var result = await userManager.CreateAsync(adminUser, "Admin@123");
+                var result = await userManager.CreateAsync(adminUser, "Admin@123"); // Şifre burada belirlenir
 
                 if (result.Succeeded)
                 {
                     await userManager.AddToRoleAsync(adminUser, "Admin");
+                }
+                else
+                {
+                    // Hata yönetimi ekleyebilirsiniz
                 }
             }
         }

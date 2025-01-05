@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using _23210202037.Data;
 
@@ -10,9 +11,11 @@ using _23210202037.Data;
 namespace _23210202037.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250105160120_AddUsers")]
+    partial class AddUsers
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -328,6 +331,15 @@ namespace _23210202037.Migrations
                         {
                             Id = 3,
                             CityId = 1,
+                            Description = "Biga, Çanakkale'nin en büyük ilçelerinden biridir.",
+                            Img = "biga.jpg",
+                            Name = "Biga",
+                            Population = 90000
+                        },
+                        new
+                        {
+                            Id = 4,
+                            CityId = 1,
                             Description = "Bozcaada, Türkiye'nin üçüncü büyük adasıdır.",
                             Img = "bozcaada.jpeg",
                             Name = "Bozcaada",
@@ -335,7 +347,25 @@ namespace _23210202037.Migrations
                         },
                         new
                         {
-                            Id = 4,
+                            Id = 5,
+                            CityId = 1,
+                            Description = "Çan, seramik ve çini üretimi ile ünlüdür.",
+                            Img = "can.jpeg",
+                            Name = "Çan",
+                            Population = 50000
+                        },
+                        new
+                        {
+                            Id = 6,
+                            CityId = 1,
+                            Description = "Eceabat, Gelibolu Yarımadası'nda yer alır.",
+                            Img = "eceabat.jpeg",
+                            Name = "Eceabat",
+                            Population = 5000
+                        },
+                        new
+                        {
+                            Id = 7,
                             CityId = 1,
                             Description = "Ezine, peyniri ile ünlüdür.",
                             Img = "ezine.jpeg",
@@ -344,7 +374,7 @@ namespace _23210202037.Migrations
                         },
                         new
                         {
-                            Id = 5,
+                            Id = 8,
                             CityId = 1,
                             Description = "Gelibolu, tarihi savaş alanları ile bilinir.",
                             Img = "gelibolu.jpeg",
@@ -353,12 +383,30 @@ namespace _23210202037.Migrations
                         },
                         new
                         {
-                            Id = 6,
+                            Id = 9,
                             CityId = 1,
                             Description = "Gökçeada, Türkiye'nin en büyük adasıdır.",
                             Img = "gokceada.jpeg",
                             Name = "Gökçeada",
                             Population = 8000
+                        },
+                        new
+                        {
+                            Id = 10,
+                            CityId = 1,
+                            Description = "Lapseki, kirazı ile ünlüdür.",
+                            Img = "lapseki.jpeg",
+                            Name = "Lapseki",
+                            Population = 25000
+                        },
+                        new
+                        {
+                            Id = 11,
+                            CityId = 1,
+                            Description = "Yenice, ormanları ve doğal güzellikleri ile bilinir.",
+                            Img = "yenice.jpeg",
+                            Name = "Yenice",
+                            Population = 15000
                         });
                 });
 
@@ -431,6 +479,10 @@ namespace _23210202037.Migrations
                         .HasMaxLength(256)
                         .HasColumnType("varchar(256)");
 
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
                     b.Property<string>("PasswordHash")
                         .HasColumnType("longtext");
 
@@ -466,14 +518,15 @@ namespace _23210202037.Migrations
                         {
                             Id = "1",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "ee08031d-18cb-4ea9-b183-b712bbb0cfcd",
+                            ConcurrencyStamp = "5c38b655-3a8d-4042-9d11-4be26381000a",
                             Email = "admin@example.com",
                             EmailConfirmed = true,
                             FullName = "Admin User",
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@EXAMPLE.COM",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAIAAYagAAAAEJ8P//ZvU5Z3AyqatN/J5Kkb6ixazlXG5fqWa7ukyS+kCd4zTvrr26sFKQqZpck8KA==",
+                            Password = "",
+                            PasswordHash = "AQAAAAIAAYagAAAAEHKI+PLP3e3rh4sG2uFdQ7Zix4AOHI6McrhGzypwjZsOMqBXv8r6xfMFOkBSS7AiRg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -483,14 +536,15 @@ namespace _23210202037.Migrations
                         {
                             Id = "2",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "df8008a6-2b92-4b02-a5ff-b0efeb3ce02c",
+                            ConcurrencyStamp = "985f7475-f76c-4be7-a6f3-30d871bcf31f",
                             Email = "user@example.com",
                             EmailConfirmed = true,
                             FullName = "Default User",
                             LockoutEnabled = false,
                             NormalizedEmail = "USER@EXAMPLE.COM",
                             NormalizedUserName = "USER",
-                            PasswordHash = "AQAAAAIAAYagAAAAEFVBEshlntwftFFpH2WkikZxj1PHC5PyUCcvay6YDtYCfqqXkGcd1ROlvrX2y7u8/w==",
+                            Password = "",
+                            PasswordHash = "AQAAAAIAAYagAAAAEN8YYC00UHyc0TK0NQsFZUnfA/TZG7WB9S1s0XoZcDBkBt1ligJwMt9lM5BEKJIR6A==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,

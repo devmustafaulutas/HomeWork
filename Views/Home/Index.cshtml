@@ -1,12 +1,13 @@
-﻿@{
+﻿@model IEnumerable<_23210202037.Models.Image>
+
+@{
     ViewData["Title"] = "Home Page";
 }
 <link rel="stylesheet" href="~/css/index.css" asp-append-version="true" />
 <section class="index-intro">
     <div class="container text-center">
         <div class="row justify-content-center">
-            <img src="~/img/dur-yolcu.jpg" alt="" style="width: 100%; height: auto;">
-            
+
         </div>
     </div>
 </section>
@@ -22,28 +23,28 @@
             <div class="col">
                 <div class="slider">
                     <div class="slides">
-                        <div class="slide">
-                            <img src="~/img/canakkale-manzara/manzara-3.jpg" alt="Çanakkale" class="img-fluid">
-                        </div>
-                        <div class="slide">
-                            <img src="~/img/canakkale-manzara/manzara-5.jpeg" alt="Çanakkale" class="img-fluid">
-                        </div>
-                        <div class="slide">
-                            <img src="~/img/canakkale-manzara/manzara-1.jpeg" alt="Çanakkale" class="img-fluid">
-                        </div>
-                        <div class="slide">
-                            <img src="~/img/canakkale-manzara/manzara-4.jpeg" alt="Çanakkale" class="img-fluid">
-                        </div>
-                        <div class="slide">
-                            <img src="~/img/canakkale-manzara/manzara-5.jpeg" alt="Çanakkale" class="img-fluid">
-                        </div>
+                        @if(Model != null && Model.Any())
+                        {
+                            @foreach(var image in Model)
+                            {
+                                <div class="slide">
+                                    <img src="~/img/@image.Url" alt="Çanakkale" class="img-fluid">
+                                </div>
+                            }
+                        }
+                        else
+                        {
+                            <p>Görseller bulunamadı.</p>
+                        }
                     </div>
                 </div>
             </div>
         </div>
+        <br>
+        <br>
         <div class="row align-items-center zigzag-row">
             <div class="col bos-div">
-                <br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48808.379285498944!2d26.38589349092259!3d40.130616725788066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b1a9d8214a2f3f%3A0x8cebeb3703e22f7f!2zw4dhbmFra2FsZSwgw4dhbmFra2FsZSBNZXJrZXovw4dhbmFra2FsZQ!5e0!3m2!1str!2str!4v1736089174993!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="col">
                 <h3>Çanakkale</h3>
@@ -53,6 +54,42 @@
                    Dünyanın önemli su yollarından biri olan Çanakkale Boğazı, 671 km. kıyı şeridi, kendine has özellikleri, ilimiz doğal çevresinin en belirgin zenginliklerindendir. Çanakkale’de kentleşme ve sanayileşme yoğun bir biçimde yaşanmadığından ülke genelinde görülen çevre problemleri ilimizde yaşanmamaktadır. </p>
             </div>
         </div>
+        <br>
+        <br>
+        <div class="row align-items-center zigzag-row">
+            <div class="col">
+                <h3>Çanakkale'nin Tarihi</h3>
+                <p>Çanakkale'nin tarihi, antik çağlara kadar uzanır. Troya Savaşı'nın yaşandığı bu topraklar, Homeros'un İlyada destanında ölümsüzleştirilmiştir. Troya Antik Kenti, UNESCO Dünya Mirası Listesi'nde yer almakta ve her yıl binlerce turist tarafından ziyaret edilmektedir.</p>
+                <p>Osmanlı İmparatorluğu döneminde stratejik bir öneme sahip olan Çanakkale Boğazı, birçok savaşa sahne olmuştur. 1453 yılında İstanbul'un fethi ile Osmanlı hakimiyetine giren Çanakkale, 1915 yılında Çanakkale Savaşları ile dünya tarihine damgasını vurmuştur.</p>
+                <p>Çanakkale Savaşları, Türk milletinin bağımsızlık ve özgürlük mücadelesinin simgesi haline gelmiştir. Mustafa Kemal Atatürk'ün liderliğinde kazanılan bu zafer, Türkiye Cumhuriyeti'nin kuruluşuna giden yolda önemli bir adım olmuştur.</p>
+            </div>
+            <div class="col bos-div">
+                <div class="slider">
+                    <div class="slides">
+                        <img src="~/img/canakkale-manzara/tarih.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row align-items-center zigzag-row">
+            <div class="col bos-div">
+                <div class="slider">
+                    <div class="slides">
+                        <img src="~/img/canakkale-manzara/dogal.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <h3>Çanakkale'nin Doğal Güzellikleri</h3>
+                <p>Çanakkale, sadece tarihi ile değil, doğal güzellikleri ile de büyüleyici bir şehirdir. Kaz Dağları, zengin bitki örtüsü ve temiz havası ile doğa severlerin uğrak noktasıdır. Ayrıca, Assos Antik Kenti ve Behramkale Köyü, tarihi ve doğal güzellikleri bir arada sunmaktadır.</p>
+                <p>Gökçeada ve Bozcaada, Çanakkale'nin en büyük adalarıdır ve doğal güzellikleri ile ünlüdür. Bu adalar, temiz plajları, berrak denizi ve sakin atmosferi ile tatilcilerin gözde mekanları arasındadır.</p>
+                <p>Çanakkale'nin kıyı şeridi, balıkçılık ve su sporları için ideal bir ortam sunar. Ayrıca, Çanakkale Boğazı'nda yapılan tekne turları ile boğazın eşsiz manzarasını keşfetmek mümkündür.</p>
+            </div>
+        </div>
+        <br>
+        <br>
     </div>
 </section>
 <script src="~/js/index.js" asp-append-version="true"></script>

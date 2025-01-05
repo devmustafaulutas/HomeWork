@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\css\\blog.css"
     },
     {
+      "Id": "C:\\Users\\musta\\Desktop\\code\\adeus\\HomeWork\\23210202037\\wwwroot\\css\\contact.css",
+      "PackagePath": "staticwebassets\\css\\contact.css"
+    },
+    {
       "Id": "C:\\Users\\musta\\Desktop\\code\\adeus\\HomeWork\\23210202037\\wwwroot\\css\\index.css",
       "PackagePath": "staticwebassets\\css\\index.css"
     },
@@ -37,12 +41,16 @@
       "PackagePath": "staticwebassets\\img\\canakkale-manzara\\canakkale-img-1.jpg"
     },
     {
-      "Id": "C:\\Users\\musta\\Desktop\\code\\adeus\\HomeWork\\23210202037\\wwwroot\\img\\canakkale-manzara\\manzara-1.jpeg",
-      "PackagePath": "staticwebassets\\img\\canakkale-manzara\\manzara-1.jpeg"
+      "Id": "C:\\Users\\musta\\Desktop\\code\\adeus\\HomeWork\\23210202037\\wwwroot\\img\\canakkale-manzara\\dogal.jpeg",
+      "PackagePath": "staticwebassets\\img\\canakkale-manzara\\dogal.jpeg"
     },
     {
-      "Id": "C:\\Users\\musta\\Desktop\\code\\adeus\\HomeWork\\23210202037\\wwwroot\\img\\canakkale-manzara\\manzara-2.htm",
-      "PackagePath": "staticwebassets\\img\\canakkale-manzara\\manzara-2.htm"
+      "Id": "C:\\Users\\musta\\Desktop\\code\\adeus\\HomeWork\\23210202037\\wwwroot\\img\\canakkale-manzara\\dogal.jpg",
+      "PackagePath": "staticwebassets\\img\\canakkale-manzara\\dogal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\musta\\Desktop\\code\\adeus\\HomeWork\\23210202037\\wwwroot\\img\\canakkale-manzara\\manzara-1.jpeg",
+      "PackagePath": "staticwebassets\\img\\canakkale-manzara\\manzara-1.jpeg"
     },
     {
       "Id": "C:\\Users\\musta\\Desktop\\code\\adeus\\HomeWork\\23210202037\\wwwroot\\img\\canakkale-manzara\\manzara-2.jpg",
@@ -59,6 +67,14 @@
     {
       "Id": "C:\\Users\\musta\\Desktop\\code\\adeus\\HomeWork\\23210202037\\wwwroot\\img\\canakkale-manzara\\manzara-5.jpeg",
       "PackagePath": "staticwebassets\\img\\canakkale-manzara\\manzara-5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\musta\\Desktop\\code\\adeus\\HomeWork\\23210202037\\wwwroot\\img\\canakkale-manzara\\tarih.jpeg",
+      "PackagePath": "staticwebassets\\img\\canakkale-manzara\\tarih.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\musta\\Desktop\\code\\adeus\\HomeWork\\23210202037\\wwwroot\\img\\canakkale-manzara\\tarih.jpg",
+      "PackagePath": "staticwebassets\\img\\canakkale-manzara\\tarih.jpg"
     },
     {
       "Id": "C:\\Users\\musta\\Desktop\\code\\adeus\\HomeWork\\23210202037\\wwwroot\\img\\canakkale-savasi\\savas-1.jpg",
@@ -183,6 +199,10 @@
     {
       "Id": "C:\\Users\\musta\\Desktop\\code\\adeus\\HomeWork\\23210202037\\wwwroot\\js\\blog.js",
       "PackagePath": "staticwebassets\\js\\blog.js"
+    },
+    {
+      "Id": "C:\\Users\\musta\\Desktop\\code\\adeus\\HomeWork\\23210202037\\wwwroot\\js\\contact.js",
+      "PackagePath": "staticwebassets\\js\\contact.js"
     },
     {
       "Id": "C:\\Users\\musta\\Desktop\\code\\adeus\\HomeWork\\23210202037\\wwwroot\\js\\index.js",

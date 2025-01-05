@@ -3,9 +3,14 @@ using Microsoft.AspNetCore.Mvc;
 using _23210202037.Models;
 using _23210202037.Data;
 using System.Linq;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace _23210202037.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -18,11 +23,14 @@ namespace _23210202037.Controllers
             _context = context;
         }
 
-        public IActionResult Index()
+        [AllowAnonymous]
+        public async Task<IActionResult> Index()
         {
-            return View();
+            List<Image> images = await _context.Images.ToListAsync();
+            return View(images);
         }
-
+        
+        // [Authorize] özniteliğini kaldırın çünkü sınıf seviyesinde zaten bulunuyor
         public IActionResult Blog()
         {
             var districts = _context.Districts.ToList();
@@ -44,13 +52,5 @@ namespace _23210202037.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
-
-        // Diğer constructor'lar varsa, aşağıdaki gibi yorum satırı yapın:
-        /*
-        public HomeController()
-        {
-            // Boş constructor
-        }
-        */
     }
 }

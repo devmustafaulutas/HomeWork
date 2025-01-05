@@ -20,9 +20,25 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseMySql(connectionString, 
                      new MySqlServerVersion(new Version(8, 0, 30))));
 
-builder.Services.AddIdentity<User, IdentityRole>() // IdentityUser yerine User kullandığınızdan emin olun
+// AddIdentity kullanarak Identity'yi ve Rolleri yapılandırın
+builder.Services.AddIdentity<User, IdentityRole>(options =>
+{
+    options.SignIn.RequireConfirmedAccount = false;
+    // Diğer Identity seçeneklerini buraya ekleyebilirsiniz
+})
     .AddEntityFrameworkStores<ApplicationDbContext>()
+    .AddDefaultUI()
     .AddDefaultTokenProviders();
+
+// Cookie Authentication Ayarlarını burada yapılandırın
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.Cookie.HttpOnly = true;
+    options.ExpireTimeSpan = TimeSpan.FromMinutes(60);
+    options.LoginPath = "/Identity/Account/Login"; // Kullanıcı girişi gerektiren sayfalardan yönlendirilecek URL
+    options.AccessDeniedPath = "/Identity/Account/AccessDenied"; // Erişim reddedilince yönlendirilecek URL
+    options.SlidingExpiration = true;
+});
 
 builder.Services.AddTransient<IEmailSender, EmailSender>();
 
@@ -45,6 +61,16 @@ app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
 
+// Seed verilerini başlat
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
+    var userManager = services.GetRequiredService<UserManager<User>>();
+    await SeedData.Initialize(roleManager, userManager);
+}
+
+// Razor Pages'ın Controller'dan sonra haritalandığından emin olun
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");

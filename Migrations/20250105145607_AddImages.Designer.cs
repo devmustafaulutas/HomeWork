@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using _23210202037.Data;
 
@@ -10,9 +11,11 @@ using _23210202037.Data;
 namespace _23210202037.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250105145607_AddImages")]
+    partial class AddImages
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -43,20 +46,6 @@ namespace _23210202037.Migrations
                         .HasDatabaseName("RoleNameIndex");
 
                     b.ToTable("roles", (string)null);
-
-                    b.HasData(
-                        new
-                        {
-                            Id = "1",
-                            Name = "Admin",
-                            NormalizedName = "ADMIN"
-                        },
-                        new
-                        {
-                            Id = "2",
-                            Name = "User",
-                            NormalizedName = "USER"
-                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -192,18 +181,6 @@ namespace _23210202037.Migrations
                     b.HasIndex("RoleId");
 
                     b.ToTable("user_roles", (string)null);
-
-                    b.HasData(
-                        new
-                        {
-                            UserId = "1",
-                            RoleId = "1"
-                        },
-                        new
-                        {
-                            UserId = "2",
-                            RoleId = "2"
-                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
@@ -328,6 +305,15 @@ namespace _23210202037.Migrations
                         {
                             Id = 3,
                             CityId = 1,
+                            Description = "Biga, Çanakkale'nin en büyük ilçelerinden biridir.",
+                            Img = "biga.jpg",
+                            Name = "Biga",
+                            Population = 90000
+                        },
+                        new
+                        {
+                            Id = 4,
+                            CityId = 1,
                             Description = "Bozcaada, Türkiye'nin üçüncü büyük adasıdır.",
                             Img = "bozcaada.jpeg",
                             Name = "Bozcaada",
@@ -335,7 +321,25 @@ namespace _23210202037.Migrations
                         },
                         new
                         {
-                            Id = 4,
+                            Id = 5,
+                            CityId = 1,
+                            Description = "Çan, seramik ve çini üretimi ile ünlüdür.",
+                            Img = "can.jpeg",
+                            Name = "Çan",
+                            Population = 50000
+                        },
+                        new
+                        {
+                            Id = 6,
+                            CityId = 1,
+                            Description = "Eceabat, Gelibolu Yarımadası'nda yer alır.",
+                            Img = "eceabat.jpeg",
+                            Name = "Eceabat",
+                            Population = 5000
+                        },
+                        new
+                        {
+                            Id = 7,
                             CityId = 1,
                             Description = "Ezine, peyniri ile ünlüdür.",
                             Img = "ezine.jpeg",
@@ -344,7 +348,7 @@ namespace _23210202037.Migrations
                         },
                         new
                         {
-                            Id = 5,
+                            Id = 8,
                             CityId = 1,
                             Description = "Gelibolu, tarihi savaş alanları ile bilinir.",
                             Img = "gelibolu.jpeg",
@@ -353,12 +357,30 @@ namespace _23210202037.Migrations
                         },
                         new
                         {
-                            Id = 6,
+                            Id = 9,
                             CityId = 1,
                             Description = "Gökçeada, Türkiye'nin en büyük adasıdır.",
                             Img = "gokceada.jpeg",
                             Name = "Gökçeada",
                             Population = 8000
+                        },
+                        new
+                        {
+                            Id = 10,
+                            CityId = 1,
+                            Description = "Lapseki, kirazı ile ünlüdür.",
+                            Img = "lapseki.jpeg",
+                            Name = "Lapseki",
+                            Population = 25000
+                        },
+                        new
+                        {
+                            Id = 11,
+                            CityId = 1,
+                            Description = "Yenice, ormanları ve doğal güzellikleri ile bilinir.",
+                            Img = "yenice.jpeg",
+                            Name = "Yenice",
+                            Population = 15000
                         });
                 });
 
@@ -431,6 +453,10 @@ namespace _23210202037.Migrations
                         .HasMaxLength(256)
                         .HasColumnType("varchar(256)");
 
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
                     b.Property<string>("PasswordHash")
                         .HasColumnType("longtext");
 
@@ -460,42 +486,6 @@ namespace _23210202037.Migrations
                         .HasDatabaseName("UserNameIndex");
 
                     b.ToTable("AspNetUsers", (string)null);
-
-                    b.HasData(
-                        new
-                        {
-                            Id = "1",
-                            AccessFailedCount = 0,
-                            ConcurrencyStamp = "ee08031d-18cb-4ea9-b183-b712bbb0cfcd",
-                            Email = "admin@example.com",
-                            EmailConfirmed = true,
-                            FullName = "Admin User",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "ADMIN@EXAMPLE.COM",
-                            NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAIAAYagAAAAEJ8P//ZvU5Z3AyqatN/J5Kkb6ixazlXG5fqWa7ukyS+kCd4zTvrr26sFKQqZpck8KA==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "admin"
-                        },
-                        new
-                        {
-                            Id = "2",
-                            AccessFailedCount = 0,
-                            ConcurrencyStamp = "df8008a6-2b92-4b02-a5ff-b0efeb3ce02c",
-                            Email = "user@example.com",
-                            EmailConfirmed = true,
-                            FullName = "Default User",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "USER@EXAMPLE.COM",
-                            NormalizedUserName = "USER",
-                            PasswordHash = "AQAAAAIAAYagAAAAEFVBEshlntwftFFpH2WkikZxj1PHC5PyUCcvay6YDtYCfqqXkGcd1ROlvrX2y7u8/w==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "user"
-                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

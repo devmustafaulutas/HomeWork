@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="~/css/account.css" asp-append-version="true" />
 
 @{
-    ViewData["Title"] = "Log in";
+    ViewData["Title"] = "Giriş";
 }
 
 <div class="form-container">
@@ -13,19 +13,19 @@
         <div asp-validation-summary="ModelOnly" class="message" role="alert"></div>
         <div class="input-group">
             <input asp-for="Input.UserName" class="form-control form-input" aria-required="true" placeholder=" " />
-            <label asp-for="Input.UserName">User Name</label>
+            <label asp-for="Input.UserName">Kullanıcı Adı</label>
             <span asp-validation-for="Input.UserName" class="text-danger"></span>
         </div>
         <div class="input-group">
             <input asp-for="Input.Password" class="form-control form-input" autocomplete="current-password" aria-required="true" placeholder=" " />
-            <label asp-for="Input.Password">Password</label>
+            <label asp-for="Input.Password">Şifre</label>
             <span asp-validation-for="Input.Password" class="text-danger"></span>
         </div>
-        <button type="submit" class="sign">Log in</button>
+        <button type="submit" class="sign">Giriş</button>
     </form>
     <div class="social-message">
         <div class="line"></div>
-        <p class="message">Login with social accounts</p>
+        <br>
         <div class="line"></div>
     </div>
     <div class="social-icons">
@@ -43,6 +43,6 @@
             }
         }
     </div>
-    <p class="signup">Don't have an account? <a href="~/Identity/Account/Register" id="openRegister">Register</a></p>
+    <p class="signup">Hesabınız yok mu? <a href="~/Identity/Account/Register" id="openRegister">Kayıt ol</a></p>
 </div>
 

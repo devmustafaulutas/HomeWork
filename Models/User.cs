@@ -6,6 +6,5 @@ namespace _23210202037.Models
     {
         [PersonalData]
         public string FullName { get; set; } = string.Empty;
-        public string Password { get; set; } = string.Empty;
     }
 }
