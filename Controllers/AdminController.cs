@@ -62,6 +62,7 @@ namespace _23210202037.Controllers
                 if (string.IsNullOrWhiteSpace(password))
                 {
                     ModelState.AddModelError("Password", "Password is required.");
+                    TempData["ErrorMessage"] = "Failed to create user.";
                     return View(user);
                 }
 
@@ -69,12 +70,14 @@ namespace _23210202037.Controllers
                 if (result.Succeeded)
                 {
                     await _userManager.AddToRoleAsync(user, "User");
+                    TempData["SuccessMessage"] = "User created successfully.";
                     return RedirectToAction(nameof(Index));
                 }
                 foreach (var error in result.Errors)
                 {
                     ModelState.AddModelError(string.Empty, error.Description);
                 }
+                TempData["ErrorMessage"] = "Failed to create user.";
             }
             return View(user);
         }
@@ -129,6 +132,7 @@ namespace _23210202037.Controllers
                             {
                                 ModelState.AddModelError(string.Empty, error.Description);
                             }
+                            TempData["ErrorMessage"] = "Failed to update user.";
                             return View(user);
                         }
                     }
@@ -140,6 +144,7 @@ namespace _23210202037.Controllers
                         {
                             ModelState.AddModelError(string.Empty, error.Description);
                         }
+                        TempData["ErrorMessage"] = "Failed to update user.";
                         return View(user);
                     }
                 }
@@ -154,8 +159,10 @@ namespace _23210202037.Controllers
                         throw;
                     }
                 }
+                TempData["SuccessMessage"] = "User updated successfully.";
                 return RedirectToAction(nameof(Index));
             }
+            TempData["ErrorMessage"] = "Failed to update user.";
             return View(user);
         }
 
@@ -187,6 +194,11 @@ namespace _23210202037.Controllers
             {
                 _context.Users.Remove(user);
                 await _context.SaveChangesAsync();
+                TempData["SuccessMessage"] = "User deleted successfully.";
+            }
+            else
+            {
+                TempData["ErrorMessage"] = "Failed to delete user.";
             }
             return RedirectToAction(nameof(Index));
         }
