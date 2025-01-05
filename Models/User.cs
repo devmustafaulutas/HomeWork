@@ -6,5 +6,8 @@ namespace _23210202037.Models
     {
         [PersonalData]
         public string FullName { get; set; } = string.Empty;
+        
+        // Şifre alanını kaldırın
+        // public string Password { get; set; } = string.Empty;
     }
 }

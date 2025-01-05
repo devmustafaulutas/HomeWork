@@ -1,0 +1,132 @@
+/* Genel Stil Ayarları */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.5s, color 0.5s;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table th, .table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.table th {
+    background-color: var(--header-background);
+    color: var(--text-color);
+}
+
+.table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table tr:hover {
+    background-color: var(--button-hover-bg);
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-color);
+    opacity: 0.8;
+}
+
+.btn-secondary {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+.btn-secondary:hover {
+    background-color: var(--secondary-color);
+    opacity: 0.8;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    opacity: 0.8;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--text-color);
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+    border-color: var(--primary-color);
+}
+
+.text-danger {
+    color: #dc3545;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    --background-color: #121212;
+    --text-color: #e0e0e0;
+    --header-background: #1f1f1f;
+    --primary-color: #66b2ff;
+    --secondary-color: #6c757d;
+    --button-hover-bg: rgba(102, 178, 255, 0.1);
+}
+
+body.dark-mode .table tr:nth-child(even) {
+    background-color: #1f1f1f;
+}
+
+body.dark-mode .table tr:hover {
+    background-color: #333333;
+}
+
+body.dark-mode .btn-primary {
+    background-color: #66b2ff;
+}
+
+body.dark-mode .btn-secondary {
+    background-color: #6c757d;
+}
+
+body.dark-mode .btn-danger {
+    background-color: #c82333;
+}

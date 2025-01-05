@@ -1,5 +1,6 @@
 @model IEnumerable<_23210202037.Models.User>
 @using System.Linq
+<link rel="stylesheet" href="~/css/admin.css" asp-append-version="true" />
 
 @{
     ViewData["Title"] = "Admin Paneli";
@@ -10,8 +11,8 @@
 <table class="table">
     <thead>
         <tr>
-            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().UserName)</th>
-            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().Email)</th>
+            <th>@nameof(_23210202037.Models.User.UserName)</th>
+            <th>@nameof(_23210202037.Models.User.Email)</th>
             <th>Actions</th>
         </tr>
     </thead>
@@ -24,9 +25,9 @@
                     <td>@user.UserName</td>
                     <td>@user.Email</td>
                     <td>
-                        <a asp-action="Details" asp-route-id="@user.Id">Details</a> |
-                        <a asp-action="Edit" asp-route-id="@user.Id">Edit</a> |
-                        <a asp-action="Delete" asp-route-id="@user.Id">Delete</a>
+                        <a asp-controller="Admin" asp-action="Details" asp-route-id="@user.Id">Details</a> |
+                        <a asp-controller="Admin" asp-action="Edit" asp-route-id="@user.Id">Edit</a> |
+                        <a asp-controller="Admin" asp-action="Delete" asp-route-id="@user.Id">Delete</a>
                     </td>
                 </tr>
             }
@@ -40,4 +41,4 @@
     </tbody>
 </table>
 
-<a asp-action="Create" class="btn btn-primary">Create New</a>
+<a asp-controller="Admin" asp-action="Create" class="btn btn-primary">Create New</a>

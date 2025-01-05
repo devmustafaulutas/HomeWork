@@ -6,7 +6,7 @@ namespace _23210202037.Data
 {
     public static class SeedData
     {
-        public static async Task InitializeAsync(RoleManager<IdentityRole> roleManager, UserManager<User> userManager) // Metod adı değiştirildi
+        public static async Task InitializeAsync(RoleManager<IdentityRole> roleManager, UserManager<User> userManager)
         {
             string[] roles = { "Admin", "User" };
 
@@ -18,17 +18,21 @@ namespace _23210202037.Data
                 }
             }
 
+            var hasher = new PasswordHasher<User>();
+
             var adminUser = new User
             {
-                UserName = "admin@admin.com",
-                Email = "admin@admin.com",
-                FullName = "Admin"
-                // Password özelliğini kaldırdık, şifreyi burada ayarlayacağız
+                Id = "1",
+                UserName = "admin",
+                Email = "admin@example.com",
+                FullName = "Admin",
+                PasswordHash = hasher.HashPassword(null!, "Admin@123"),
+                EmailConfirmed = true
             };
 
             if (await userManager.FindByEmailAsync(adminUser.Email) == null)
             {
-                var result = await userManager.CreateAsync(adminUser, "Admin@123"); // Şifre burada belirlenir
+                var result = await userManager.CreateAsync(adminUser, "Admin@123");
 
                 if (result.Succeeded)
                 {
@@ -41,6 +45,33 @@ namespace _23210202037.Data
                     {
                         // Örneğin loglayabilirsiniz
                         Console.WriteLine($"Error creating admin user: {error.Description}");
+                    }
+                }
+            }
+
+            var defaultUser = new User
+            {
+                Id = "2",
+                UserName = "user",
+                Email = "user@example.com",
+                FullName = "Default User",
+                PasswordHash = hasher.HashPassword(null!, "User@123"),
+                EmailConfirmed = true
+            };
+
+            if (await userManager.FindByEmailAsync(defaultUser.Email) == null)
+            {
+                var result = await userManager.CreateAsync(defaultUser, "User@123");
+
+                if (result.Succeeded)
+                {
+                    await userManager.AddToRoleAsync(defaultUser, "User");
+                }
+                else
+                {
+                    foreach (var error in result.Errors)
+                    {
+                        Console.WriteLine($"Error creating default user: {error.Description}");
                     }
                 }
             }

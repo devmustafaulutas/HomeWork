@@ -98,7 +98,7 @@ namespace _23210202037.Controllers
         // POST: Admin/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, User user)
+        public async Task<IActionResult> Edit(string id, User user, string Password)
         {
             if (id != user.Id)
             {
@@ -109,9 +109,39 @@ namespace _23210202037.Controllers
             {
                 try
                 {
-                    // Güncellenen alanları belirtin veya gerekli kontrolleri yapın
-                    _context.Update(user);
-                    await _context.SaveChangesAsync();
+                    var existingUser = await _userManager.FindByIdAsync(id);
+                    if (existingUser == null)
+                    {
+                        return NotFound();
+                    }
+
+                    existingUser.UserName = user.UserName;
+                    existingUser.Email = user.Email;
+                    existingUser.FullName = user.FullName;
+
+                    if (!string.IsNullOrEmpty(Password))
+                    {
+                        var token = await _userManager.GeneratePasswordResetTokenAsync(existingUser);
+                        var result = await _userManager.ResetPasswordAsync(existingUser, token, Password);
+                        if (!result.Succeeded)
+                        {
+                            foreach (var error in result.Errors)
+                            {
+                                ModelState.AddModelError(string.Empty, error.Description);
+                            }
+                            return View(user);
+                        }
+                    }
+
+                    var updateResult = await _userManager.UpdateAsync(existingUser);
+                    if (!updateResult.Succeeded)
+                    {
+                        foreach (var error in updateResult.Errors)
+                        {
+                            ModelState.AddModelError(string.Empty, error.Description);
+                        }
+                        return View(user);
+                    }
                 }
                 catch (DbUpdateConcurrencyException)
                 {

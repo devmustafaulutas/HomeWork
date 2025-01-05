@@ -73,7 +73,7 @@ using (var scope = app.Services.CreateScope())
     var services = scope.ServiceProvider;
     var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
     var userManager = services.GetRequiredService<UserManager<User>>();
-    await SeedData.InitializeAsync(roleManager, userManager); // Metod adı güncellendi
+    await SeedData.InitializeAsync(roleManager, userManager);
 }
 
 // Razor Pages'ın Controller'dan sonra haritalandığından emin olun
@@ -83,3 +83,37 @@ app.MapControllerRoute(
 app.MapRazorPages();
 
 app.Run();
+
+public static class SeedData
+{
+    public static async Task InitializeAsync(RoleManager<IdentityRole> roleManager, UserManager<User> userManager)
+    {
+        string[] roles = { "Admin", "User" };
+
+        foreach (var role in roles)
+        {
+            if (!await roleManager.RoleExistsAsync(role))
+            {
+                await roleManager.CreateAsync(new IdentityRole(role));
+            }
+        }
+
+        // İlk Admin kullanıcısını oluşturun
+        var adminEmail = "admin@example.com";
+        var adminUser = await userManager.FindByEmailAsync(adminEmail);
+        if (adminUser == null)
+        {
+            adminUser = new User
+            {
+                UserName = "admin",
+                Email = adminEmail,
+                FullName = "Admin User"
+            };
+            var result = await userManager.CreateAsync(adminUser, "Admin123!");
+            if (result.Succeeded)
+            {
+                await userManager.AddToRoleAsync(adminUser, "Admin");
+            }
+        }
+    }
+}
