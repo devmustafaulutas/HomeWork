@@ -16,7 +16,6 @@ namespace _23210202037.Controllers
         private readonly ILogger<HomeController> _logger;
         private readonly ApplicationDbContext _context;
 
-        // Yalnızca bir constructor bırakıldı
         public HomeController(ILogger<HomeController> logger, ApplicationDbContext context)
         {
             _logger = logger;
@@ -30,7 +29,6 @@ namespace _23210202037.Controllers
             return View(images);
         }
         
-        // [Authorize] özniteliğini kaldırın çünkü sınıf seviyesinde zaten bulunuyor
         public IActionResult Blog()
         {
             var districts = _context.Districts.ToList();

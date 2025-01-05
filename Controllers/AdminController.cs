@@ -1,8 +1,11 @@
-
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using _23210202037.Data;
 using _23210202037.Models;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using System.Linq;
+using Microsoft.AspNetCore.Identity;
 
 namespace _23210202037.Controllers
 {
@@ -10,29 +13,31 @@ namespace _23210202037.Controllers
     public class AdminController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly UserManager<User> _userManager;
 
-        public AdminController(ApplicationDbContext context)
+        public AdminController(ApplicationDbContext context, UserManager<User> userManager)
         {
             _context = context;
+            _userManager = userManager;
         }
 
-        // CRUD işlemleri burada eklenmeli
-        // Örneğin: Index, Create, Edit, Delete, Details metodları
-
-        public IActionResult Index()
+        // GET: Admin
+        public async Task<IActionResult> Index()
         {
-            var users = _context.Users.ToList();
+            var users = await _context.Users.ToListAsync();
             return View(users);
         }
 
-        public IActionResult Details(string id)
+        // GET: Admin/Details/5
+        public async Task<IActionResult> Details(string id)
         {
-            if (id == null)
+            if (string.IsNullOrEmpty(id))
             {
                 return NotFound();
             }
 
-            var user = _context.Users.FirstOrDefault(m => m.Id == id);
+            var user = await _context.Users
+                .FirstOrDefaultAsync(m => m.Id == id);
             if (user == null)
             {
                 return NotFound();
@@ -41,32 +46,48 @@ namespace _23210202037.Controllers
             return View(user);
         }
 
+        // GET: Admin/Create
         public IActionResult Create()
         {
             return View();
         }
 
+        // POST: Admin/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create(User user)
+        public async Task<IActionResult> Create(User user, string password)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(user);
-                _context.SaveChanges();
-                return RedirectToAction(nameof(Index));
+                if (string.IsNullOrWhiteSpace(password))
+                {
+                    ModelState.AddModelError("Password", "Password is required.");
+                    return View(user);
+                }
+
+                var result = await _userManager.CreateAsync(user, password);
+                if (result.Succeeded)
+                {
+                    await _userManager.AddToRoleAsync(user, "User");
+                    return RedirectToAction(nameof(Index));
+                }
+                foreach (var error in result.Errors)
+                {
+                    ModelState.AddModelError(string.Empty, error.Description);
+                }
             }
             return View(user);
         }
 
-        public IActionResult Edit(string id)
+        // GET: Admin/Edit/5
+        public async Task<IActionResult> Edit(string id)
         {
-            if (id == null)
+            if (string.IsNullOrEmpty(id))
             {
                 return NotFound();
             }
 
-            var user = _context.Users.Find(id);
+            var user = await _context.Users.FindAsync(id);
             if (user == null)
             {
                 return NotFound();
@@ -74,9 +95,10 @@ namespace _23210202037.Controllers
             return View(user);
         }
 
+        // POST: Admin/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Edit(string id, User user)
+        public async Task<IActionResult> Edit(string id, User user)
         {
             if (id != user.Id)
             {
@@ -87,8 +109,9 @@ namespace _23210202037.Controllers
             {
                 try
                 {
+                    // Güncellenen alanları belirtin veya gerekli kontrolleri yapın
                     _context.Update(user);
-                    _context.SaveChanges();
+                    await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -106,14 +129,16 @@ namespace _23210202037.Controllers
             return View(user);
         }
 
-        public IActionResult Delete(string id)
+        // GET: Admin/Delete/5
+        public async Task<IActionResult> Delete(string id)
         {
-            if (id == null)
+            if (string.IsNullOrEmpty(id))
             {
                 return NotFound();
             }
 
-            var user = _context.Users.FirstOrDefault(m => m.Id == id);
+            var user = await _context.Users
+                .FirstOrDefaultAsync(m => m.Id == id);
             if (user == null)
             {
                 return NotFound();
@@ -122,13 +147,17 @@ namespace _23210202037.Controllers
             return View(user);
         }
 
+        // POST: Admin/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public IActionResult DeleteConfirmed(string id)
+        public async Task<IActionResult> DeleteConfirmed(string id)
         {
-            var user = _context.Users.Find(id);
-            _context.Users.Remove(user);
-            _context.SaveChanges();
+            var user = await _context.Users.FindAsync(id);
+            if (user != null)
+            {
+                _context.Users.Remove(user);
+                await _context.SaveChangesAsync();
+            }
             return RedirectToAction(nameof(Index));
         }
 

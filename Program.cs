@@ -45,6 +45,12 @@ builder.Services.AddTransient<IEmailSender, EmailSender>();
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 
+// Add Authorization Policy
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("AdminOnly", policy => policy.RequireRole("Admin"));
+});
+
 var app = builder.Build();
 
 if (!app.Environment.IsDevelopment())
@@ -58,7 +64,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseAuthentication();
+app.UseAuthentication(); // Authentication middleware eklediğinizden emin olun
 app.UseAuthorization();
 
 // Seed verilerini başlat
@@ -67,7 +73,7 @@ using (var scope = app.Services.CreateScope())
     var services = scope.ServiceProvider;
     var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
     var userManager = services.GetRequiredService<UserManager<User>>();
-    await SeedData.Initialize(roleManager, userManager);
+    await SeedData.InitializeAsync(roleManager, userManager); // Metod adı güncellendi
 }
 
 // Razor Pages'ın Controller'dan sonra haritalandığından emin olun

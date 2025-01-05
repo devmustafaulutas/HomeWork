@@ -6,7 +6,7 @@ namespace _23210202037.Data
 {
     public static class SeedData
     {
-        public static async Task Initialize(RoleManager<IdentityRole> roleManager, UserManager<User> userManager)
+        public static async Task InitializeAsync(RoleManager<IdentityRole> roleManager, UserManager<User> userManager) // Metod adı değiştirildi
         {
             string[] roles = { "Admin", "User" };
 
@@ -36,7 +36,12 @@ namespace _23210202037.Data
                 }
                 else
                 {
-                    // Hata yönetimi ekleyebilirsiniz
+                    // Hata yönetimi eklendi
+                    foreach (var error in result.Errors)
+                    {
+                        // Örneğin loglayabilirsiniz
+                        Console.WriteLine($"Error creating admin user: {error.Description}");
+                    }
                 }
             }
         }
