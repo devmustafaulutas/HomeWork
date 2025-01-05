@@ -89,7 +89,28 @@ namespace _23210202037.Data
                 .WithMany(c => c.Districts)
                 .HasForeignKey(d => d.CityId);
 
+            // Seed Data
+            modelBuilder.Entity<Country>().HasData(
+                new Country { Id = 1, Name = "Türkiye" }
+            );
 
+            modelBuilder.Entity<City>().HasData(
+                new City { Id = 1, Name = "Çanakkale", CountryId = 1 }
+            );
+
+            modelBuilder.Entity<District>().HasData(
+                new District { Id = 1, Name = "Ayvacık", Population = 30000, Img = "ayvacik.jpeg", Description = "Ayvacık, tarihi ve doğal güzellikleriyle ünlüdür.", CityId = 1 },
+                new District { Id = 2, Name = "Bayramiç", Population = 20000, Img = "bayramic.jpeg", Description = "Bayramiç, Kazdağları'nın eteklerinde yer alır.", CityId = 1 },
+                new District { Id = 3, Name = "Biga", Population = 90000, Img = "biga.jpg", Description = "Biga, Çanakkale'nin en büyük ilçelerinden biridir.", CityId = 1 },
+                new District { Id = 4, Name = "Bozcaada", Population = 2500, Img = "bozcaada.jpeg", Description = "Bozcaada, Türkiye'nin üçüncü büyük adasıdır.", CityId = 1 },
+                new District { Id = 5, Name = "Çan", Population = 50000, Img = "can.jpeg", Description = "Çan, seramik ve çini üretimi ile ünlüdür.", CityId = 1 },
+                new District { Id = 6, Name = "Eceabat", Population = 5000, Img = "eceabat.jpeg", Description = "Eceabat, Gelibolu Yarımadası'nda yer alır.", CityId = 1 },
+                new District { Id = 7, Name = "Ezine", Population = 40000, Img = "ezine.jpeg", Description = "Ezine, peyniri ile ünlüdür.", CityId = 1 },
+                new District { Id = 8, Name = "Gelibolu", Population = 45000, Img = "gelibolu.jpeg", Description = "Gelibolu, tarihi savaş alanları ile bilinir.", CityId = 1 },
+                new District { Id = 9, Name = "Gökçeada", Population = 8000, Img = "gokceada.jpeg", Description = "Gökçeada, Türkiye'nin en büyük adasıdır.", CityId = 1 },
+                new District { Id = 10, Name = "Lapseki", Population = 25000, Img = "lapseki.jpeg", Description = "Lapseki, kirazı ile ünlüdür.", CityId = 1 },
+                new District { Id = 11, Name = "Yenice", Population = 15000, Img = "yenice.jpeg", Description = "Yenice, ormanları ve doğal güzellikleri ile bilinir.", CityId = 1 }
+            );
         }
     }
 }

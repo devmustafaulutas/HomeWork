@@ -1,37 +1,36 @@
+@model IEnumerable<_23210202037.Models.District>
+
 @{
     ViewData["Title"] = "Çanakkale Blog";
 }
+
 <link rel="stylesheet" href="~/css/blog.css" asp-append-version="true" />
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="~/js/blog.js" asp-append-version="true"></script>
 
-<div class="blog-page">
-    <div class="blog-hero">
-        <h1>Çanakkale İlçeleri ve Nüfus Dağılımı</h1>
+<script>
+    const districtNames = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(Model.Select(d => d.Name)));
+    const districtPopulations = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(Model.Select(d => d.Population)));
+</script>
+
+<div class="blog-container">
+    <div class="blog-header">
+        <h1>Çanakkale İlçeleri ve Nüfus Bilgileri</h1>
     </div>
-    <div class="blog-districts" id="districts-container">
-        <!-- JavaScript ile doldurulacak -->
+
+    <div class="blog-posts">
+        @foreach (var district in Model)
+        {
+            <div class="blog-post">
+                <img src="~/img/ilce/@district.Img" alt="@district.Name">
+                <h2>@district.Name</h2>
+                <p>Nüfus: @district.Population</p>
+                <p>@district.Description</p>
+            </div>
+        }
     </div>
 
-    <div class="blog-chart-area" id="chart-container">
-        <h2>İlçelerin Nüfus Dağılımı</h2>
-    </div>
-
-    @section Scripts {
-        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-        <script src="~/js/blog.js"></script>
-    }
-
-    <div class="blog-extra-content">
-        <h2>Çanakkale Hakkında</h2>
-        <p>Çanakkale, Türkiye'nin kuzeybatısında yer alan tarihi ve kültürel zenginlikleriyle ünlü bir şehirdir. Çanakkale Boğazı'nın iki yakasında yer alan şehir, Asya ve Avrupa kıtalarını birbirine bağlar.</p>
-        <h2>Gezilecek Yerler</h2>
-        <ul>
-            <li>Truva Antik Kenti</li>
-            <li>Çanakkale Şehitler Abidesi</li>
-            <li>Assos Antik Kenti</li>
-            <li>Bozcaada</li>
-            <li>Gökçeada</li>
-        </ul>
-        <h2>Yemekler</h2>
-        <p>Çanakkale mutfağı, deniz ürünleri ve zeytinyağlı yemekleriyle ünlüdür. Özellikle sardalya, midye dolma ve zeytinyağlı enginar gibi lezzetler öne çıkar.</p>
+    <div class="chart-container">
+        <canvas id="districtChart"></canvas>
     </div>
 </div>
